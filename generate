@@ -4,7 +4,12 @@ import boto3
 with open('README.md', 'w') as f:
     f.write('# boto3 client exceptions\n\n')
     f.write('This is a generated list of all exceptions for each client within the boto3 library\n\n')
-    for service in boto3.session.Session().get_available_services():
+    services = boto3.session.Session().get_available_services()
+
+    for service in services:
+        f.write(f'- [{service}](#{service})\n')
+
+    for service in services:
         f.write(f'### {service}\n')
         for _, value in boto3.client(service).exceptions.__dict__.items():
             for exception in value:
