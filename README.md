@@ -41,6 +41,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [codeguruprofiler](#codeguruprofiler)
 - [codepipeline](#codepipeline)
 - [codestar](#codestar)
+- [codestar-connections](#codestar-connections)
 - [codestar-notifications](#codestar-notifications)
 - [cognito-identity](#cognito-identity)
 - [cognito-idp](#cognito-idp)
@@ -336,16 +337,16 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ValidationException
 
 ### appmesh
-- ServiceUnavailableException
 - ResourceInUseException
 - BadRequestException
-- LimitExceededException
-- TooManyRequestsException
 - ConflictException
 - InternalServerErrorException
 - ForbiddenException
-- TooManyTagsException
 - NotFoundException
+- ServiceUnavailableException
+- LimitExceededException
+- TooManyRequestsException
+- TooManyTagsException
 
 ### appstream
 - ConcurrentModificationException
@@ -605,6 +606,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - CloudHsmInvalidRequestException
 - CloudHsmResourceNotFoundException
 - CloudHsmServiceException
+- CloudHsmTagException
 
 ### cloudsearch
 - BaseException
@@ -1002,6 +1004,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ActionTypeNotFoundException
 - ApprovalAlreadyCompletedException
 - ConcurrentModificationException
+- DuplicatedStopRequestException
 - InvalidActionDeclarationException
 - InvalidApprovalTokenException
 - InvalidArnException
@@ -1021,6 +1024,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - NotLatestPipelineExecutionException
 - OutputVariablesSizeExceededException
 - PipelineExecutionNotFoundException
+- PipelineExecutionNotStoppableException
 - PipelineNameInUseException
 - PipelineNotFoundException
 - PipelineVersionNotFoundException
@@ -1045,6 +1049,10 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - UserProfileAlreadyExistsException
 - UserProfileNotFoundException
 - ValidationException
+
+### codestar-connections
+- LimitExceededException
+- ResourceNotFoundException
 
 ### codestar-notifications
 - AccessDeniedException
@@ -1296,7 +1304,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 
 ### devicefarm
 - ArgumentException
+- CannotDeleteException
 - IdempotencyException
+- InternalServiceException
 - InvalidOperationException
 - LimitExceededException
 - NotEligibleException
@@ -1529,6 +1539,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - UpdateInProgressException
 
 ### efs
+- AccessPointAlreadyExists
+- AccessPointLimitExceeded
+- AccessPointNotFound
 - BadRequest
 - DependencyTimeout
 - FileSystemAlreadyExists
@@ -1539,11 +1552,13 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - IncorrectMountTargetState
 - InsufficientThroughputCapacity
 - InternalServerError
+- InvalidPolicyException
 - IpAddressInUse
 - MountTargetConflict
 - MountTargetNotFound
 - NetworkInterfaceLimitExceeded
 - NoFreeAddressesInSubnet
+- PolicyNotFound
 - SecurityGroupLimitExceeded
 - SecurityGroupNotFound
 - SubnetNotFound
@@ -1785,12 +1800,16 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - BackupNotFound
 - BackupRestoring
 - BadRequest
+- DataRepositoryTaskEnded
+- DataRepositoryTaskExecuting
+- DataRepositoryTaskNotFound
 - FileSystemNotFound
 - IncompatibleParameterError
 - InternalServerError
 - InvalidExportPath
 - InvalidImportPath
 - InvalidNetworkSettings
+- InvalidPerUnitStorageThroughput
 - MissingFileSystemConfiguration
 - NotServiceResourceError
 - ResourceDoesNotSupportTagging
@@ -1809,6 +1828,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidRequestException
 - LimitExceededException
 - NotFoundException
+- TaggingFailedException
 - TerminalRoutingStrategyException
 - UnauthorizedException
 - UnsupportedRegionException
@@ -1829,8 +1849,10 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - AccessDeniedException
 - AssociatedEndpointGroupFoundException
 - AssociatedListenerFoundException
+- ByoipCidrNotFoundException
 - EndpointGroupAlreadyExistsException
 - EndpointGroupNotFoundException
+- IncorrectCidrStateException
 - InternalServiceErrorException
 - InvalidArgumentException
 - InvalidNextTokenException
@@ -1867,8 +1889,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InternalServerErrorException
 
 ### groundstation
-- InvalidParameterException
 - DependencyException
+- InvalidParameterException
+- ResourceLimitExceededException
 - ResourceNotFoundException
 
 ### guardduty
@@ -1876,6 +1899,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InternalServerErrorException
 
 ### health
+- ConcurrentModificationException
 - InvalidPaginationToken
 - UnsupportedLocale
 
@@ -2629,6 +2653,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InternalServerErrorException
 - MethodNotAllowedException
 - NotFoundException
+- PayloadTooLargeException
 - TooManyRequestsException
 
 ### pinpoint-email
@@ -2771,7 +2796,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - DBParameterGroupAlreadyExists
 - DBParameterGroupNotFound
 - DBParameterGroupQuotaExceeded
-- DBProxyAlreadyExistsFault
+- DBProxyTargetExistsFault
 - DBProxyNotFoundFault
 - DBProxyQuotaExceededFault
 - DBProxyTargetAlreadyRegisteredFault
@@ -2792,9 +2817,13 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - DBUpgradeDependencyFailure
 - DomainNotFoundFault
 - EventSubscriptionQuotaExceeded
+- ExportTaskAlreadyExists
+- ExportTaskNotFound
 - GlobalClusterAlreadyExistsFault
 - GlobalClusterNotFoundFault
 - GlobalClusterQuotaExceededFault
+- IamRoleMissingPermissions
+- IamRoleNotFound
 - InstallationMediaAlreadyExists
 - InstallationMediaNotFound
 - InstanceQuotaExceeded
@@ -2815,6 +2844,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidDBSubnetGroupStateFault
 - InvalidDBSubnetStateFault
 - InvalidEventSubscriptionState
+- InvalidExportOnly
+- InvalidExportSourceState
+- InvalidExportTaskStateFault
 - InvalidGlobalClusterStateFault
 - InvalidOptionGroupStateFault
 - InvalidRestoreFault
@@ -3109,6 +3141,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ResourceNotFound
 
 ### sagemaker-a2i-runtime
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
@@ -3596,6 +3629,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - NotFoundException
 
 ### transfer
+- ConflictException
 - InternalServiceError
 - InvalidNextTokenException
 - InvalidRequestException
@@ -3607,6 +3641,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 ### translate
 - DetectedLanguageLowConfidenceException
 - InternalServerException
+- InvalidFilterException
 - InvalidParameterValueException
 - InvalidRequestException
 - LimitExceededException
@@ -3667,6 +3702,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - WAFNonexistentItemException
 - WAFOptimisticLockException
 - WAFServiceLinkedRoleErrorException
+- WAFSubscriptionNotFoundException
 - WAFTagOperationException
 - WAFTagOperationInternalErrorException
 - WAFUnavailableEntityException
@@ -3716,12 +3752,15 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidConfigurationException
 - InvalidParameterException
 - InvalidPasswordException
+- LimitExceededException
 - MailDomainNotFoundException
 - MailDomainStateException
 - NameAvailabilityException
 - OrganizationNotFoundException
 - OrganizationStateException
 - ReservedNameException
+- ResourceNotFoundException
+- TooManyTagsException
 - UnsupportedOperationException
 
 ### workmailmessageflow
