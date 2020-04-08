@@ -1602,11 +1602,14 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - CacheSubnetGroupQuotaExceeded
 - CacheSubnetQuotaExceededFault
 - ClusterQuotaForCustomerExceeded
+- GlobalReplicationGroupAlreadyExistsFault
+- GlobalReplicationGroupNotFoundFault
 - InsufficientCacheClusterCapacity
 - InvalidARN
 - InvalidCacheClusterState
 - InvalidCacheParameterGroupState
 - InvalidCacheSecurityGroupState
+- InvalidGlobalReplicationGroupState
 - InvalidKMSKeyFault
 - InvalidParameterCombination
 - InvalidParameterValue
@@ -1736,7 +1739,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidRequestException
 
 ### es
+- AccessDeniedException
 - BaseException
+- ConflictException
 - DisabledOperationException
 - InternalException
 - InvalidTypeException
@@ -1828,6 +1833,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidRequestException
 - LimitExceededException
 - NotFoundException
+- OutOfCapacityException
 - TaggingFailedException
 - TerminalRoutingStrategyException
 - UnauthorizedException
@@ -2471,6 +2477,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InternalServerError
 - InvalidInputException
 - ServiceUnavailableException
+- ThrottlingException
 
 ### mobile
 - AccountActionRequiredException
@@ -2580,7 +2587,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - AWSOrganizationsNotInUseException
 - AccessDeniedException
 - AccessDeniedForDependencyException
+- AccountAlreadyRegisteredException
 - AccountNotFoundException
+- AccountNotRegisteredException
 - AccountOwnerNotVerifiedException
 - AlreadyInOrganizationException
 - ChildNotFoundException
@@ -3133,6 +3142,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - NoSuchPublicAccessBlockConfiguration
 - NotFoundException
 - TooManyRequestsException
+- TooManyTagsException
 
 ### sagemaker
 - ConflictException
@@ -3696,7 +3706,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - WAFAssociatedItemException
 - WAFDuplicateItemException
 - WAFInternalErrorException
+- WAFInvalidOperationException
 - WAFInvalidParameterException
+- WAFInvalidPermissionPolicyException
 - WAFInvalidResourceException
 - WAFLimitsExceededException
 - WAFNonexistentItemException
