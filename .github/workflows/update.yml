@@ -1,0 +1,32 @@
+name: Boto3 Update
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v1
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -U boto3
+    - name: Generate exceptions
+      run: |
+        ./generate
+    - name: Commit changes
+      run: |
+        if ! git diff-index --quiet HEAD --
+        then
+          boto3_version=$(pip3 show boto3 | grep Version | tr -d '[:space:]')
+          git config --global user.name 'jbpratt78'
+          git config --global user.email 'jbpratt78@gmail.com'
+          git commit -am "${boto3_version}"
+          git push
+        else
+          echo "No changes to commit"
+        fi
