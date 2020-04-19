@@ -1794,6 +1794,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ResourceNotFoundException
 
 ### frauddetector
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ThrottlingException
