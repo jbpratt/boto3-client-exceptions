@@ -208,6 +208,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [sts](#sts)
 - [support](#support)
 - [swf](#swf)
+- [synthetics](#synthetics)
 - [textract](#textract)
 - [transcribe](#transcribe)
 - [transfer](#transfer)
@@ -2077,6 +2078,12 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ResourceInUseException
 - ResourceNotFoundException
 - ServiceUnavailableException
+- TagrisAccessDeniedException
+- TagrisInternalServiceException
+- TagrisInvalidArnException
+- TagrisInvalidParameterException
+- TagrisPartialResourcesExistResultsException
+- TagrisThrottledException
 - ThrottlingException
 - UnsupportedOperationException
 
@@ -3617,6 +3624,12 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - TypeDeprecatedFault
 - UnknownResourceFault
 - WorkflowExecutionAlreadyStartedFault
+
+### synthetics
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
 
 ### textract
 - AccessDeniedException
