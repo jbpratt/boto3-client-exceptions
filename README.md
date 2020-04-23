@@ -989,6 +989,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ConflictException
 - InternalServerException
 - NotFoundException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
@@ -2965,6 +2966,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidSubscriptionStateFault
 - InvalidTableRestoreArgument
 - InvalidTagFault
+- InvalidUsageLimit
 - InvalidVPCNetworkStateFault
 - LimitExceededFault
 - NumberOfNodesPerClusterLimitExceeded
@@ -3008,6 +3010,8 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - UnknownSnapshotCopyRegionFault
 - UnsupportedOperation
 - UnsupportedOptionFault
+- UsageLimitAlreadyExists
+- UsageLimitNotFound
 
 ### rekognition
 - AccessDeniedException
