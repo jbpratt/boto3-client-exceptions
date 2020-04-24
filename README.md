@@ -3658,6 +3658,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - NotFoundException
 
 ### transfer
+- AccessDeniedException
 - ConflictException
 - InternalServiceError
 - InvalidNextTokenException
