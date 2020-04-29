@@ -1506,6 +1506,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - LifecyclePolicyPreviewInProgressException
 - LifecyclePolicyPreviewNotFoundException
 - LimitExceededException
+- ReferencedImagesNotFoundException
 - RepositoryAlreadyExistsException
 - RepositoryNotEmptyException
 - RepositoryNotFoundException
@@ -1513,6 +1514,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ScanNotFoundException
 - ServerException
 - TooManyTagsException
+- UnsupportedImageTypeException
 - UploadNotFoundException
 
 ### ecs
@@ -2150,6 +2152,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ClientLimitExceededException
 - InvalidArgumentException
 - InvalidCodecPrivateDataException
+- InvalidMediaFrameException
 - MissingCodecPrivateDataException
 - NoDataRetentionException
 - NotAuthorizedException
