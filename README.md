@@ -110,6 +110,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [iotevents](#iotevents)
 - [iotevents-data](#iotevents-data)
 - [iotsecuretunneling](#iotsecuretunneling)
+- [iotsitewise](#iotsitewise)
 - [iotthingsgraph](#iotthingsgraph)
 - [kafka](#kafka)
 - [kendra](#kendra)
@@ -2101,6 +2102,17 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - LimitExceededException
 - ResourceNotFoundException
 
+### iotsitewise
+- ConflictingOperationException
+- InternalFailureException
+- InvalidRequestException
+- LimitExceededException
+- ResourceAlreadyExistsException
+- ResourceNotFoundException
+- ServiceUnavailableException
+- ThrottlingException
+- TooManyTagsException
+
 ### iotthingsgraph
 - InternalFailureException
 - InvalidRequestException
@@ -3687,6 +3699,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 ### waf
 - WAFBadRequestException
 - WAFDisallowedNameException
+- WAFEntityMigrationException
 - WAFInternalErrorException
 - WAFInvalidAccountException
 - WAFInvalidOperationException
@@ -3707,6 +3720,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 ### waf-regional
 - WAFBadRequestException
 - WAFDisallowedNameException
+- WAFEntityMigrationException
 - WAFInternalErrorException
 - WAFInvalidAccountException
 - WAFInvalidOperationException
