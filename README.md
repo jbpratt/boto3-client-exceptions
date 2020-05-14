@@ -131,6 +131,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [logs](#logs)
 - [machinelearning](#machinelearning)
 - [macie](#macie)
+- [macie2](#macie2)
 - [managedblockchain](#managedblockchain)
 - [marketplace-catalog](#marketplace-catalog)
 - [marketplace-entitlement](#marketplace-entitlement)
@@ -2368,6 +2369,15 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InternalException
 - InvalidInputException
 - LimitExceededException
+
+### macie2
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### managedblockchain
 - AccessDeniedException
