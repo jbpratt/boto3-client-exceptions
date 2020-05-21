@@ -935,6 +935,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidEC2TagCombinationException
 - InvalidEC2TagException
 - InvalidECSServiceException
+- InvalidExternalIdException
 - InvalidFileExistsBehaviorException
 - InvalidGitHubAccountTokenException
 - InvalidGitHubAccountTokenNameException
