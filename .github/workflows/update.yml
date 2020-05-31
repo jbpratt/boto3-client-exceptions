@@ -30,3 +30,4 @@ jobs:
         else
           echo "No changes to commit"
         fi
+        exit 0
