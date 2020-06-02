@@ -380,6 +380,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 ### athena
 - InternalServerException
 - InvalidRequestException
+- MetadataException
 - ResourceNotFoundException
 - TooManyRequestsException
 
