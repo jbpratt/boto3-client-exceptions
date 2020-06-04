@@ -1753,6 +1753,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ConflictException
 - DisabledOperationException
 - InternalException
+- InvalidPaginationTokenException
 - InvalidTypeException
 - LimitExceededException
 - ResourceAlreadyExistsException
