@@ -3303,10 +3303,13 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - NamespaceAlreadyExists
 - NamespaceNotFound
 - OperationNotFound
+- RequestLimitExceeded
 - ResourceInUse
 - ResourceLimitExceeded
+- ResourceNotFoundException
 - ServiceAlreadyExists
 - ServiceNotFound
+- TooManyTagsException
 
 ### ses
 - AccountSendingPausedException
