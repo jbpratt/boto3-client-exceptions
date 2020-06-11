@@ -34,6 +34,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [cloudsearchdomain](#cloudsearchdomain)
 - [cloudtrail](#cloudtrail)
 - [cloudwatch](#cloudwatch)
+- [codeartifact](#codeartifact)
 - [codebuild](#codebuild)
 - [codecommit](#codecommit)
 - [codedeploy](#codedeploy)
@@ -683,6 +684,15 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - MissingParameter
 - ResourceNotFoundException
 
+### codeartifact
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### codebuild
 - AccountLimitExceededException
 - InvalidInputException
@@ -1169,6 +1179,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - AccessDeniedException
 - InternalServerException
 - InvalidParameterValueException
+- LimitExceededException
 - MissingAuthenticationToken
 - OptInRequiredException
 - ResourceNotFoundException
