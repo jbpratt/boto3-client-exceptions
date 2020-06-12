@@ -1977,6 +1977,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ResourceInUseException
 - ResourceNotFoundException
 - ServiceException
+- ServiceQuotaExceededException
 - ServiceUnavailableException
 
 ### importexport
