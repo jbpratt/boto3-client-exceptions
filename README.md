@@ -320,7 +320,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - BadRequestException
 - ConflictException
 - InternalServerException
+- PayloadTooLargeException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 
 ### application-autoscaling
 - ConcurrentUpdateException
