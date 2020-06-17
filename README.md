@@ -388,7 +388,9 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - TooManyRequestsException
 
 ### autoscaling
+- ActiveInstanceRefreshNotFound
 - AlreadyExists
+- InstanceRefreshInProgress
 - InvalidNextToken
 - LimitExceeded
 - ResourceContention
@@ -2293,6 +2295,10 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - EC2AccessDeniedException
 - EC2ThrottledException
 - EC2UnexpectedException
+- EFSIOException
+- EFSMountConnectivityException
+- EFSMountFailureException
+- EFSMountTimeoutException
 - ENILimitReachedException
 - InvalidParameterValueException
 - InvalidRequestContentException
