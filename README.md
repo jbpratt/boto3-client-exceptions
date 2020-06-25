@@ -98,6 +98,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [groundstation](#groundstation)
 - [guardduty](#guardduty)
 - [health](#health)
+- [honeycode](#honeycode)
 - [iam](#iam)
 - [imagebuilder](#imagebuilder)
 - [importexport](#importexport)
@@ -797,6 +798,8 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidPullRequestIdException
 - InvalidPullRequestStatusException
 - InvalidPullRequestStatusUpdateException
+- InvalidReactionUserArnException
+- InvalidReactionValueException
 - InvalidReferenceNameException
 - InvalidRelativeFileVersionEnumException
 - InvalidReplacementContentException
@@ -853,6 +856,8 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - PullRequestIdRequiredException
 - PullRequestStatusRequiredException
 - PutFileEntryConflictException
+- ReactionLimitExceededException
+- ReactionValueRequiredException
 - ReferenceDoesNotExistException
 - ReferenceNameRequiredException
 - ReferenceTypeNotSupportedException
@@ -1935,6 +1940,17 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ConcurrentModificationException
 - InvalidPaginationToken
 - UnsupportedLocale
+
+### honeycode
+- AccessDeniedException
+- AutomationExecutionException
+- AutomationExecutionTimeoutException
+- InternalServerException
+- RequestTimeoutException
+- ResourceNotFoundException
+- ServiceUnavailableException
+- ThrottlingException
+- ValidationException
 
 ### iam
 - ConcurrentModification
