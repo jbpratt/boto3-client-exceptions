@@ -1078,6 +1078,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 ### codestar-connections
 - LimitExceededException
 - ResourceNotFoundException
+- ResourceUnavailableException
 
 ### codestar-notifications
 - AccessDeniedException
