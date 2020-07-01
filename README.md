@@ -1517,6 +1517,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 ### ecr
 - EmptyUploadException
 - ImageAlreadyExistsException
+- ImageDigestDoesNotMatchException
 - ImageNotFoundException
 - ImageTagAlreadyExistsException
 - InvalidLayerException
