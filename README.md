@@ -1502,7 +1502,13 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - TrimmedDataAccessException
 
 ### ebs
+- AccessDeniedException
+- ConcurrentLimitExceededException
+- ConflictException
+- InternalServerException
+- RequestThrottledException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ValidationException
 
 ### ec2
@@ -1790,6 +1796,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidStateException
 - LimitExceededException
 - ManagedRuleException
+- OperationDisabledException
 - PolicyLengthExceededException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
@@ -3287,6 +3294,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - LimitExceededException
 - MalformedPolicyDocumentException
 - PreconditionNotMetException
+- PublicPolicyException
 - ResourceExistsException
 - ResourceNotFoundException
 
