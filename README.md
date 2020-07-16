@@ -114,6 +114,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [iotsecuretunneling](#iotsecuretunneling)
 - [iotsitewise](#iotsitewise)
 - [iotthingsgraph](#iotthingsgraph)
+- [ivs](#ivs)
 - [kafka](#kafka)
 - [kendra](#kendra)
 - [kinesis](#kinesis)
@@ -2163,6 +2164,17 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ResourceInUseException
 - ResourceNotFoundException
 - ThrottlingException
+
+### ivs
+- AccessDeniedException
+- ChannelNotBroadcasting
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- StreamUnavailable
+- ThrottlingException
+- ValidationException
 
 ### kafka
 - BadRequestException
