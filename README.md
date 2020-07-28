@@ -1393,6 +1393,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidSubnet
 - KMSAccessDeniedFault
 - KMSDisabledFault
+- KMSFault
 - KMSInvalidStateFault
 - KMSKeyNotAccessibleFault
 - KMSNotFoundFault
@@ -1401,6 +1402,8 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ResourceAlreadyExistsFault
 - ResourceNotFoundFault
 - ResourceQuotaExceededFault
+- S3AccessDeniedFault
+- S3ResourceNotFoundFault
 - SNSInvalidTopicFault
 - SNSNoAuthorizationFault
 - StorageQuotaExceededFault
