@@ -2192,6 +2192,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ChannelNotBroadcasting
 - ConflictException
 - InternalServerException
+- PendingVerification
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - StreamUnavailable
