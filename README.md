@@ -1552,6 +1552,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - InvalidLayerPartException
 - InvalidParameterException
 - InvalidTagParameterException
+- KmsException
 - LayerAlreadyExistsException
 - LayerInaccessibleException
 - LayerPartTooSmallException
