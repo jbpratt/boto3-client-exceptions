@@ -3435,6 +3435,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - AlreadyExistsException
 - BadRequestException
 - ConcurrentModificationException
+- ConflictException
 - InvalidNextTokenException
 - LimitExceededException
 - MailFromDomainNotVerifiedException
