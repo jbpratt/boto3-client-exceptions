@@ -457,6 +457,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 
 ### cloud9
 - BadRequestException
+- ConcurrentAccessException
 - ConflictException
 - ForbiddenException
 - InternalServerErrorException
