@@ -21,6 +21,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [autoscaling-plans](#autoscaling-plans)
 - [backup](#backup)
 - [batch](#batch)
+- [braket](#braket)
 - [budgets](#budgets)
 - [ce](#ce)
 - [chime](#chime)
@@ -421,6 +422,16 @@ This is a generated list of all exceptions for each client within the boto3 libr
 ### batch
 - ClientException
 - ServerException
+
+### braket
+- AccessDeniedException
+- ConflictException
+- DeviceOfflineException
+- InternalServiceException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### budgets
 - AccessDeniedException
