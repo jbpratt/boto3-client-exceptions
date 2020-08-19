@@ -101,6 +101,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [health](#health)
 - [honeycode](#honeycode)
 - [iam](#iam)
+- [identitystore](#identitystore)
 - [imagebuilder](#imagebuilder)
 - [importexport](#importexport)
 - [inspector](#inspector)
@@ -2028,6 +2029,13 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - NotSupportedService
 - UnmodifiableEntity
 - UnrecognizedPublicKeyEncoding
+
+### identitystore
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### imagebuilder
 - CallRateLimitExceededException
