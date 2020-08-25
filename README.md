@@ -3953,6 +3953,8 @@ This is a generated list of all exceptions for each client within the boto3 libr
 
 ### xray
 - InvalidRequestException
+- ResourceNotFoundException
 - RuleLimitExceededException
 - ThrottledException
+- TooManyTagsException
 
