@@ -11,6 +11,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [apigatewaymanagementapi](#apigatewaymanagementapi)
 - [apigatewayv2](#apigatewayv2)
 - [appconfig](#appconfig)
+- [appflow](#appflow)
 - [application-autoscaling](#application-autoscaling)
 - [application-insights](#application-insights)
 - [appmesh](#appmesh)
@@ -328,6 +329,16 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - PayloadTooLargeException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+
+### appflow
+- ConflictException
+- ConnectorAuthenticationException
+- ConnectorServerException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- UnsupportedOperationException
+- ValidationException
 
 ### application-autoscaling
 - ConcurrentUpdateException
@@ -3250,6 +3261,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - UnsupportedTLD
 
 ### route53resolver
+- AccessDeniedException
 - InternalServiceErrorException
 - InvalidNextTokenException
 - InvalidParameterException
