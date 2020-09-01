@@ -602,6 +602,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - NoSuchOrigin
 - NoSuchOriginRequestPolicy
 - NoSuchPublicKey
+- NoSuchRealtimeLogConfig
 - NoSuchResource
 - NoSuchStreamingDistribution
 - OriginRequestPolicyAlreadyExists
@@ -610,6 +611,8 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - PublicKeyAlreadyExists
 - PublicKeyInUse
 - QueryArgProfileEmpty
+- RealtimeLogConfigAlreadyExists
+- RealtimeLogConfigInUse
 - StreamingDistributionAlreadyExists
 - StreamingDistributionNotDisabled
 - TooManyCacheBehaviors
@@ -645,6 +648,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - TooManyQueryStringParameters
 - TooManyQueryStringsInCachePolicy
 - TooManyQueryStringsInOriginRequestPolicy
+- TooManyRealtimeLogConfigs
 - TooManyStreamingDistributionCNAMEs
 - TooManyStreamingDistributions
 - TooManyTrustedSigners
