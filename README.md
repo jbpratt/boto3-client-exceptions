@@ -178,6 +178,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [rds](#rds)
 - [rds-data](#rds-data)
 - [redshift](#redshift)
+- [redshift-data](#redshift-data)
 - [rekognition](#rekognition)
 - [resource-groups](#resource-groups)
 - [resourcegroupstaggingapi](#resourcegroupstaggingapi)
@@ -1967,6 +1968,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ConcurrentModificationException
 - ConcurrentRunsExceededException
 - ConditionCheckFailureException
+- ConflictException
 - CrawlerNotRunningException
 - CrawlerRunningException
 - CrawlerStoppingException
@@ -3155,6 +3157,12 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - UnsupportedOptionFault
 - UsageLimitAlreadyExists
 - UsageLimitNotFound
+
+### redshift-data
+- ExecuteStatementException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
 
 ### rekognition
 - AccessDeniedException
