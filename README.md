@@ -211,6 +211,7 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - [sqs](#sqs)
 - [ssm](#ssm)
 - [sso](#sso)
+- [sso-admin](#sso-admin)
 - [sso-oidc](#sso-oidc)
 - [stepfunctions](#stepfunctions)
 - [storagegateway](#storagegateway)
@@ -3710,6 +3711,15 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ResourceNotFoundException
 - TooManyRequestsException
 - UnauthorizedException
+
+### sso-admin
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### sso-oidc
 - AccessDeniedException
