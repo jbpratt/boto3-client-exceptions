@@ -1301,10 +1301,12 @@ This is a generated list of all exceptions for each client within the boto3 libr
 - ValidationException
 
 ### connect
+- ContactFlowNotPublishedException
 - ContactNotFoundException
 - DestinationNotAllowedException
 - DuplicateResourceException
 - InternalServiceException
+- InvalidContactFlowException
 - InvalidParameterException
 - InvalidRequestException
 - LimitExceededException
