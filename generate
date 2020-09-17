@@ -4,8 +4,18 @@ import boto3
 with open("README.md", "w") as f:
     f.write("# boto3 client exceptions\n\n")
     f.write(
-        "This is a generated list of all exceptions for each client within the boto3 library\n\n"
+        "This is a generated list of all exceptions for each client within the boto3 library\n"
     )
+    f.write("""
+```python
+import boto3
+
+s3 = boto3.client("s3")
+try:
+  s3.create_bucket("example")
+except s3.exceptions.BucketAlreadyOwnedByYou:
+  raise
+```\n\n""")
     services = boto3.session.Session().get_available_services()
 
     for service in services:

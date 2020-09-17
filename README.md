@@ -2,6 +2,16 @@
 
 This is a generated list of all exceptions for each client within the boto3 library
 
+```python
+import boto3
+
+s3 = boto3.client("s3")
+try:
+  s3.create_bucket("example")
+except s3.exceptions.BucketAlreadyOwnedByYou:
+  raise
+```
+
 - [accessanalyzer](#accessanalyzer)
 - [acm](#acm)
 - [acm-pca](#acm-pca)
