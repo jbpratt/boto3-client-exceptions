@@ -477,6 +477,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RequestChangedException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- UnknownMonitorException
+- UnknownSubscriptionException
 - UnresolvableUsageUnitException
 
 ### chime
