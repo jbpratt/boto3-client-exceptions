@@ -3006,6 +3006,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InstallationMediaAlreadyExists
 - InstallationMediaNotFound
 - InstanceQuotaExceeded
+- InsufficientAvailableIPsInSubnetFault
 - InsufficientDBClusterCapacityFault
 - InsufficientDBInstanceCapacity
 - InsufficientStorageClusterCapacity
