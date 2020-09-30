@@ -230,6 +230,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [swf](#swf)
 - [synthetics](#synthetics)
 - [textract](#textract)
+- [timestream-query](#timestream-query)
+- [timestream-write](#timestream-write)
 - [transcribe](#transcribe)
 - [transfer](#transfer)
 - [translate](#translate)
@@ -3834,6 +3836,26 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ProvisionedThroughputExceededException
 - ThrottlingException
 - UnsupportedDocumentException
+
+### timestream-query
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidEndpointException
+- QueryExecutionException
+- ThrottlingException
+- ValidationException
+
+### timestream-write
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidEndpointException
+- RejectedRecordsException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### transcribe
 - BadRequestException
