@@ -198,6 +198,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [route53resolver](#route53resolver)
 - [s3](#s3)
 - [s3control](#s3control)
+- [s3outposts](#s3outposts)
 - [sagemaker](#sagemaker)
 - [sagemaker-a2i-runtime](#sagemaker-a2i-runtime)
 - [sagemaker-runtime](#sagemaker-runtime)
@@ -2830,6 +2831,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### pinpoint
 - BadRequestException
+- ConflictException
 - ForbiddenException
 - InternalServerErrorException
 - MethodNotAllowedException
@@ -3317,6 +3319,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### s3control
 - BadRequestException
+- BucketAlreadyExists
+- BucketAlreadyOwnedByYou
 - IdempotencyException
 - InternalServiceException
 - InvalidNextTokenException
@@ -3326,6 +3330,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - TooManyRequestsException
 - TooManyTagsException
+
+### s3outposts
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
 
 ### sagemaker
 - ConflictException
