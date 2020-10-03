@@ -2819,6 +2819,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### personalize-events
 - InvalidInputException
+- ResourceNotFoundException
 
 ### personalize-runtime
 - InvalidInputException
