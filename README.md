@@ -1711,6 +1711,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CacheSubnetGroupQuotaExceeded
 - CacheSubnetQuotaExceededFault
 - ClusterQuotaForCustomerExceeded
+- DefaultUserAssociatedToUserGroup
+- DefaultUserRequired
+- DuplicateUserName
 - GlobalReplicationGroupAlreadyExistsFault
 - GlobalReplicationGroupNotFoundFault
 - InsufficientCacheClusterCapacity
@@ -1725,6 +1728,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidReplicationGroupState
 - InvalidSnapshotState
 - InvalidSubnet
+- InvalidUserGroupState
+- InvalidUserState
 - InvalidVPCNetworkStateFault
 - NoOperationFault
 - NodeGroupNotFoundFault
@@ -1746,9 +1751,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SnapshotNotFoundFault
 - SnapshotQuotaExceededFault
 - SubnetInUse
+- SubnetNotAllowedFault
 - TagNotFound
 - TagQuotaPerResourceExceeded
 - TestFailoverNotAvailableFault
+- UserAlreadyExists
+- UserGroupAlreadyExists
+- UserGroupNotFound
+- UserGroupQuotaExceeded
+- UserNotFound
+- UserQuotaExceeded
 
 ### elasticbeanstalk
 - CodeBuildNotInServiceRegionException
