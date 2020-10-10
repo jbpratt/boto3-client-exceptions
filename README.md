@@ -3580,6 +3580,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### snowball
 - ClusterLimitExceededException
+- ConflictException
 - Ec2RequestFailedException
 - InvalidAddressException
 - InvalidInputCombinationException
@@ -3587,6 +3588,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - InvalidResourceException
 - KMSRequestFailedException
+- ReturnShippingLabelAlreadyExistsException
 - UnsupportedAddressException
 
 ### sns
