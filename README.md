@@ -471,6 +471,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - InvalidParameterException
 - NotFoundException
+- ResourceLockedException
 
 ### ce
 - BillExpirationException
@@ -3213,6 +3214,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ResourceNotReadyException
+- ServiceQuotaExceededException
 - ThrottlingException
 - VideoTooLargeException
 
@@ -4010,6 +4012,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnauthorizedException
 
 ### workmail
+- DirectoryInUseException
 - DirectoryServiceAuthenticationFailedException
 - DirectoryUnavailableException
 - EmailAddressInUseException
