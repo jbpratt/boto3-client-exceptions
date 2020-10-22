@@ -610,6 +610,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidTagging
 - InvalidViewerCertificate
 - InvalidWebACLId
+- KeyGroupAlreadyExists
 - MissingBody
 - NoSuchCachePolicy
 - NoSuchCloudFrontOriginAccessIdentity
@@ -631,6 +632,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - QueryArgProfileEmpty
 - RealtimeLogConfigAlreadyExists
 - RealtimeLogConfigInUse
+- ResourceInUse
 - StreamingDistributionAlreadyExists
 - StreamingDistributionNotDisabled
 - TooManyCacheBehaviors
@@ -644,6 +646,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyDistributions
 - TooManyDistributionsAssociatedToCachePolicy
 - TooManyDistributionsAssociatedToFieldLevelEncryptionConfig
+- TooManyDistributionsAssociatedToKeyGroup
 - TooManyDistributionsAssociatedToOriginRequestPolicy
 - TooManyDistributionsWithLambdaAssociations
 - TooManyDistributionsWithSingleFunctionARN
@@ -657,12 +660,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyHeadersInForwardedValues
 - TooManyHeadersInOriginRequestPolicy
 - TooManyInvalidationsInProgress
+- TooManyKeyGroups
+- TooManyKeyGroupsAssociatedToDistribution
 - TooManyLambdaFunctionAssociations
 - TooManyOriginCustomHeaders
 - TooManyOriginGroupsPerDistribution
 - TooManyOriginRequestPolicies
 - TooManyOrigins
 - TooManyPublicKeys
+- TooManyPublicKeysInKeyGroup
 - TooManyQueryStringParameters
 - TooManyQueryStringsInCachePolicy
 - TooManyQueryStringsInOriginRequestPolicy
@@ -670,6 +676,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyStreamingDistributionCNAMEs
 - TooManyStreamingDistributions
 - TooManyTrustedSigners
+- TrustedKeyGroupDoesNotExist
 - TrustedSignerDoesNotExist
 
 ### cloudhsm
