@@ -23,8 +23,6 @@ jobs:
         if ! git diff-index --quiet HEAD --
         then
           boto3_version=$(pip3 show boto3 | grep Version | tr -d '[:space:]')
-          git config --global user.name 'jbpratt'
-          git config --global user.email 'jbpratt78@gmail.com'
           git commit -am "${boto3_version}"
           git push
         else
