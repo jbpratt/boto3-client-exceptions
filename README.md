@@ -2698,6 +2698,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AuthorizationNotFound
 - CertificateNotFound
 - DBClusterAlreadyExistsFault
+- DBClusterEndpointAlreadyExistsFault
+- DBClusterEndpointNotFoundFault
+- DBClusterEndpointQuotaExceededFault
 - DBClusterNotFoundFault
 - DBClusterParameterGroupNotFound
 - DBClusterQuotaExceededFault
@@ -2726,6 +2729,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InsufficientDBClusterCapacityFault
 - InsufficientDBInstanceCapacity
 - InsufficientStorageClusterCapacity
+- InvalidDBClusterEndpointStateFault
 - InvalidDBClusterSnapshotStateFault
 - InvalidDBClusterStateFault
 - InvalidDBInstanceState
