@@ -2646,7 +2646,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidProductCodeException
 - InvalidPublicKeyVersionException
 - InvalidRegionException
+- InvalidTagException
 - InvalidTokenException
+- InvalidUsageAllocationsException
 - InvalidUsageDimensionException
 - PlatformNotSupportedException
 - ThrottlingException
