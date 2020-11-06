@@ -374,14 +374,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### appmesh
-- ResourceInUseException
 - BadRequestException
 - ConflictException
-- InternalServerErrorException
 - ForbiddenException
-- NotFoundException
-- ServiceUnavailableException
+- InternalServerErrorException
 - LimitExceededException
+- NotFoundException
+- ResourceInUseException
+- ServiceUnavailableException
 - TooManyRequestsException
 - TooManyTagsException
 
@@ -1883,6 +1883,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### events
 - ConcurrentModificationException
+- IllegalStatusException
 - InternalException
 - InvalidEventPatternException
 - InvalidStateException
