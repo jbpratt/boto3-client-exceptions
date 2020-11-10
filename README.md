@@ -1551,11 +1551,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BackupNotFoundException
 - ConditionalCheckFailedException
 - ContinuousBackupsUnavailableException
+- ExportConflictException
+- ExportNotFoundException
 - GlobalTableAlreadyExistsException
 - GlobalTableNotFoundException
 - IdempotentParameterMismatchException
 - IndexNotFoundException
 - InternalServerError
+- InvalidExportTimeException
 - InvalidRestoreTimeException
 - ItemCollectionSizeLimitExceededException
 - LimitExceededException
@@ -3340,6 +3343,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### s3
 - BucketAlreadyExists
 - BucketAlreadyOwnedByYou
+- InvalidObjectState
 - NoSuchBucket
 - NoSuchKey
 - NoSuchUpload
