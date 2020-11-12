@@ -66,6 +66,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connect](#connect)
 - [connectparticipant](#connectparticipant)
 - [cur](#cur)
+- [databrew](#databrew)
 - [dataexchange](#dataexchange)
 - [datapipeline](#datapipeline)
 - [datasync](#datasync)
@@ -1348,6 +1349,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateReportNameException
 - InternalErrorException
 - ReportLimitReachedException
+- ValidationException
+
+### databrew
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ValidationException
 
 ### dataexchange
