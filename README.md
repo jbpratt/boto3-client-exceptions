@@ -211,6 +211,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [serverlessrepo](#serverlessrepo)
 - [service-quotas](#service-quotas)
 - [servicecatalog](#servicecatalog)
+- [servicecatalog-appregistry](#servicecatalog-appregistry)
 - [servicediscovery](#servicediscovery)
 - [ses](#ses)
 - [sesv2](#sesv2)
@@ -3494,6 +3495,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - TagOptionNotMigratedException
+
+### servicecatalog-appregistry
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ValidationException
 
 ### servicediscovery
 - CustomHealthNotFound
