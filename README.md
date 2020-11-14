@@ -3893,6 +3893,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IdempotentParameterMismatchException
 - InternalServerError
 - InvalidJobIdException
+- InvalidKMSKeyException
 - InvalidParameterException
 - InvalidS3ObjectException
 - LimitExceededException
