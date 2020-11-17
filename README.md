@@ -1105,6 +1105,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ActionTypeNotFoundException
 - ApprovalAlreadyCompletedException
 - ConcurrentModificationException
+- ConflictException
 - DuplicatedStopRequestException
 - InvalidActionDeclarationException
 - InvalidApprovalTokenException
