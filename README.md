@@ -168,6 +168,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mq](#mq)
 - [mturk](#mturk)
 - [neptune](#neptune)
+- [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
 - [opsworks](#opsworks)
 - [opsworkscm](#opsworkscm)
@@ -1337,6 +1338,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - LimitExceededException
 - OutboundContactNotPermittedException
+- ResourceInUseException
 - ResourceNotFoundException
 - ThrottlingException
 - UserNotFoundException
@@ -2775,6 +2777,20 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionAlreadyExist
 - SubscriptionCategoryNotFound
 - SubscriptionNotFound
+
+### network-firewall
+- InsufficientCapacityException
+- InternalServerError
+- InvalidOperationException
+- InvalidRequestException
+- InvalidResourcePolicyException
+- InvalidTokenException
+- LimitExceededException
+- LogDestinationPermissionException
+- ResourceNotFoundException
+- ResourceOwnerCheckException
+- ThrottlingException
+- UnsupportedOperationException
 
 ### networkmanager
 - AccessDeniedException
