@@ -1534,6 +1534,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CertificateInUseException
 - CertificateLimitExceededException
 - ClientException
+- DirectoryAlreadyInRegionException
 - DirectoryAlreadySharedException
 - DirectoryDoesNotExistException
 - DirectoryLimitExceededException
@@ -1552,6 +1553,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IpRouteLimitExceededException
 - NoAvailableCertificateException
 - OrganizationsException
+- RegionLimitExceededException
 - ServiceException
 - ShareLimitExceededException
 - SnapshotLimitExceededException
