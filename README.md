@@ -1338,8 +1338,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - LimitExceededException
 - OutboundContactNotPermittedException
+- ResourceConflictException
 - ResourceInUseException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - UserNotFoundException
 
