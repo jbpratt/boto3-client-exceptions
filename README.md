@@ -368,6 +368,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### application-insights
+- AccessDeniedException
 - BadRequestException
 - InternalServerException
 - ResourceInUseException
@@ -1154,9 +1155,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### codestar-connections
+- ConflictException
 - LimitExceededException
 - ResourceNotFoundException
 - ResourceUnavailableException
+- UnsupportedOperationException
 
 ### codestar-notifications
 - AccessDeniedException
@@ -1568,6 +1571,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BackupNotFoundException
 - ConditionalCheckFailedException
 - ContinuousBackupsUnavailableException
+- DuplicateItemException
 - ExportConflictException
 - ExportNotFoundException
 - GlobalTableAlreadyExistsException
@@ -2451,7 +2455,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationTimeoutException
 
 ### lambda
+- CodeSigningConfigNotFoundException
 - CodeStorageExceededException
+- CodeVerificationFailedException
 - EC2AccessDeniedException
 - EC2ThrottledException
 - EC2UnexpectedException
@@ -2460,6 +2466,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EFSMountFailureException
 - EFSMountTimeoutException
 - ENILimitReachedException
+- InvalidCodeSignatureException
 - InvalidParameterValueException
 - InvalidRequestContentException
 - InvalidRuntimeException
@@ -3608,10 +3615,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### signer
 - AccessDeniedException
 - BadRequestException
+- ConflictException
 - InternalServiceErrorException
 - NotFoundException
 - ResourceNotFoundException
+- ServiceLimitExceededException
 - ThrottlingException
+- TooManyRequestsException
 - ValidationException
 
 ### sms
@@ -3961,6 +3971,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### translate
+- ConcurrentModificationException
+- ConflictException
 - DetectedLanguageLowConfidenceException
 - InternalServerException
 - InvalidFilterException
