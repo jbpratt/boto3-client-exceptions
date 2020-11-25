@@ -167,6 +167,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mobile](#mobile)
 - [mq](#mq)
 - [mturk](#mturk)
+- [mwaa](#mwaa)
 - [neptune](#neptune)
 - [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
@@ -2724,6 +2725,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RequestError
 - ServiceFault
 
+### mwaa
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
+
 ### neptune
 - AuthorizationNotFound
 - CertificateNotFound
@@ -2990,6 +2997,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceUnavailableException
 - SessionLifetimeInMinutesInvalidException
 - ThrottlingException
+- UnsupportedPricingPlanException
 - UnsupportedUserEditionException
 
 ### ram
