@@ -17,11 +17,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [acm-pca](#acm-pca)
 - [alexaforbusiness](#alexaforbusiness)
 - [amplify](#amplify)
+- [amplifybackend](#amplifybackend)
 - [apigateway](#apigateway)
 - [apigatewaymanagementapi](#apigatewaymanagementapi)
 - [apigatewayv2](#apigatewayv2)
 - [appconfig](#appconfig)
 - [appflow](#appflow)
+- [appintegrations](#appintegrations)
 - [application-autoscaling](#application-autoscaling)
 - [application-insights](#application-insights)
 - [appmesh](#appmesh)
@@ -64,6 +66,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [compute-optimizer](#compute-optimizer)
 - [config](#config)
 - [connect](#connect)
+- [connect-contact-lens](#connect-contact-lens)
 - [connectparticipant](#connectparticipant)
 - [cur](#cur)
 - [databrew](#databrew)
@@ -73,6 +76,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [dax](#dax)
 - [detective](#detective)
 - [devicefarm](#devicefarm)
+- [devops-guru](#devops-guru)
 - [directconnect](#directconnect)
 - [discovery](#discovery)
 - [dlm](#dlm)
@@ -85,6 +89,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [ec2](#ec2)
 - [ec2-instance-connect](#ec2-instance-connect)
 - [ecr](#ecr)
+- [ecr-public](#ecr-public)
 - [ecs](#ecs)
 - [efs](#efs)
 - [eks](#eks)
@@ -146,6 +151,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [license-manager](#license-manager)
 - [lightsail](#lightsail)
 - [logs](#logs)
+- [lookoutvision](#lookoutvision)
 - [machinelearning](#machinelearning)
 - [macie](#macie)
 - [macie2](#macie2)
@@ -184,6 +190,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pinpoint-sms-voice](#pinpoint-sms-voice)
 - [polly](#polly)
 - [pricing](#pricing)
+- [profile](#profile)
 - [qldb](#qldb)
 - [qldb-session](#qldb-session)
 - [quicksight](#quicksight)
@@ -204,6 +211,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [s3outposts](#s3outposts)
 - [sagemaker](#sagemaker)
 - [sagemaker-a2i-runtime](#sagemaker-a2i-runtime)
+- [sagemaker-featurestore-runtime](#sagemaker-featurestore-runtime)
 - [sagemaker-runtime](#sagemaker-runtime)
 - [savingsplans](#savingsplans)
 - [schemas](#schemas)
@@ -319,6 +327,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - UnauthorizedException
 
+### amplifybackend
+- BadRequestException
+- GatewayTimeoutException
+- NotFoundException
+- TooManyRequestsException
+
 ### apigateway
 - BadRequestException
 - ConflictException
@@ -358,6 +372,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - UnsupportedOperationException
 - ValidationException
+
+### appintegrations
+- AccessDeniedException
+- DuplicateResourceException
+- InternalServiceError
+- InvalidRequestException
+- ResourceNotFoundException
+- ResourceQuotaExceededException
+- ThrottlingException
 
 ### application-autoscaling
 - ConcurrentUpdateException
@@ -1349,6 +1372,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - UserNotFoundException
 
+### connect-contact-lens
+- AccessDeniedException
+- InternalServiceException
+- InvalidRequestException
+- ResourceNotFoundException
+- ThrottlingException
+
 ### connectparticipant
 - AccessDeniedException
 - InternalServerException
@@ -1437,6 +1467,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TagOperationException
 - TagPolicyException
 - TooManyTagsException
+
+### devops-guru
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### directconnect
 - DirectConnectClientException
@@ -1551,6 +1590,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EntityDoesNotExistException
 - InsufficientPermissionsException
 - InvalidCertificateException
+- InvalidClientAuthStatusException
 - InvalidLDAPSStatusException
 - InvalidNextTokenException
 - InvalidParameterException
@@ -1652,6 +1692,29 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServerException
 - TooManyTagsException
 - UnsupportedImageTypeException
+- UploadNotFoundException
+
+### ecr-public
+- EmptyUploadException
+- ImageAlreadyExistsException
+- ImageDigestDoesNotMatchException
+- ImageNotFoundException
+- ImageTagAlreadyExistsException
+- InvalidLayerException
+- InvalidLayerPartException
+- InvalidParameterException
+- LayerAlreadyExistsException
+- LayerPartTooSmallException
+- LayersNotFoundException
+- LimitExceededException
+- ReferencedImagesNotFoundException
+- RegistryNotFoundException
+- RepositoryAlreadyExistsException
+- RepositoryNotEmptyException
+- RepositoryNotFoundException
+- RepositoryPolicyNotFoundException
+- ServerException
+- UnsupportedCommandException
 - UploadNotFoundException
 
 ### ecs
@@ -2078,6 +2141,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - RequestTimeoutException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ServiceUnavailableException
 - ThrottlingException
 - ValidationException
@@ -2547,6 +2611,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - UnrecognizedClientException
 
+### lookoutvision
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### machinelearning
 - IdempotentParameterMismatchException
 - InternalServerException
@@ -2964,6 +3037,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - InvalidParameterException
 - NotFoundException
+
+### profile
+- AccessDeniedException
+- BadRequestException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
 
 ### qldb
 - InvalidParameterException
@@ -3430,6 +3510,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
+
+### sagemaker-featurestore-runtime
+- AccessForbidden
+- InternalFailure
+- ResourceNotFound
+- ServiceUnavailable
+- ValidationError
 
 ### sagemaker-runtime
 - InternalFailure
