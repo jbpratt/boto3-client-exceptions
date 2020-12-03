@@ -69,6 +69,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connect-contact-lens](#connect-contact-lens)
 - [connectparticipant](#connectparticipant)
 - [cur](#cur)
+- [customer-profiles](#customer-profiles)
 - [databrew](#databrew)
 - [dataexchange](#dataexchange)
 - [datapipeline](#datapipeline)
@@ -190,7 +191,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pinpoint-sms-voice](#pinpoint-sms-voice)
 - [polly](#polly)
 - [pricing](#pricing)
-- [profile](#profile)
 - [qldb](#qldb)
 - [qldb-session](#qldb-session)
 - [quicksight](#quicksight)
@@ -1390,6 +1390,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalErrorException
 - ReportLimitReachedException
 - ValidationException
+
+### customer-profiles
+- AccessDeniedException
+- BadRequestException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
 
 ### databrew
 - AccessDeniedException
@@ -3037,13 +3044,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - InvalidParameterException
 - NotFoundException
-
-### profile
-- AccessDeniedException
-- BadRequestException
-- InternalServerException
-- ResourceNotFoundException
-- ThrottlingException
 
 ### qldb
 - InvalidParameterException
