@@ -2587,14 +2587,21 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### license-manager
 - AccessDeniedException
 - AuthorizationException
+- ConflictException
+- EntitlementNotAllowedException
 - FailedDependencyException
 - FilterLimitExceededException
 - InvalidParameterValueException
 - InvalidResourceStateException
 - LicenseUsageException
+- NoEntitlementsAllowedException
 - RateLimitExceededException
+- RedirectException
 - ResourceLimitExceededException
+- ResourceNotFoundException
 - ServerInternalException
+- UnsupportedDigitalSignatureMethodException
+- ValidationException
 
 ### lightsail
 - AccessDeniedException
