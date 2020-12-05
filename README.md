@@ -3888,6 +3888,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OpsItemInvalidParameterException
 - OpsItemLimitExceededException
 - OpsItemNotFoundException
+- OpsMetadataAlreadyExistsException
+- OpsMetadataInvalidArgumentException
+- OpsMetadataKeyLimitExceededException
+- OpsMetadataLimitExceededException
+- OpsMetadataNotFoundException
+- OpsMetadataTooManyUpdatesException
 - ParameterAlreadyExists
 - ParameterLimitExceeded
 - ParameterMaxVersionLimitExceeded
