@@ -30,6 +30,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [appstream](#appstream)
 - [appsync](#appsync)
 - [athena](#athena)
+- [auditmanager](#auditmanager)
 - [autoscaling](#autoscaling)
 - [autoscaling-plans](#autoscaling-plans)
 - [backup](#backup)
@@ -101,6 +102,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [elb](#elb)
 - [elbv2](#elbv2)
 - [emr](#emr)
+- [emr-containers](#emr-containers)
 - [es](#es)
 - [events](#events)
 - [firehose](#firehose)
@@ -117,6 +119,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [groundstation](#groundstation)
 - [guardduty](#guardduty)
 - [health](#health)
+- [healthlake](#healthlake)
 - [honeycode](#honeycode)
 - [iam](#iam)
 - [identitystore](#identitystore)
@@ -211,6 +214,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [s3outposts](#s3outposts)
 - [sagemaker](#sagemaker)
 - [sagemaker-a2i-runtime](#sagemaker-a2i-runtime)
+- [sagemaker-edge](#sagemaker-edge)
 - [sagemaker-featurestore-runtime](#sagemaker-featurestore-runtime)
 - [sagemaker-runtime](#sagemaker-runtime)
 - [savingsplans](#savingsplans)
@@ -446,6 +450,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MetadataException
 - ResourceNotFoundException
 - TooManyRequestsException
+
+### auditmanager
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
 
 ### autoscaling
 - ActiveInstanceRefreshNotFound
@@ -1691,6 +1701,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LifecyclePolicyPreviewNotFoundException
 - LimitExceededException
 - ReferencedImagesNotFoundException
+- RegistryPolicyNotFoundException
 - RepositoryAlreadyExistsException
 - RepositoryNotEmptyException
 - RepositoryNotFoundException
@@ -1700,6 +1711,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTagsException
 - UnsupportedImageTypeException
 - UploadNotFoundException
+- ValidationException
 
 ### ecr-public
 - EmptyUploadException
@@ -1963,6 +1975,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - InvalidRequestException
 
+### emr-containers
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
+
 ### es
 - AccessDeniedException
 - BaseException
@@ -2140,6 +2157,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConcurrentModificationException
 - InvalidPaginationToken
 - UnsupportedLocale
+
+### healthlake
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### honeycode
 - AccessDeniedException
@@ -3517,6 +3542,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
+
+### sagemaker-edge
+- InternalServiceException
 
 ### sagemaker-featurestore-runtime
 - AccessForbidden
