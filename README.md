@@ -2103,8 +2103,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AssociatedEndpointGroupFoundException
 - AssociatedListenerFoundException
 - ByoipCidrNotFoundException
+- ConflictException
+- EndpointAlreadyExistsException
 - EndpointGroupAlreadyExistsException
 - EndpointGroupNotFoundException
+- EndpointNotFoundException
 - IncorrectCidrStateException
 - InternalServiceErrorException
 - InvalidArgumentException
