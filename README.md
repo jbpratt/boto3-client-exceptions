@@ -746,6 +746,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### cloudtrail
 - CloudTrailARNInvalidException
 - CloudTrailAccessNotEnabledException
+- CloudTrailInvalidClientTokenIdException
 - CloudWatchLogsDeliveryUnavailableException
 - InsightNotEnabledException
 - InsufficientDependencyServiceAccessPermissionException
@@ -2380,6 +2381,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - ThrottlingException
 - TooManyTagsException
+- UnauthorizedException
 
 ### iotthingsgraph
 - InternalFailureException
