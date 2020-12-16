@@ -16,6 +16,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [acm](#acm)
 - [acm-pca](#acm-pca)
 - [alexaforbusiness](#alexaforbusiness)
+- [amp](#amp)
 - [amplify](#amplify)
 - [amplifybackend](#amplifybackend)
 - [apigateway](#apigateway)
@@ -116,6 +117,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [globalaccelerator](#globalaccelerator)
 - [glue](#glue)
 - [greengrass](#greengrass)
+- [greengrassv2](#greengrassv2)
 - [groundstation](#groundstation)
 - [guardduty](#guardduty)
 - [health](#health)
@@ -132,11 +134,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iot1click-devices](#iot1click-devices)
 - [iot1click-projects](#iot1click-projects)
 - [iotanalytics](#iotanalytics)
+- [iotdeviceadvisor](#iotdeviceadvisor)
 - [iotevents](#iotevents)
 - [iotevents-data](#iotevents-data)
+- [iotfleethub](#iotfleethub)
 - [iotsecuretunneling](#iotsecuretunneling)
 - [iotsitewise](#iotsitewise)
 - [iotthingsgraph](#iotthingsgraph)
+- [iotwireless](#iotwireless)
 - [ivs](#ivs)
 - [kafka](#kafka)
 - [kendra](#kendra)
@@ -321,6 +326,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - SkillNotLinkedException
 - UnauthorizedException
+
+### amp
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### amplify
 - BadRequestException
@@ -2147,6 +2161,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadRequestException
 - InternalServerErrorException
 
+### greengrassv2
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### groundstation
 - DependencyException
 - InvalidParameterException
@@ -2349,6 +2372,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - ThrottlingException
 
+### iotdeviceadvisor
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
+
 ### iotevents
 - InternalFailureException
 - InvalidRequestException
@@ -2365,6 +2394,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - ResourceNotFoundException
 - ServiceUnavailableException
+- ThrottlingException
+
+### iotfleethub
+- ConflictException
+- InternalFailureException
+- InvalidRequestException
+- LimitExceededException
+- ResourceNotFoundException
 - ThrottlingException
 
 ### iotsecuretunneling
@@ -2391,6 +2428,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ThrottlingException
+
+### iotwireless
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- TooManyTagsException
+- ValidationException
 
 ### ivs
 - AccessDeniedException
@@ -3845,6 +3891,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AssociationExecutionDoesNotExist
 - AssociationLimitExceeded
 - AssociationVersionLimitExceeded
+- AutomationDefinitionNotApprovedException
 - AutomationDefinitionNotFoundException
 - AutomationDefinitionVersionNotFoundException
 - AutomationExecutionLimitExceededException
