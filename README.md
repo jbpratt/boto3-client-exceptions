@@ -159,6 +159,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [lex-runtime](#lex-runtime)
 - [license-manager](#license-manager)
 - [lightsail](#lightsail)
+- [location](#location)
 - [logs](#logs)
 - [lookoutvision](#lookoutvision)
 - [machinelearning](#machinelearning)
@@ -260,6 +261,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [waf](#waf)
 - [waf-regional](#waf-regional)
 - [wafv2](#wafv2)
+- [wellarchitected](#wellarchitected)
 - [workdocs](#workdocs)
 - [worklink](#worklink)
 - [workmail](#workmail)
@@ -2688,6 +2690,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceException
 - UnauthenticatedException
 
+### location
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
 ### logs
 - DataAlreadyAcceptedException
 - InvalidOperationException
@@ -4232,6 +4242,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WAFTagOperationException
 - WAFTagOperationInternalErrorException
 - WAFUnavailableEntityException
+
+### wellarchitected
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### workdocs
 - ConcurrentModificationException
