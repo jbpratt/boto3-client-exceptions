@@ -1375,6 +1375,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OrganizationConformancePackTemplateValidationException
 - OversizedConfigurationItemException
 - RemediationInProgressException
+- ResourceConcurrentModificationException
 - ResourceInUseException
 - ResourceNotDiscoveredException
 - ResourceNotFoundException
@@ -1408,7 +1409,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### connectparticipant
 - AccessDeniedException
+- ConflictException
 - InternalServerException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
@@ -3714,8 +3717,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceAlreadyExistsException
 - ServiceException
 - ServiceQuotaTemplateNotInUseException
+- TagPolicyViolationException
 - TemplatesNotAvailableInRegionException
 - TooManyRequestsException
+- TooManyTagsException
 
 ### servicecatalog
 - DuplicateResourceException
