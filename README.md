@@ -157,6 +157,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [lambda](#lambda)
 - [lex-models](#lex-models)
 - [lex-runtime](#lex-runtime)
+- [lexv2-models](#lexv2-models)
+- [lexv2-runtime](#lexv2-runtime)
 - [license-manager](#license-manager)
 - [lightsail](#lightsail)
 - [location](#location)
@@ -2664,6 +2666,25 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - RequestTimeoutException
 - UnsupportedMediaTypeException
+
+### lexv2-models
+- ConflictException
+- InternalServerException
+- PreconditionFailedException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### lexv2-runtime
+- AccessDeniedException
+- BadGatewayException
+- ConflictException
+- DependencyFailedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### license-manager
 - AccessDeniedException
