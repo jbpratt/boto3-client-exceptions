@@ -2779,6 +2779,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ResourceNotReadyException
 - ThrottlingException
+- TooManyTagsException
 
 ### marketplace-catalog
 - AccessDeniedException
