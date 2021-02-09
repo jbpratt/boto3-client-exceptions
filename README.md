@@ -766,6 +766,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CloudTrailAccessNotEnabledException
 - CloudTrailInvalidClientTokenIdException
 - CloudWatchLogsDeliveryUnavailableException
+- ConflictException
 - InsightNotEnabledException
 - InsufficientDependencyServiceAccessPermissionException
 - InsufficientEncryptionPolicyException
