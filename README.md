@@ -3174,6 +3174,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### qldb-session
 - BadRequestException
+- CapacityExceededException
 - InvalidSessionException
 - LimitExceededException
 - OccConflictException
