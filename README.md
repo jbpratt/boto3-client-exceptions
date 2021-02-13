@@ -1158,6 +1158,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### codepipeline
 - ActionNotFoundException
+- ActionTypeAlreadyExistsException
 - ActionTypeNotFoundException
 - ApprovalAlreadyCompletedException
 - ConcurrentModificationException
@@ -1186,6 +1187,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PipelineNameInUseException
 - PipelineNotFoundException
 - PipelineVersionNotFoundException
+- RequestFailedException
 - ResourceNotFoundException
 - StageNotFoundException
 - StageNotRetryableException
@@ -3093,6 +3095,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### personalize-events
 - InvalidInputException
+- ResourceInUseException
 - ResourceNotFoundException
 
 ### personalize-runtime
