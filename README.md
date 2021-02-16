@@ -1347,6 +1347,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidResultTokenException
 - InvalidRoleException
 - InvalidS3KeyPrefixException
+- InvalidS3KmsKeyArnException
 - InvalidSNSTopicARNException
 - InvalidTimeRangeException
 - LastDeliveryChannelDeleteFailedException
@@ -3459,6 +3460,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UsageLimitNotFound
 
 ### redshift-data
+- ActiveStatementsExceededException
 - ExecuteStatementException
 - InternalServerException
 - ResourceNotFoundException
@@ -4354,6 +4356,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedOperationException
 
 ### workmailmessageflow
+- InvalidContentLocation
+- MessageFrozen
+- MessageRejected
 - ResourceNotFoundException
 
 ### workspaces
