@@ -1748,6 +1748,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidLayerException
 - InvalidLayerPartException
 - InvalidParameterException
+- InvalidTagParameterException
 - LayerAlreadyExistsException
 - LayerPartTooSmallException
 - LayersNotFoundException
@@ -1759,6 +1760,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RepositoryNotFoundException
 - RepositoryPolicyNotFoundException
 - ServerException
+- TooManyTagsException
 - UnsupportedCommandException
 - UploadNotFoundException
 
