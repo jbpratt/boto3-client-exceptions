@@ -280,6 +280,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### acm
+- AccessDeniedException
+- ConflictException
 - InvalidArgsException
 - InvalidArnException
 - InvalidDomainValidationOptionsException
@@ -291,7 +293,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - TagPolicyException
+- ThrottlingException
 - TooManyTagsException
+- ValidationException
 
 ### acm-pca
 - CertificateMismatchException
