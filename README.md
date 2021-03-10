@@ -1797,6 +1797,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessPointAlreadyExists
 - AccessPointLimitExceeded
 - AccessPointNotFound
+- AvailabilityZonesMismatch
 - BadRequest
 - DependencyTimeout
 - FileSystemAlreadyExists
@@ -3266,7 +3267,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DBParameterGroupAlreadyExists
 - DBParameterGroupNotFound
 - DBParameterGroupQuotaExceeded
-- DBProxyTargetExistsFault
+- DBProxyAlreadyExistsFault
+- DBProxyEndpointAlreadyExistsFault
+- DBProxyEndpointNotFoundFault
+- DBProxyEndpointQuotaExceededFault
 - DBProxyNotFoundFault
 - DBProxyQuotaExceededFault
 - DBProxyTargetAlreadyRegisteredFault
@@ -3308,6 +3312,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidDBInstanceAutomatedBackupState
 - InvalidDBInstanceState
 - InvalidDBParameterGroupState
+- InvalidDBProxyEndpointStateFault
 - InvalidDBProxyStateFault
 - InvalidDBSecurityGroupState
 - InvalidDBSnapshotState
