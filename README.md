@@ -503,6 +503,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DependencyFailureException
 - InvalidParameterValueException
 - InvalidRequestException
+- InvalidResourceStateException
 - LimitExceededException
 - MissingParameterValueException
 - ResourceNotFoundException
