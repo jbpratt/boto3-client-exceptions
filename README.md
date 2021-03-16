@@ -107,6 +107,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [es](#es)
 - [events](#events)
 - [firehose](#firehose)
+- [fis](#fis)
 - [fms](#fms)
 - [forecast](#forecast)
 - [forecastquery](#forecastquery)
@@ -1080,7 +1081,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidBucketNameFilterException
 - InvalidComputePlatformException
 - InvalidDeployedStateFilterException
-- InvalidDeploymentConfigIdException
 - InvalidDeploymentConfigNameException
 - InvalidDeploymentGroupNameException
 - InvalidDeploymentIdException
@@ -1789,6 +1789,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServerException
 - ServiceNotActiveException
 - ServiceNotFoundException
+- TargetNotConnectedException
 - TargetNotFoundException
 - TaskSetNotFoundException
 - UnsupportedFeatureException
@@ -2048,6 +2049,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ServiceUnavailableException
+
+### fis
+- ConflictException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ValidationException
 
 ### fms
 - InternalErrorException
