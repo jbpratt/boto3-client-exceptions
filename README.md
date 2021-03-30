@@ -1597,6 +1597,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DBSubnetGroupQuotaExceeded
 - DBSubnetQuotaExceededFault
 - DBUpgradeDependencyFailure
+- EventSubscriptionQuotaExceeded
 - InstanceQuotaExceeded
 - InsufficientDBClusterCapacityFault
 - InsufficientDBInstanceCapacity
@@ -1609,16 +1610,24 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidDBSnapshotState
 - InvalidDBSubnetGroupStateFault
 - InvalidDBSubnetStateFault
+- InvalidEventSubscriptionState
 - InvalidRestoreFault
 - InvalidSubnet
 - InvalidVPCNetworkStateFault
 - KMSKeyNotAccessibleFault
 - ResourceNotFoundFault
+- SNSInvalidTopic
+- SNSNoAuthorization
+- SNSTopicArnNotFound
 - SharedSnapshotQuotaExceeded
 - SnapshotQuotaExceeded
+- SourceNotFound
 - StorageQuotaExceeded
 - StorageTypeNotSupported
 - SubnetAlreadyInUse
+- SubscriptionAlreadyExist
+- SubscriptionCategoryNotFound
+- SubscriptionNotFound
 
 ### ds
 - AccessDeniedException
