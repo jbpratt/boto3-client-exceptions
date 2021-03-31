@@ -1718,7 +1718,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### ec2-instance-connect
 - AuthException
 - EC2InstanceNotFoundException
+- EC2InstanceTypeInvalidException
 - InvalidArgsException
+- SerialConsoleAccessDisabledException
+- SerialConsoleSessionLimitExceededException
+- SerialConsoleSessionUnavailableException
 - ServiceException
 - ThrottlingException
 
