@@ -1286,19 +1286,19 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UsernameExistsException
 
 ### cognito-sync
-- AlreadyStreamed
-- ConcurrentModification
-- DuplicateRequest
-- InternalError
-- InvalidConfiguration
-- InvalidLambdaFunctionOutput
-- InvalidParameter
-- LambdaThrottled
-- LimitExceeded
-- NotAuthorizedError
-- ResourceConflict
-- ResourceNotFound
-- TooManyRequests
+- AlreadyStreamedException
+- ConcurrentModificationException
+- DuplicateRequestException
+- InternalErrorException
+- InvalidConfigurationException
+- InvalidLambdaFunctionOutputException
+- InvalidParameterException
+- LambdaThrottledException
+- LimitExceededException
+- NotAuthorizedException
+- ResourceConflictException
+- ResourceNotFoundException
+- TooManyRequestsException
 
 ### comprehend
 - BatchSizeLimitExceededException
@@ -3393,6 +3393,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - StatementTimeoutException
 
 ### redshift
+- AccessToClusterDenied
 - AccessToSnapshotDenied
 - AuthorizationAlreadyExists
 - AuthorizationNotFound
@@ -3420,6 +3421,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CopyToRegionDisabledFault
 - DependentServiceRequestThrottlingFault
 - DependentServiceUnavailableFault
+- EndpointAlreadyExists
+- EndpointAuthorizationAlreadyExists
+- EndpointAuthorizationNotFound
+- EndpointAuthorizationsPerClusterLimitExceeded
+- EndpointNotFound
+- EndpointsPerAuthorizationLimitExceeded
+- EndpointsPerClusterLimitExceeded
 - EventSubscriptionQuotaExceeded
 - HsmClientCertificateAlreadyExistsFault
 - HsmClientCertificateNotFoundFault
@@ -3431,6 +3439,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IncompatibleOrderableOptions
 - InsufficientClusterCapacity
 - InsufficientS3BucketPolicyFault
+- InvalidAuthorizationState
 - InvalidClusterParameterGroupState
 - InvalidClusterSecurityGroupState
 - InvalidClusterSnapshotScheduleState
@@ -3440,6 +3449,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidClusterSubnetStateFault
 - InvalidClusterTrack
 - InvalidElasticIpFault
+- InvalidEndpointState
 - InvalidHsmClientCertificateStateFault
 - InvalidHsmConfigurationStateFault
 - InvalidReservedNodeState
