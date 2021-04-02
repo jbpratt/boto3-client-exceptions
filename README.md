@@ -3641,6 +3641,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### route53resolver
 - AccessDeniedException
+- ConflictException
 - InternalServiceErrorException
 - InvalidNextTokenException
 - InvalidParameterException
@@ -3654,6 +3655,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceUnavailableException
 - ThrottlingException
 - UnknownResourceException
+- ValidationException
 
 ### s3
 - BucketAlreadyExists
