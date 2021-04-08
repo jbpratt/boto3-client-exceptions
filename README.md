@@ -183,6 +183,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mediatailor](#mediatailor)
 - [meteringmarketplace](#meteringmarketplace)
 - [mgh](#mgh)
+- [mgn](#mgn)
 - [migrationhub-config](#migrationhub-config)
 - [mobile](#mobile)
 - [mq](#mq)
@@ -2934,6 +2935,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - ThrottlingException
 - UnauthorizedOperation
+
+### mgn
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- UninitializedAccountException
+- ValidationException
 
 ### migrationhub-config
 - AccessDeniedException
