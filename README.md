@@ -164,6 +164,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [lightsail](#lightsail)
 - [location](#location)
 - [logs](#logs)
+- [lookoutequipment](#lookoutequipment)
 - [lookoutmetrics](#lookoutmetrics)
 - [lookoutvision](#lookoutvision)
 - [machinelearning](#machinelearning)
@@ -2768,6 +2769,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceUnavailableException
 - UnrecognizedClientException
+
+### lookoutequipment
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### lookoutmetrics
 - AccessDeniedException
