@@ -2105,6 +2105,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### fsx
 - ActiveDirectoryError
+- BackupBeingCopied
 - BackupInProgress
 - BackupNotFound
 - BackupRestoring
@@ -2114,16 +2115,21 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DataRepositoryTaskNotFound
 - FileSystemNotFound
 - IncompatibleParameterError
+- IncompatibleRegionForMultiAZ
 - InternalServerError
+- InvalidDestinationKmsKey
 - InvalidExportPath
 - InvalidImportPath
 - InvalidNetworkSettings
 - InvalidPerUnitStorageThroughput
+- InvalidRegion
+- InvalidSourceKmsKey
 - MissingFileSystemConfiguration
 - NotServiceResourceError
 - ResourceDoesNotSupportTagging
 - ResourceNotFound
 - ServiceLimitExceeded
+- SourceBackupUnavailable
 - UnsupportedOperation
 
 ### gamelift
