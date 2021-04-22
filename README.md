@@ -3495,6 +3495,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededFault
 - NumberOfNodesPerClusterLimitExceeded
 - NumberOfNodesQuotaExceeded
+- PartnerNotFound
 - ReservedNodeAlreadyExists
 - ReservedNodeAlreadyMigrated
 - ReservedNodeNotFound
@@ -3531,6 +3532,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TableRestoreNotFoundFault
 - TagLimitExceededFault
 - UnauthorizedOperation
+- UnauthorizedPartnerIntegration
 - UnknownSnapshotCopyRegionFault
 - UnsupportedOperation
 - UnsupportedOptionFault
