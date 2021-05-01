@@ -649,6 +649,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - FieldLevelEncryptionProfileAlreadyExists
 - FieldLevelEncryptionProfileInUse
 - FieldLevelEncryptionProfileSizeExceeded
+- FunctionAlreadyExists
+- FunctionInUse
+- FunctionSizeLimitExceeded
 - IllegalDelete
 - IllegalFieldLevelEncryptionConfigAssociationWithCacheBehavior
 - IllegalUpdate
@@ -657,6 +660,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidDefaultRootObject
 - InvalidErrorCode
 - InvalidForwardCookies
+- InvalidFunctionAssociation
 - InvalidGeoRestrictionParameter
 - InvalidHeadersForS3Origin
 - InvalidIfMatchVersion
@@ -683,6 +687,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NoSuchDistribution
 - NoSuchFieldLevelEncryptionConfig
 - NoSuchFieldLevelEncryptionProfile
+- NoSuchFunctionExists
 - NoSuchInvalidation
 - NoSuchOrigin
 - NoSuchOriginRequestPolicy
@@ -698,9 +703,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - QueryArgProfileEmpty
 - RealtimeLogConfigAlreadyExists
 - RealtimeLogConfigInUse
+- RealtimeLogConfigOwnerMismatch
 - ResourceInUse
 - StreamingDistributionAlreadyExists
 - StreamingDistributionNotDisabled
+- TestFunctionFailed
 - TooManyCacheBehaviors
 - TooManyCachePolicies
 - TooManyCertificates
@@ -714,6 +721,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyDistributionsAssociatedToFieldLevelEncryptionConfig
 - TooManyDistributionsAssociatedToKeyGroup
 - TooManyDistributionsAssociatedToOriginRequestPolicy
+- TooManyDistributionsWithFunctionAssociations
 - TooManyDistributionsWithLambdaAssociations
 - TooManyDistributionsWithSingleFunctionARN
 - TooManyFieldLevelEncryptionConfigs
@@ -722,6 +730,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyFieldLevelEncryptionFieldPatterns
 - TooManyFieldLevelEncryptionProfiles
 - TooManyFieldLevelEncryptionQueryArgProfiles
+- TooManyFunctionAssociations
+- TooManyFunctions
 - TooManyHeadersInCachePolicy
 - TooManyHeadersInForwardedValues
 - TooManyHeadersInOriginRequestPolicy
@@ -744,6 +754,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTrustedSigners
 - TrustedKeyGroupDoesNotExist
 - TrustedSignerDoesNotExist
+- UnsupportedOperation
 
 ### cloudhsm
 - CloudHsmInternalException
