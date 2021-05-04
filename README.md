@@ -106,6 +106,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [emr-containers](#emr-containers)
 - [es](#es)
 - [events](#events)
+- [finspace](#finspace)
+- [finspace-data](#finspace-data)
 - [firehose](#firehose)
 - [fis](#fis)
 - [fms](#fms)
@@ -2068,6 +2070,23 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyLengthExceededException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
+
+### finspace
+- AccessDeniedException
+- InternalServerException
+- InvalidRequestException
+- LimitExceededException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### finspace-data
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### firehose
 - ConcurrentModificationException
