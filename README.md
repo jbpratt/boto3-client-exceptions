@@ -2674,12 +2674,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedOperationException
 
 ### lakeformation
+- AccessDeniedException
 - AlreadyExistsException
 - ConcurrentModificationException
 - EntityNotFoundException
+- GlueEncryptionException
 - InternalServiceException
 - InvalidInputException
 - OperationTimeoutException
+- ResourceNumberLimitExceededException
 
 ### lambda
 - CodeSigningConfigNotFoundException
