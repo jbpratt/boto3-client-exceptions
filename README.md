@@ -4149,6 +4149,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OpsItemInvalidParameterException
 - OpsItemLimitExceededException
 - OpsItemNotFoundException
+- OpsItemRelatedItemAlreadyExistsException
+- OpsItemRelatedItemAssociationNotFoundException
 - OpsMetadataAlreadyExistsException
 - OpsMetadataInvalidArgumentException
 - OpsMetadataKeyLimitExceededException
