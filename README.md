@@ -252,6 +252,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sns](#sns)
 - [sqs](#sqs)
 - [ssm](#ssm)
+- [ssm-contacts](#ssm-contacts)
+- [ssm-incidents](#ssm-incidents)
 - [sso](#sso)
 - [sso-admin](#sso-admin)
 - [sso-oidc](#sso-oidc)
@@ -4187,6 +4189,25 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedOperatingSystem
 - UnsupportedParameterType
 - UnsupportedPlatformType
+
+### ssm-contacts
+- AccessDeniedException
+- ConflictException
+- DataEncryptionException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### ssm-incidents
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### sso
 - InvalidRequestException
