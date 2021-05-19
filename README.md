@@ -29,6 +29,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [application-insights](#application-insights)
 - [applicationcostprofiler](#applicationcostprofiler)
 - [appmesh](#appmesh)
+- [apprunner](#apprunner)
 - [appstream](#appstream)
 - [appsync](#appsync)
 - [athena](#athena)
@@ -455,6 +456,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - TooManyRequestsException
 - TooManyTagsException
+
+### apprunner
+- InternalServiceErrorException
+- InvalidRequestException
+- InvalidStateException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 
 ### appstream
 - ConcurrentModificationException
