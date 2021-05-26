@@ -2396,6 +2396,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CertificateConflictException
 - CertificateStateException
 - CertificateValidationException
+- ConflictException
 - ConflictingResourceUpdateException
 - DeleteConflictException
 - IndexNotReadyException
