@@ -3207,6 +3207,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### outposts
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - NotFoundException
 - ServiceQuotaExceededException
