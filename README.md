@@ -4057,6 +4057,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - KMSOptInRequired
 - KMSThrottling
 - NotFound
+- OptedOut
 - PlatformApplicationDisabled
 - ResourceNotFound
 - StaleTag
@@ -4065,6 +4066,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TagPolicy
 - Throttled
 - TopicLimitExceeded
+- UserError
+- ValidationException
+- VerificationException
 
 ### sqs
 - AWS.SimpleQueueService.BatchEntryIdsNotDistinct
