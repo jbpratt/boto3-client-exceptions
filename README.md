@@ -542,6 +542,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - DeviceOfflineException
+- DeviceRetiredException
 - InternalServiceException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
@@ -1632,6 +1633,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DBSubnetQuotaExceededFault
 - DBUpgradeDependencyFailure
 - EventSubscriptionQuotaExceeded
+- GlobalClusterAlreadyExistsFault
+- GlobalClusterNotFoundFault
+- GlobalClusterQuotaExceededFault
 - InstanceQuotaExceeded
 - InsufficientDBClusterCapacityFault
 - InsufficientDBInstanceCapacity
@@ -1645,6 +1649,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidDBSubnetGroupStateFault
 - InvalidDBSubnetStateFault
 - InvalidEventSubscriptionState
+- InvalidGlobalClusterStateFault
 - InvalidRestoreFault
 - InvalidSubnet
 - InvalidVPCNetworkStateFault
