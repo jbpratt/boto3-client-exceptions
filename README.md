@@ -211,6 +211,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pinpoint-sms-voice](#pinpoint-sms-voice)
 - [polly](#polly)
 - [pricing](#pricing)
+- [proton](#proton)
 - [qldb](#qldb)
 - [qldb-session](#qldb-session)
 - [quicksight](#quicksight)
@@ -3299,6 +3300,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - InvalidParameterException
 - NotFoundException
+
+### proton
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### qldb
 - InvalidParameterException
