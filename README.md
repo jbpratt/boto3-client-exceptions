@@ -1310,8 +1310,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SoftwareTokenMFANotFoundException
 - TooManyFailedAttemptsException
 - TooManyRequestsException
+- UnauthorizedException
 - UnexpectedLambdaException
 - UnsupportedIdentityProviderException
+- UnsupportedOperationException
+- UnsupportedTokenTypeException
 - UnsupportedUserStateException
 - UserImportInProgressException
 - UserLambdaValidationException
