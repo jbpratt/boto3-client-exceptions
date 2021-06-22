@@ -653,6 +653,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - StackSetNotFoundException
 - StaleRequestException
 - TokenAlreadyExistsException
+- TypeConfigurationNotFoundException
 - TypeNotFoundException
 
 ### cloudfront
