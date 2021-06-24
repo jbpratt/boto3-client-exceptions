@@ -798,6 +798,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalException
 - InvalidType
 - LimitExceeded
+- ResourceAlreadyExists
 - ResourceNotFound
 - ValidationException
 
