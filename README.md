@@ -1528,6 +1528,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ParameterGroupNotFoundFault
 - ParameterGroupQuotaExceededFault
 - ServiceLinkedRoleNotFoundFault
+- ServiceQuotaExceededException
 - SubnetGroupAlreadyExistsFault
 - SubnetGroupInUseFault
 - SubnetGroupNotFoundFault
