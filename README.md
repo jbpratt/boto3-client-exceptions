@@ -2752,6 +2752,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedMediaTypeException
 
 ### lex-models
+- AccessDeniedException
 - BadRequestException
 - ConflictException
 - InternalFailureException
@@ -3505,6 +3506,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### redshift
 - AccessToClusterDenied
 - AccessToSnapshotDenied
+- AuthenticationProfileAlreadyExistsFault
+- AuthenticationProfileNotFoundFault
+- AuthenticationProfileQuotaExceededFault
 - AuthorizationAlreadyExists
 - AuthorizationNotFound
 - AuthorizationQuotaExceeded
@@ -3549,6 +3553,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IncompatibleOrderableOptions
 - InsufficientClusterCapacity
 - InsufficientS3BucketPolicyFault
+- InvalidAuthenticationProfileRequestFault
 - InvalidAuthorizationState
 - InvalidClusterParameterGroupState
 - InvalidClusterSecurityGroupState
