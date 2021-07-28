@@ -225,6 +225,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [resourcegroupstaggingapi](#resourcegroupstaggingapi)
 - [robomaker](#robomaker)
 - [route53](#route53)
+- [route53-recovery-cluster](#route53-recovery-cluster)
+- [route53-recovery-control-config](#route53-recovery-control-config)
+- [route53-recovery-readiness](#route53-recovery-readiness)
 - [route53domains](#route53domains)
 - [route53resolver](#route53resolver)
 - [s3](#s3)
@@ -3631,6 +3634,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### redshift-data
 - ActiveStatementsExceededException
+- BatchExecuteStatementException
 - ExecuteStatementException
 - InternalServerException
 - ResourceNotFoundException
@@ -3748,6 +3752,32 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TrafficPolicyInstanceAlreadyExists
 - VPCAssociationAuthorizationNotFound
 - VPCAssociationNotFound
+
+### route53-recovery-cluster
+- AccessDeniedException
+- ConflictException
+- EndpointTemporarilyUnavailableException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
+### route53-recovery-control-config
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### route53-recovery-readiness
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### route53domains
 - DomainLimitExceeded
