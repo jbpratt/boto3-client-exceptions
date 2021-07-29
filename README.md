@@ -652,6 +652,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationNotFoundException
 - ConditionalCheckFailed
 - StackInstanceNotFoundException
+- StackNotFoundException
 - StackSetNotEmptyException
 - StackSetNotFoundException
 - StaleRequestException
