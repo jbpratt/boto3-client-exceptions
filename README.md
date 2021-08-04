@@ -3569,10 +3569,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidClusterSubnetGroupStateFault
 - InvalidClusterSubnetStateFault
 - InvalidClusterTrack
+- InvalidDataShareFault
 - InvalidElasticIpFault
 - InvalidEndpointState
 - InvalidHsmClientCertificateStateFault
 - InvalidHsmConfigurationStateFault
+- InvalidNamespaceFault
 - InvalidReservedNodeState
 - InvalidRestore
 - InvalidRetentionPeriodFault
