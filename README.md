@@ -42,6 +42,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [budgets](#budgets)
 - [ce](#ce)
 - [chime](#chime)
+- [chime-sdk-identity](#chime-sdk-identity)
+- [chime-sdk-messaging](#chime-sdk-messaging)
 - [cloud9](#cloud9)
 - [clouddirectory](#clouddirectory)
 - [cloudformation](#cloudformation)
@@ -588,6 +590,27 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottledClientException
 - UnauthorizedClientException
 - UnprocessableEntityException
+
+### chime-sdk-identity
+- BadRequestException
+- ConflictException
+- ForbiddenException
+- ResourceLimitExceededException
+- ServiceFailureException
+- ServiceUnavailableException
+- ThrottledClientException
+- UnauthorizedClientException
+
+### chime-sdk-messaging
+- BadRequestException
+- ConflictException
+- ForbiddenException
+- NotFoundException
+- ResourceLimitExceededException
+- ServiceFailureException
+- ServiceUnavailableException
+- ThrottledClientException
+- UnauthorizedClientException
 
 ### cloud9
 - BadRequestException
