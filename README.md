@@ -4529,6 +4529,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### wafv2
 - WAFAssociatedItemException
 - WAFDuplicateItemException
+- WAFExpiredManagedRuleGroupVersionException
 - WAFInternalErrorException
 - WAFInvalidOperationException
 - WAFInvalidParameterException
