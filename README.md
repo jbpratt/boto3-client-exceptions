@@ -256,6 +256,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [signer](#signer)
 - [sms](#sms)
 - [sms-voice](#sms-voice)
+- [snow-device-management](#snow-device-management)
 - [snowball](#snowball)
 - [sns](#sns)
 - [sqs](#sqs)
@@ -4111,6 +4112,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - NotFoundException
 - TooManyRequestsException
+
+### snow-device-management
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### snowball
 - ClusterLimitExceededException
