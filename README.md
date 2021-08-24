@@ -533,6 +533,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### backup
 - AlreadyExistsException
+- ConflictException
 - DependencyFailureException
 - InvalidParameterValueException
 - InvalidRequestException
@@ -2190,6 +2191,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ResourceUnavailableException
 - ThrottlingException
 - ValidationException
 
@@ -2282,6 +2284,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EntityNotFoundException
 - GlueEncryptionException
 - IdempotentParameterMismatchException
+- IllegalBlueprintStateException
 - IllegalWorkflowStateException
 - InternalServiceException
 - InvalidInputException
