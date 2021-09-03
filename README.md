@@ -2217,12 +2217,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRegion
 - InvalidSourceKmsKey
 - MissingFileSystemConfiguration
+- MissingVolumeConfiguration
 - NotServiceResourceError
 - ResourceDoesNotSupportTagging
 - ResourceNotFound
 - ServiceLimitExceeded
 - SourceBackupUnavailable
+- StorageVirtualMachineNotFound
 - UnsupportedOperation
+- VolumeNotFound
 
 ### gamelift
 - ConflictException
