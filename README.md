@@ -201,6 +201,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
 - [nimble](#nimble)
+- [opensearch](#opensearch)
 - [opsworks](#opsworks)
 - [opsworkscm](#opsworkscm)
 - [organizations](#organizations)
@@ -3246,6 +3247,19 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### opensearch
+- AccessDeniedException
+- BaseException
+- ConflictException
+- DisabledOperationException
+- InternalException
+- InvalidPaginationTokenException
+- InvalidTypeException
+- LimitExceededException
+- ResourceAlreadyExistsException
+- ResourceNotFoundException
 - ValidationException
 
 ### opsworks
