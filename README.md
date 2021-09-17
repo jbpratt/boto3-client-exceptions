@@ -151,6 +151,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iotwireless](#iotwireless)
 - [ivs](#ivs)
 - [kafka](#kafka)
+- [kafkaconnect](#kafkaconnect)
 - [kendra](#kendra)
 - [kinesis](#kinesis)
 - [kinesis-video-archived-media](#kinesis-video-archived-media)
@@ -2598,6 +2599,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### kafka
+- BadRequestException
+- ConflictException
+- ForbiddenException
+- InternalServerErrorException
+- NotFoundException
+- ServiceUnavailableException
+- TooManyRequestsException
+- UnauthorizedException
+
+### kafkaconnect
 - BadRequestException
 - ConflictException
 - ForbiddenException
