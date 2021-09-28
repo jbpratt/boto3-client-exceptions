@@ -281,10 +281,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [transcribe](#transcribe)
 - [transfer](#transfer)
 - [translate](#translate)
+- [voice-id](#voice-id)
 - [waf](#waf)
 - [waf-regional](#waf-regional)
 - [wafv2](#wafv2)
 - [wellarchitected](#wellarchitected)
+- [wisdom](#wisdom)
 - [workdocs](#workdocs)
 - [worklink](#worklink)
 - [workmail](#workmail)
@@ -4575,6 +4577,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyRequestsException
 - UnsupportedLanguagePairException
 
+### voice-id
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### waf
 - WAFBadRequestException
 - WAFDisallowedNameException
@@ -4643,6 +4654,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### wisdom
+- AccessDeniedException
+- ConflictException
+- PreconditionFailedException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- TooManyTagsException
 - ValidationException
 
 ### workdocs
