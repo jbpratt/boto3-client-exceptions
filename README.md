@@ -13,6 +13,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ```
 
 - [accessanalyzer](#accessanalyzer)
+- [account](#account)
 - [acm](#acm)
 - [acm-pca](#acm-pca)
 - [alexaforbusiness](#alexaforbusiness)
@@ -45,6 +46,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [chime-sdk-identity](#chime-sdk-identity)
 - [chime-sdk-messaging](#chime-sdk-messaging)
 - [cloud9](#cloud9)
+- [cloudcontrol](#cloudcontrol)
 - [clouddirectory](#clouddirectory)
 - [cloudformation](#cloudformation)
 - [cloudfront](#cloudfront)
@@ -300,6 +302,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### account
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- TooManyRequestsException
 - ValidationException
 
 ### acm
@@ -628,6 +637,29 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - NotFoundException
 - TooManyRequestsException
+
+### cloudcontrol
+- AlreadyExistsException
+- ClientTokenConflictException
+- ConcurrentModificationException
+- ConcurrentOperationException
+- GeneralServiceException
+- HandlerFailureException
+- HandlerInternalFailureException
+- InvalidCredentialsException
+- InvalidRequestException
+- NetworkFailureException
+- NotStabilizedException
+- NotUpdatableException
+- PrivateTypeException
+- RequestTokenNotFoundException
+- ResourceConflictException
+- ResourceNotFoundException
+- ServiceInternalErrorException
+- ServiceLimitExceededException
+- ThrottlingException
+- TypeNotFoundException
+- UnsupportedActionException
 
 ### clouddirectory
 - AccessDeniedException
