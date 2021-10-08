@@ -125,6 +125,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [glacier](#glacier)
 - [globalaccelerator](#globalaccelerator)
 - [glue](#glue)
+- [grafana](#grafana)
 - [greengrass](#greengrass)
 - [greengrassv2](#greengrassv2)
 - [groundstation](#groundstation)
@@ -2336,6 +2337,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SchedulerTransitioningException
 - ValidationException
 - VersionMismatchException
+
+### grafana
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### greengrass
 - BadRequestException
