@@ -4751,9 +4751,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EntityNotFoundException
 - EntityStateException
 - InvalidConfigurationException
+- InvalidCustomSesConfigurationException
 - InvalidParameterException
 - InvalidPasswordException
 - LimitExceededException
+- MailDomainInUseException
 - MailDomainNotFoundException
 - MailDomainStateException
 - NameAvailabilityException
