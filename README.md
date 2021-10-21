@@ -210,6 +210,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [opsworkscm](#opsworkscm)
 - [organizations](#organizations)
 - [outposts](#outposts)
+- [panorama](#panorama)
 - [personalize](#personalize)
 - [personalize-events](#personalize-events)
 - [personalize-runtime](#personalize-runtime)
@@ -3380,6 +3381,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - NotFoundException
+- ServiceQuotaExceededException
+- ValidationException
+
+### panorama
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
 - ServiceQuotaExceededException
 - ValidationException
 
