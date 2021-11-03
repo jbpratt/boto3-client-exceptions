@@ -785,6 +785,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NoSuchPublicKey
 - NoSuchRealtimeLogConfig
 - NoSuchResource
+- NoSuchResponseHeadersPolicy
 - NoSuchStreamingDistribution
 - OriginRequestPolicyAlreadyExists
 - OriginRequestPolicyInUse
@@ -796,6 +797,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RealtimeLogConfigInUse
 - RealtimeLogConfigOwnerMismatch
 - ResourceInUse
+- ResponseHeadersPolicyAlreadyExists
+- ResponseHeadersPolicyInUse
 - StreamingDistributionAlreadyExists
 - StreamingDistributionNotDisabled
 - TestFunctionFailed
@@ -806,12 +809,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyCookieNamesInWhiteList
 - TooManyCookiesInCachePolicy
 - TooManyCookiesInOriginRequestPolicy
+- TooManyCustomHeadersInResponseHeadersPolicy
 - TooManyDistributionCNAMEs
 - TooManyDistributions
 - TooManyDistributionsAssociatedToCachePolicy
 - TooManyDistributionsAssociatedToFieldLevelEncryptionConfig
 - TooManyDistributionsAssociatedToKeyGroup
 - TooManyDistributionsAssociatedToOriginRequestPolicy
+- TooManyDistributionsAssociatedToResponseHeadersPolicy
 - TooManyDistributionsWithFunctionAssociations
 - TooManyDistributionsWithLambdaAssociations
 - TooManyDistributionsWithSingleFunctionARN
@@ -840,6 +845,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyQueryStringsInCachePolicy
 - TooManyQueryStringsInOriginRequestPolicy
 - TooManyRealtimeLogConfigs
+- TooManyResponseHeadersPolicies
 - TooManyStreamingDistributionCNAMEs
 - TooManyStreamingDistributions
 - TooManyTrustedSigners
