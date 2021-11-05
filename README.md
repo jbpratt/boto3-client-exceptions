@@ -44,6 +44,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [ce](#ce)
 - [chime](#chime)
 - [chime-sdk-identity](#chime-sdk-identity)
+- [chime-sdk-meetings](#chime-sdk-meetings)
 - [chime-sdk-messaging](#chime-sdk-messaging)
 - [cloud9](#cloud9)
 - [cloudcontrol](#cloudcontrol)
@@ -618,6 +619,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - ThrottledClientException
 - UnauthorizedClientException
+
+### chime-sdk-meetings
+- BadRequestException
+- ForbiddenException
+- LimitExceededException
+- NotFoundException
+- ServiceUnavailableException
+- UnauthorizedException
+- UnprocessableEntityException
 
 ### chime-sdk-messaging
 - BadRequestException
@@ -1510,6 +1520,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### connect
+- AccessDeniedException
 - ContactFlowNotPublishedException
 - ContactNotFoundException
 - DestinationNotAllowedException
