@@ -231,6 +231,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [redshift](#redshift)
 - [redshift-data](#redshift-data)
 - [rekognition](#rekognition)
+- [resiliencehub](#resiliencehub)
 - [resource-groups](#resource-groups)
 - [resourcegroupstaggingapi](#resourcegroupstaggingapi)
 - [robomaker](#robomaker)
@@ -3844,6 +3845,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - VideoTooLargeException
+
+### resiliencehub
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### resource-groups
 - BadRequestException
