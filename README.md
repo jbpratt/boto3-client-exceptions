@@ -198,6 +198,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mgh](#mgh)
 - [mgn](#mgn)
 - [migrationhub-config](#migrationhub-config)
+- [migrationhubstrategy](#migrationhubstrategy)
 - [mobile](#mobile)
 - [mq](#mq)
 - [mturk](#mturk)
@@ -1972,6 +1973,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### eks
+- AccessDeniedException
 - BadRequestException
 - ClientException
 - InvalidParameterException
@@ -3197,6 +3199,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidInputException
 - ServiceUnavailableException
 - ThrottlingException
+
+### migrationhubstrategy
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceLinkedRoleLockClientException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### mobile
 - AccountActionRequiredException
@@ -4721,6 +4733,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WAFInvalidPermissionPolicyException
 - WAFInvalidResourceException
 - WAFLimitsExceededException
+- WAFLogDestinationPermissionIssueException
 - WAFNonexistentItemException
 - WAFOptimisticLockException
 - WAFServiceLinkedRoleErrorException
