@@ -24,6 +24,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [apigatewaymanagementapi](#apigatewaymanagementapi)
 - [apigatewayv2](#apigatewayv2)
 - [appconfig](#appconfig)
+- [appconfigdata](#appconfigdata)
 - [appflow](#appflow)
 - [appintegrations](#appintegrations)
 - [application-autoscaling](#application-autoscaling)
@@ -92,6 +93,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [dlm](#dlm)
 - [dms](#dms)
 - [docdb](#docdb)
+- [drs](#drs)
 - [ds](#ds)
 - [dynamodb](#dynamodb)
 - [dynamodbstreams](#dynamodbstreams)
@@ -425,6 +427,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PayloadTooLargeException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+
+### appconfigdata
+- BadRequestException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
 
 ### appflow
 - ConflictException
@@ -1761,6 +1769,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionAlreadyExist
 - SubscriptionCategoryNotFound
 - SubscriptionNotFound
+
+### drs
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- UninitializedAccountException
+- ValidationException
 
 ### ds
 - AccessDeniedException
@@ -3833,6 +3851,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### redshift-data
 - ActiveStatementsExceededException
 - BatchExecuteStatementException
+- DatabaseConnectionException
 - ExecuteStatementException
 - InternalServerException
 - ResourceNotFoundException
@@ -4315,10 +4334,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### sns
 - AuthorizationError
+- BatchEntryIdsNotDistinct
+- BatchRequestTooLong
 - ConcurrentAccess
+- EmptyBatchRequest
 - EndpointDisabled
 - FilterPolicyLimitExceeded
 - InternalError
+- InvalidBatchEntryId
 - InvalidParameter
 - ParameterValueInvalid
 - InvalidSecurity
@@ -4337,6 +4360,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TagLimitExceeded
 - TagPolicy
 - Throttled
+- TooManyEntriesInBatchRequest
 - TopicLimitExceeded
 - UserError
 - ValidationException
