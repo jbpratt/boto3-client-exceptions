@@ -3851,7 +3851,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### redshift-data
 - ActiveStatementsExceededException
 - BatchExecuteStatementException
-- DatabaseConnectionException
 - ExecuteStatementException
 - InternalServerException
 - ResourceNotFoundException
