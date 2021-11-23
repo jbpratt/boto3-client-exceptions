@@ -1535,8 +1535,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ContactNotFoundException
 - DestinationNotAllowedException
 - DuplicateResourceException
+- IdempotencyException
 - InternalServiceException
 - InvalidContactFlowException
+- InvalidContactFlowModuleException
 - InvalidParameterException
 - InvalidRequestException
 - LimitExceededException
@@ -2000,6 +2002,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceLimitExceededException
 - ResourceNotFoundException
+- ResourcePropagationDelayException
 - ServerException
 - ServiceUnavailableException
 - UnsupportedAvailabilityZoneException
@@ -2219,7 +2222,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### finspace-data
 - AccessDeniedException
+- ConflictException
 - InternalServerException
+- LimitExceededException
 - ResourceNotFoundException
 - ThrottlingException
 - ValidationException
