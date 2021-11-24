@@ -2540,6 +2540,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IndexNotReadyException
 - InternalException
 - InternalFailureException
+- InternalServerException
 - InvalidAggregationException
 - InvalidQueryException
 - InvalidRequestException
@@ -3812,6 +3813,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PartnerNotFound
 - ReservedNodeAlreadyExists
 - ReservedNodeAlreadyMigrated
+- ReservedNodeExchangeNotFond
 - ReservedNodeNotFound
 - ReservedNodeOfferingNotFound
 - ReservedNodeQuotaExceeded
