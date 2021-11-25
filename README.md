@@ -4654,6 +4654,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - InvalidEndpointException
 - QueryExecutionException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
