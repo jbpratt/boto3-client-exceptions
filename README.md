@@ -3212,6 +3212,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - UninitializedAccountException
 - ValidationException
