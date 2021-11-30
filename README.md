@@ -115,6 +115,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [emr-containers](#emr-containers)
 - [es](#es)
 - [events](#events)
+- [evidently](#evidently)
 - [finspace](#finspace)
 - [finspace-data](#finspace-data)
 - [firehose](#firehose)
@@ -141,6 +142,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [imagebuilder](#imagebuilder)
 - [importexport](#importexport)
 - [inspector](#inspector)
+- [inspector2](#inspector2)
 - [iot](#iot)
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
@@ -199,6 +201,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [meteringmarketplace](#meteringmarketplace)
 - [mgh](#mgh)
 - [mgn](#mgn)
+- [migration-hub-refactor-spaces](#migration-hub-refactor-spaces)
 - [migrationhub-config](#migrationhub-config)
 - [migrationhubstrategy](#migrationhubstrategy)
 - [mobile](#mobile)
@@ -229,6 +232,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [qldb-session](#qldb-session)
 - [quicksight](#quicksight)
 - [ram](#ram)
+- [rbin](#rbin)
 - [rds](#rds)
 - [rds-data](#rds-data)
 - [redshift](#redshift)
@@ -244,6 +248,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [route53-recovery-readiness](#route53-recovery-readiness)
 - [route53domains](#route53domains)
 - [route53resolver](#route53resolver)
+- [rum](#rum)
 - [s3](#s3)
 - [s3control](#s3control)
 - [s3outposts](#s3outposts)
@@ -1898,6 +1903,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LifecyclePolicyPreviewInProgressException
 - LifecyclePolicyPreviewNotFoundException
 - LimitExceededException
+- PullThroughCacheRuleAlreadyExistsException
+- PullThroughCacheRuleNotFoundException
 - ReferencedImagesNotFoundException
 - RegistryPolicyNotFoundException
 - RepositoryAlreadyExistsException
@@ -1908,6 +1915,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServerException
 - TooManyTagsException
 - UnsupportedImageTypeException
+- UnsupportedUpstreamRegistryException
 - UploadNotFoundException
 - ValidationException
 
@@ -2209,6 +2217,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyLengthExceededException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
+
+### evidently
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ServiceUnavailableException
+- ThrottlingException
+- ValidationException
 
 ### finspace
 - AccessDeniedException
@@ -2529,6 +2547,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PreviewGenerationInProgressException
 - ServiceTemporarilyUnavailableException
 - UnsupportedFeatureException
+
+### inspector2
+- AccessDeniedException
+- BadRequestException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### iot
 - CertificateConflictException
@@ -3217,6 +3245,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UninitializedAccountException
 - ValidationException
 
+### migration-hub-refactor-spaces
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidResourcePolicyException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### migrationhub-config
 - AccessDeniedException
 - DryRunOperation
@@ -3596,6 +3634,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TagLimitExceededException
 - TagPolicyViolationException
 - UnknownResourceException
+
+### rbin
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ValidationException
 
 ### rds
 - AuthorizationAlreadyExists
@@ -4036,6 +4080,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceUnavailableException
 - ThrottlingException
 - UnknownResourceException
+- ValidationException
+
+### rum
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### s3
