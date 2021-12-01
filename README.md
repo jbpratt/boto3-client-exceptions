@@ -39,6 +39,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [autoscaling](#autoscaling)
 - [autoscaling-plans](#autoscaling-plans)
 - [backup](#backup)
+- [backup-gateway](#backup-gateway)
 - [batch](#batch)
 - [braket](#braket)
 - [budgets](#budgets)
@@ -156,6 +157,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iotsecuretunneling](#iotsecuretunneling)
 - [iotsitewise](#iotsitewise)
 - [iotthingsgraph](#iotthingsgraph)
+- [iottwinmaker](#iottwinmaker)
 - [iotwireless](#iotwireless)
 - [ivs](#ivs)
 - [kafka](#kafka)
@@ -306,6 +308,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [workmail](#workmail)
 - [workmailmessageflow](#workmailmessageflow)
 - [workspaces](#workspaces)
+- [workspaces-web](#workspaces-web)
 - [xray](#xray)
 ### accessanalyzer
 - AccessDeniedException
@@ -573,6 +576,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MissingParameterValueException
 - ResourceNotFoundException
 - ServiceUnavailableException
+
+### backup-gateway
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
 
 ### batch
 - ClientException
@@ -2301,6 +2311,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BackupNotFound
 - BackupRestoring
 - BadRequest
+- DataRepositoryAssociationNotFound
 - DataRepositoryTaskEnded
 - DataRepositoryTaskExecuting
 - DataRepositoryTaskNotFound
@@ -2308,6 +2319,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IncompatibleParameterError
 - IncompatibleRegionForMultiAZ
 - InternalServerError
+- InvalidDataRepositoryType
 - InvalidDestinationKmsKey
 - InvalidExportPath
 - InvalidImportPath
@@ -2321,6 +2333,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceDoesNotSupportTagging
 - ResourceNotFound
 - ServiceLimitExceeded
+- SnapshotNotFound
 - SourceBackupUnavailable
 - StorageVirtualMachineNotFound
 - UnsupportedOperation
@@ -2390,9 +2403,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IllegalWorkflowStateException
 - InternalServiceException
 - InvalidInputException
+- InvalidStateException
 - MLTransformNotReadyException
 - NoScheduleException
 - OperationTimeoutException
+- ResourceNotReadyException
 - ResourceNumberLimitExceededException
 - SchedulerNotRunningException
 - SchedulerRunningException
@@ -2694,6 +2709,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ThrottlingException
 
+### iottwinmaker
+- AccessDeniedException
+- ConflictException
+- ConnectorFailureException
+- ConnectorTimeoutException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- TooManyTagsException
+- ValidationException
+
 ### iotwireless
 - AccessDeniedException
 - ConflictException
@@ -2762,6 +2789,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ProvisionedThroughputExceededException
 - ResourceInUseException
 - ResourceNotFoundException
+- ValidationException
 
 ### kinesis-video-archived-media
 - ClientLimitExceededException
@@ -2874,11 +2902,19 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AlreadyExistsException
 - ConcurrentModificationException
 - EntityNotFoundException
+- ExpiredException
 - GlueEncryptionException
 - InternalServiceException
 - InvalidInputException
 - OperationTimeoutException
+- ResourceNotReadyException
 - ResourceNumberLimitExceededException
+- StatisticsNotReadyYetException
+- ThrottledException
+- TransactionCanceledException
+- TransactionCommitInProgressException
+- TransactionCommittedException
+- WorkUnitsNotReadyYetException
 
 ### lambda
 - CodeSigningConfigNotFoundException
@@ -3903,6 +3939,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### redshift-data
 - ActiveStatementsExceededException
 - BatchExecuteStatementException
+- DatabaseConnectionException
 - ExecuteStatementException
 - InternalServerException
 - ResourceNotFoundException
@@ -4926,6 +4963,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedNetworkConfigurationException
 - UnsupportedWorkspaceConfigurationException
 - WorkspacesDefaultRoleNotFoundException
+
+### workspaces-web
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- TooManyTagsException
+- ValidationException
 
 ### xray
 - InvalidRequestException
