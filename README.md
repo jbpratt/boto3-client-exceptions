@@ -2766,6 +2766,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- InvalidRequestException
 - ResourceAlreadyExistException
 - ResourceInUseException
 - ResourceNotFoundException
@@ -4184,8 +4185,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationError
 
 ### sagemaker-runtime
+- InternalDependencyException
 - InternalFailure
 - ModelError
+- ModelNotReadyException
 - ServiceUnavailable
 - ValidationError
 
