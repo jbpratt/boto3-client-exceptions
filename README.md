@@ -20,6 +20,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [amp](#amp)
 - [amplify](#amplify)
 - [amplifybackend](#amplifybackend)
+- [amplifyuibuilder](#amplifyuibuilder)
 - [apigateway](#apigateway)
 - [apigatewaymanagementapi](#apigatewaymanagementapi)
 - [apigatewayv2](#apigatewayv2)
@@ -405,6 +406,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - GatewayTimeoutException
 - NotFoundException
 - TooManyRequestsException
+
+### amplifyuibuilder
+- InternalServerException
+- InvalidParameterException
+- ResourceConflictException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 
 ### apigateway
 - BadRequestException
@@ -3420,6 +3428,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### networkmanager
 - AccessDeniedException
 - ConflictException
+- CoreNetworkPolicyException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
@@ -3670,6 +3679,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - TagLimitExceededException
 - TagPolicyViolationException
+- ThrottlingException
 - UnknownResourceException
 
 ### rbin
