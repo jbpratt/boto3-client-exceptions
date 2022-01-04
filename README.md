@@ -1663,6 +1663,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- TooManyRequestsException
 - ValidationException
 
 ### devicefarm
