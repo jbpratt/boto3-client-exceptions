@@ -516,6 +516,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### appstream
 - ConcurrentModificationException
+- EntitlementAlreadyExistsException
+- EntitlementNotFoundException
 - IncompatibleImageException
 - InvalidAccountStatusException
 - InvalidParameterCombinationException
@@ -929,6 +931,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CloudTrailInvalidClientTokenIdException
 - CloudWatchLogsDeliveryUnavailableException
 - ConflictException
+- EventDataStoreARNInvalidException
+- EventDataStoreAlreadyExistsException
+- EventDataStoreMaxLimitExceededException
+- EventDataStoreNotFoundException
+- EventDataStoreTerminationProtectedException
+- InactiveEventDataStoreException
+- InactiveQueryException
 - InsightNotEnabledException
 - InsufficientDependencyServiceAccessPermissionException
 - InsufficientEncryptionPolicyException
@@ -936,7 +945,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InsufficientSnsTopicPolicyException
 - InvalidCloudWatchLogsLogGroupArnException
 - InvalidCloudWatchLogsRoleArnException
+- InvalidDateRangeException
 - InvalidEventCategoryException
+- InvalidEventDataStoreStatusException
 - InvalidEventSelectorsException
 - InvalidHomeRegionException
 - InvalidInsightSelectorsException
@@ -945,6 +956,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidMaxResultsException
 - InvalidNextTokenException
 - InvalidParameterCombinationException
+- InvalidParameterException
+- InvalidQueryStatementException
+- InvalidQueryStatusException
 - InvalidS3BucketNameException
 - InvalidS3PrefixException
 - InvalidSnsTopicNameException
@@ -955,11 +969,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - KmsException
 - KmsKeyDisabledException
 - KmsKeyNotFoundException
+- MaxConcurrentQueriesException
 - MaximumNumberOfTrailsExceededException
 - NotOrganizationMasterAccountException
 - OperationNotPermittedException
 - OrganizationNotInAllFeaturesModeException
 - OrganizationsNotInUseException
+- QueryIdNotFoundException
 - ResourceNotFoundException
 - ResourceTypeNotSupportedException
 - S3BucketDoesNotExistException
@@ -2416,6 +2432,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MLTransformNotReadyException
 - NoScheduleException
 - OperationTimeoutException
+- PermissionTypeMismatchException
 - ResourceNotReadyException
 - ResourceNumberLimitExceededException
 - SchedulerNotRunningException
@@ -2917,6 +2934,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServiceException
 - InvalidInputException
 - OperationTimeoutException
+- PermissionTypeMismatchException
 - ResourceNotReadyException
 - ResourceNumberLimitExceededException
 - StatisticsNotReadyYetException
