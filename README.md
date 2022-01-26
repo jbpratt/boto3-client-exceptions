@@ -2028,6 +2028,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NetworkInterfaceLimitExceeded
 - NoFreeAddressesInSubnet
 - PolicyNotFound
+- ReplicationNotFound
 - SecurityGroupLimitExceeded
 - SecurityGroupNotFound
 - SubnetNotFound
