@@ -451,12 +451,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### appflow
+- AccessDeniedException
 - ConflictException
 - ConnectorAuthenticationException
 - ConnectorServerException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
 - UnsupportedOperationException
 - ValidationException
 
