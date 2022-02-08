@@ -4756,6 +4756,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### synthetics
 - ConflictException
 - InternalServerException
+- RequestEntityTooLargeException
 - ResourceNotFoundException
 - ValidationException
 
