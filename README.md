@@ -164,6 +164,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [kafka](#kafka)
 - [kafkaconnect](#kafkaconnect)
 - [kendra](#kendra)
+- [keyspaces](#keyspaces)
 - [kinesis](#kinesis)
 - [kinesis-video-archived-media](#kinesis-video-archived-media)
 - [kinesis-video-media](#kinesis-video-media)
@@ -2803,6 +2804,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceUnavailableException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### keyspaces
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ValidationException
 
 ### kinesis
