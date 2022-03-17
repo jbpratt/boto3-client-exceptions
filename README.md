@@ -42,6 +42,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [backup](#backup)
 - [backup-gateway](#backup-gateway)
 - [batch](#batch)
+- [billingconductor](#billingconductor)
 - [braket](#braket)
 - [budgets](#budgets)
 - [ce](#ce)
@@ -600,6 +601,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### batch
 - ClientException
 - ServerException
+
+### billingconductor
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceLimitExceededException
+- ThrottlingException
+- ValidationException
 
 ### braket
 - AccessDeniedException
