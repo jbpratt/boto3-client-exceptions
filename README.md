@@ -2440,6 +2440,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - GlueEncryptionException
 - IdempotentParameterMismatchException
 - IllegalBlueprintStateException
+- IllegalSessionStateException
 - IllegalWorkflowStateException
 - InternalServiceException
 - InvalidInputException
