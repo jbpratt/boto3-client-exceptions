@@ -641,6 +641,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RequestChangedException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- TooManyTagsException
 - UnknownMonitorException
 - UnknownSubscriptionException
 - UnresolvableUsageUnitException
