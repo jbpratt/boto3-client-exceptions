@@ -129,6 +129,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [frauddetector](#frauddetector)
 - [fsx](#fsx)
 - [gamelift](#gamelift)
+- [gamesparks](#gamesparks)
 - [glacier](#glacier)
 - [globalaccelerator](#globalaccelerator)
 - [glue](#glue)
@@ -2396,6 +2397,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TerminalRoutingStrategyException
 - UnauthorizedException
 - UnsupportedRegionException
+
+### gamesparks
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### glacier
 - InsufficientCapacityException
