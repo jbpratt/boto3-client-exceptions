@@ -3527,6 +3527,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AWSOrganizationsNotInUseException
 - AccessDeniedException
 - AccessDeniedForDependencyException
+- AccountAlreadyClosedException
 - AccountAlreadyRegisteredException
 - AccountNotFoundException
 - AccountNotRegisteredException
@@ -3534,6 +3535,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AlreadyInOrganizationException
 - ChildNotFoundException
 - ConcurrentModificationException
+- ConflictException
 - ConstraintViolationException
 - CreateAccountStatusNotFoundException
 - DestinationParentNotFoundException
