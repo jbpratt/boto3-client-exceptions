@@ -231,6 +231,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pinpoint](#pinpoint)
 - [pinpoint-email](#pinpoint-email)
 - [pinpoint-sms-voice](#pinpoint-sms-voice)
+- [pinpoint-sms-voice-v2](#pinpoint-sms-voice-v2)
 - [polly](#polly)
 - [pricing](#pricing)
 - [proton](#proton)
@@ -3639,6 +3640,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - TooManyRequestsException
 
+### pinpoint-sms-voice-v2
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### polly
 - EngineNotSupportedException
 - InvalidLexiconException
@@ -4140,6 +4150,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EndpointTemporarilyUnavailableException
 - InternalServerException
 - ResourceNotFoundException
+- ServiceLimitExceededException
 - ThrottlingException
 - ValidationException
 
