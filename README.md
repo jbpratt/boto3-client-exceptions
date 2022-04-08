@@ -3595,6 +3595,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceAlreadyExistsException
 - ResourceInUseException
 - ResourceNotFoundException
+- TooManyTagKeysException
+- TooManyTagsException
 
 ### personalize-events
 - InvalidInputException
