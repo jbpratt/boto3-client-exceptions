@@ -2048,6 +2048,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SecurityGroupLimitExceeded
 - SecurityGroupNotFound
 - SubnetNotFound
+- ThrottlingException
 - ThroughputLimitExceeded
 - TooManyRequests
 - UnsupportedAvailabilityZone
