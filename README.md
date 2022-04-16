@@ -3763,9 +3763,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AuthorizationQuotaExceeded
 - BackupPolicyNotFoundFault
 - CertificateNotFound
-- CustomAvailabilityZoneAlreadyExists
 - CustomAvailabilityZoneNotFound
-- CustomAvailabilityZoneQuotaExceeded
 - CustomDBEngineVersionAlreadyExistsFault
 - CustomDBEngineVersionNotFoundFault
 - CustomDBEngineVersionQuotaExceededFault
@@ -3824,8 +3822,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - GlobalClusterQuotaExceededFault
 - IamRoleMissingPermissions
 - IamRoleNotFound
-- InstallationMediaAlreadyExists
-- InstallationMediaNotFound
 - InstanceQuotaExceeded
 - InsufficientAvailableIPsInSubnetFault
 - InsufficientDBClusterCapacityFault
