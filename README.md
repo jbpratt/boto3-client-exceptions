@@ -2952,6 +2952,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidKeyUsageException
 - InvalidMarkerException
 - KMSInternalException
+- KMSInvalidMacException
 - KMSInvalidSignatureException
 - KMSInvalidStateException
 - KeyUnavailableException
