@@ -3880,6 +3880,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionNotFound
 
 ### rds-data
+- AccessDeniedException
 - BadRequestException
 - ForbiddenException
 - InternalServerErrorException
