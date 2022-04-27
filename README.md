@@ -163,6 +163,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iottwinmaker](#iottwinmaker)
 - [iotwireless](#iotwireless)
 - [ivs](#ivs)
+- [ivschat](#ivschat)
 - [kafka](#kafka)
 - [kafkaconnect](#kafkaconnect)
 - [kendra](#kendra)
@@ -2796,6 +2797,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - StreamUnavailable
+- ThrottlingException
+- ValidationException
+
+### ivschat
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- PendingVerification
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
