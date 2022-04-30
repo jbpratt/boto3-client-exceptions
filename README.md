@@ -3878,6 +3878,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidSubnet
 - InvalidVPCNetworkStateFault
 - KMSKeyNotAccessibleFault
+- NetworkTypeNotSupported
 - OptionGroupAlreadyExistsFault
 - OptionGroupNotFoundFault
 - OptionGroupQuotaExceededFault
@@ -4954,6 +4955,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### wafv2
 - WAFAssociatedItemException
+- WAFConfigurationWarningException
 - WAFDuplicateItemException
 - WAFExpiredManagedRuleGroupVersionException
 - WAFInternalErrorException
