@@ -2944,6 +2944,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidArgumentException
 - InvalidDeviceException
 - InvalidResourceFormatException
+- NoDataRetentionException
 - NotAuthorizedException
 - ResourceInUseException
 - ResourceNotFoundException
