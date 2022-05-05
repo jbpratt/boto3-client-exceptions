@@ -4663,6 +4663,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRole
 - InvalidSchedule
 - InvalidTarget
+- InvalidTargetMaps
 - InvalidTypeNameException
 - InvalidUpdate
 - InvocationDoesNotExist
