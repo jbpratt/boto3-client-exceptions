@@ -877,6 +877,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - StreamingDistributionAlreadyExists
 - StreamingDistributionNotDisabled
 - TestFunctionFailed
+- TooLongCSPInResponseHeadersPolicy
 - TooManyCacheBehaviors
 - TooManyCachePolicies
 - TooManyCertificates
