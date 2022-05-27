@@ -117,6 +117,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [elbv2](#elbv2)
 - [emr](#emr)
 - [emr-containers](#emr-containers)
+- [emr-serverless](#emr-serverless)
 - [es](#es)
 - [events](#events)
 - [evidently](#evidently)
@@ -2259,6 +2260,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### emr-containers
 - InternalServerException
 - ResourceNotFoundException
+- ValidationException
+
+### emr-serverless
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ValidationException
 
 ### es
