@@ -686,6 +686,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### chime-sdk-meetings
 - BadRequestException
+- ConflictException
 - ForbiddenException
 - LimitExceededException
 - NotFoundException
@@ -4116,6 +4117,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### route53
+- CidrBlockInUseException
+- CidrCollectionAlreadyExistsException
+- CidrCollectionInUseException
+- CidrCollectionVersionMismatchException
 - ConcurrentModification
 - ConflictingDomainExists
 - ConflictingTypes
@@ -4153,6 +4158,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LastVPCAssociation
 - LimitsExceeded
 - NoSuchChange
+- NoSuchCidrCollectionException
+- NoSuchCidrLocationException
 - NoSuchCloudWatchLogsLogGroup
 - NoSuchDelegationSet
 - NoSuchGeoLocation
