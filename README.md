@@ -1615,6 +1615,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - LimitExceededException
 - OutboundContactNotPermittedException
+- PropertyValidationException
 - ResourceConflictException
 - ResourceInUseException
 - ResourceNotFoundException
