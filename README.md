@@ -563,6 +563,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - InternalServerException
 - ResourceNotFoundException
+- ThrottlingException
 - ValidationException
 
 ### autoscaling
