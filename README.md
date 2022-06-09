@@ -191,6 +191,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [lookoutequipment](#lookoutequipment)
 - [lookoutmetrics](#lookoutmetrics)
 - [lookoutvision](#lookoutvision)
+- [m2](#m2)
 - [machinelearning](#machinelearning)
 - [macie](#macie)
 - [macie2](#macie2)
@@ -247,6 +248,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [rds-data](#rds-data)
 - [redshift](#redshift)
 - [redshift-data](#redshift-data)
+- [redshift-serverless](#redshift-serverless)
 - [rekognition](#rekognition)
 - [resiliencehub](#resiliencehub)
 - [resource-groups](#resource-groups)
@@ -1765,8 +1767,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### dms
 - AccessDeniedFault
+- CollectorNotFoundFault
 - InsufficientResourceCapacityFault
 - InvalidCertificateFault
+- InvalidOperationFault
 - InvalidResourceStateFault
 - InvalidSubnet
 - KMSAccessDeniedFault
@@ -3174,6 +3178,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### m2
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### machinelearning
 - IdempotentParameterMismatchException
 - InternalServerException
@@ -3471,6 +3484,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DBUpgradeDependencyFailure
 - DomainNotFoundFault
 - EventSubscriptionQuotaExceeded
+- GlobalClusterAlreadyExistsFault
+- GlobalClusterNotFoundFault
+- GlobalClusterQuotaExceededFault
 - InstanceQuotaExceeded
 - InsufficientDBClusterCapacityFault
 - InsufficientDBInstanceCapacity
@@ -3485,6 +3501,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidDBSubnetGroupStateFault
 - InvalidDBSubnetStateFault
 - InvalidEventSubscriptionState
+- InvalidGlobalClusterStateFault
 - InvalidRestoreFault
 - InvalidSubnet
 - InvalidVPCNetworkStateFault
@@ -4059,6 +4076,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ExecuteStatementException
 - InternalServerException
 - ResourceNotFoundException
+- ValidationException
+
+### redshift-serverless
+- AccessDeniedException
+- ConflictException
+- InsufficientCapacityException
+- InternalServerException
+- InvalidPaginationException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- TooManyTagsException
 - ValidationException
 
 ### rekognition
