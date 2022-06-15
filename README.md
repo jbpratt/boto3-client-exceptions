@@ -639,6 +639,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidParameterException
 - NotFoundException
 - ResourceLockedException
+- ThrottlingException
 
 ### ce
 - BillExpirationException
