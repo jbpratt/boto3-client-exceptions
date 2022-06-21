@@ -1891,6 +1891,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DomainControllerLimitExceededException
 - EntityAlreadyExistsException
 - EntityDoesNotExistException
+- IncompatibleSettingsException
 - InsufficientPermissionsException
 - InvalidCertificateException
 - InvalidClientAuthStatusException
@@ -1908,6 +1909,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SnapshotLimitExceededException
 - TagLimitExceededException
 - UnsupportedOperationException
+- UnsupportedSettingsException
 - UserDoesNotExistException
 
 ### dynamodb
