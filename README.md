@@ -249,7 +249,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [rds-data](#rds-data)
 - [redshift](#redshift)
 - [redshift-data](#redshift-data)
-- [redshiftserverless](#redshiftserverless)
 - [rekognition](#rekognition)
 - [resiliencehub](#resiliencehub)
 - [resource-groups](#resource-groups)
@@ -4091,18 +4090,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ExecuteStatementException
 - InternalServerException
 - ResourceNotFoundException
-- ValidationException
-
-### redshiftserverless
-- AccessDeniedException
-- ConflictException
-- InsufficientCapacityException
-- InternalServerException
-- InvalidPaginationException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ThrottlingException
-- TooManyTagsException
 - ValidationException
 
 ### rekognition
