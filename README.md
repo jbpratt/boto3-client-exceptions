@@ -249,6 +249,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [rds-data](#rds-data)
 - [redshift](#redshift)
 - [redshift-data](#redshift-data)
+- [redshift-serverless](#redshift-serverless)
 - [rekognition](#rekognition)
 - [resiliencehub](#resiliencehub)
 - [resource-groups](#resource-groups)
@@ -4092,6 +4093,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ValidationException
 
+### redshift-serverless
+- AccessDeniedException
+- ConflictException
+- InsufficientCapacityException
+- InternalServerException
+- InvalidPaginationException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- TooManyTagsException
+- ValidationException
+
 ### rekognition
 - AccessDeniedException
 - HumanLoopQuotaExceededException
@@ -4950,6 +4963,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - TextSizeLimitExceededException
 - TooManyRequestsException
+- UnsupportedDisplayLanguageCodeException
 - UnsupportedLanguagePairException
 
 ### voice-id
