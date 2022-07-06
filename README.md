@@ -255,6 +255,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [resource-groups](#resource-groups)
 - [resourcegroupstaggingapi](#resourcegroupstaggingapi)
 - [robomaker](#robomaker)
+- [rolesanywhere](#rolesanywhere)
 - [route53](#route53)
 - [route53-recovery-cluster](#route53-recovery-cluster)
 - [route53-recovery-control-config](#route53-recovery-control-config)
@@ -4161,6 +4162,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceUnavailableException
 - ThrottlingException
+
+### rolesanywhere
+- AccessDeniedException
+- ResourceNotFoundException
+- TooManyTagsException
+- ValidationException
 
 ### route53
 - CidrBlockInUseException
