@@ -4895,10 +4895,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WorkflowExecutionAlreadyStartedFault
 
 ### synthetics
+- BadRequestException
 - ConflictException
+- InternalFailureException
 - InternalServerException
+- NotFoundException
 - RequestEntityTooLargeException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
+- TooManyRequestsException
 - ValidationException
 
 ### textract
