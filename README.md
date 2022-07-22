@@ -1968,6 +1968,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EC2InstanceNotFoundException
 - EC2InstanceStateInvalidException
 - EC2InstanceTypeInvalidException
+- EC2InstanceUnavailableException
 - InvalidArgsException
 - SerialConsoleAccessDisabledException
 - SerialConsoleSessionLimitExceededException
