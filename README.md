@@ -3227,6 +3227,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- UnprocessableEntityException
 - ValidationException
 
 ### managedblockchain
