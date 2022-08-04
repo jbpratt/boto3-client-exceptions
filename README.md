@@ -1466,6 +1466,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateProviderException
 - EnableSoftwareTokenMFAException
 - ExpiredCodeException
+- ForbiddenException
 - GroupExistsException
 - InternalErrorException
 - InvalidEmailRoleAccessPolicyException
