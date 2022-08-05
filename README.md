@@ -698,9 +698,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ForbiddenException
 - LimitExceededException
 - NotFoundException
+- ResourceNotFoundException
 - ServiceFailureException
 - ServiceUnavailableException
 - ThrottlingException
+- TooManyTagsException
 - UnauthorizedException
 - UnprocessableEntityException
 
