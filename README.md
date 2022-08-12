@@ -41,6 +41,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [autoscaling-plans](#autoscaling-plans)
 - [backup](#backup)
 - [backup-gateway](#backup-gateway)
+- [backupstorage](#backupstorage)
 - [batch](#batch)
 - [billingconductor](#billingconductor)
 - [braket](#braket)
@@ -240,6 +241,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pinpoint-sms-voice-v2](#pinpoint-sms-voice-v2)
 - [polly](#polly)
 - [pricing](#pricing)
+- [privatenetworks](#privatenetworks)
 - [proton](#proton)
 - [qldb](#qldb)
 - [qldb-session](#qldb-session)
@@ -609,6 +611,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ValidationException
+
+### backupstorage
+- AccessDeniedException
+- DataAlreadyExistsException
+- IllegalArgumentException
+- KMSInvalidKeyUsageException
+- NotReadableInputStreamException
+- ResourceNotFoundException
+- RetryableException
+- ServiceInternalException
+- ServiceUnavailableException
+- ThrottlingException
 
 ### batch
 - ClientException
@@ -3768,6 +3782,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - InvalidParameterException
 - NotFoundException
+
+### privatenetworks
+- AccessDeniedException
+- InternalServerException
+- LimitExceededException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### proton
 - AccessDeniedException
