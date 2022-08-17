@@ -4153,8 +4153,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidImageFormatException
 - InvalidPaginationTokenException
 - InvalidParameterException
+- InvalidPolicyRevisionIdException
 - InvalidS3ObjectException
 - LimitExceededException
+- MalformedPolicyDocumentException
 - ProvisionedThroughputExceededException
 - ResourceAlreadyExistsException
 - ResourceInUseException
