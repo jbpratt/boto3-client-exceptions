@@ -1943,6 +1943,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - GlobalTableAlreadyExistsException
 - GlobalTableNotFoundException
 - IdempotentParameterMismatchException
+- ImportConflictException
+- ImportNotFoundException
 - IndexNotFoundException
 - InternalServerError
 - InvalidExportTimeException
