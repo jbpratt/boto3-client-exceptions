@@ -304,6 +304,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [storagegateway](#storagegateway)
 - [sts](#sts)
 - [support](#support)
+- [support-app](#support-app)
 - [swf](#swf)
 - [synthetics](#synthetics)
 - [textract](#textract)
@@ -4923,6 +4924,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CaseIdNotFound
 - DescribeAttachmentLimitExceeded
 - InternalServerError
+
+### support-app
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ValidationException
 
 ### swf
 - DefaultUndefinedFault
