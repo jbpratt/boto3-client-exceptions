@@ -847,10 +847,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - FunctionSizeLimitExceeded
 - IllegalDelete
 - IllegalFieldLevelEncryptionConfigAssociationWithCacheBehavior
+- IllegalOriginAccessConfiguration
 - IllegalUpdate
 - InconsistentQuantities
 - InvalidArgument
 - InvalidDefaultRootObject
+- InvalidDomainNameForOriginAccessControl
 - InvalidErrorCode
 - InvalidForwardCookies
 - InvalidFunctionAssociation
@@ -861,6 +863,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidLocationCode
 - InvalidMinimumProtocolVersion
 - InvalidOrigin
+- InvalidOriginAccessControl
 - InvalidOriginAccessIdentity
 - InvalidOriginKeepaliveTimeout
 - InvalidOriginReadTimeout
@@ -875,6 +878,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidWebACLId
 - KeyGroupAlreadyExists
 - MissingBody
+- MonitoringSubscriptionAlreadyExists
 - NoSuchCachePolicy
 - NoSuchCloudFrontOriginAccessIdentity
 - NoSuchDistribution
@@ -882,13 +886,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NoSuchFieldLevelEncryptionProfile
 - NoSuchFunctionExists
 - NoSuchInvalidation
+- NoSuchMonitoringSubscription
 - NoSuchOrigin
+- NoSuchOriginAccessControl
 - NoSuchOriginRequestPolicy
 - NoSuchPublicKey
 - NoSuchRealtimeLogConfig
 - NoSuchResource
 - NoSuchResponseHeadersPolicy
 - NoSuchStreamingDistribution
+- OriginAccessControlAlreadyExists
+- OriginAccessControlInUse
 - OriginRequestPolicyAlreadyExists
 - OriginRequestPolicyInUse
 - PreconditionFailed
@@ -918,6 +926,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyDistributionsAssociatedToCachePolicy
 - TooManyDistributionsAssociatedToFieldLevelEncryptionConfig
 - TooManyDistributionsAssociatedToKeyGroup
+- TooManyDistributionsAssociatedToOriginAccessControl
 - TooManyDistributionsAssociatedToOriginRequestPolicy
 - TooManyDistributionsAssociatedToResponseHeadersPolicy
 - TooManyDistributionsWithFunctionAssociations
@@ -938,6 +947,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyKeyGroups
 - TooManyKeyGroupsAssociatedToDistribution
 - TooManyLambdaFunctionAssociations
+- TooManyOriginAccessControls
 - TooManyOriginCustomHeaders
 - TooManyOriginGroupsPerDistribution
 - TooManyOriginRequestPolicies
