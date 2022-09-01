@@ -2638,8 +2638,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### identitystore
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
