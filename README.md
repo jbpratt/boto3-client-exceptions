@@ -4796,6 +4796,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidResultAttributeException
 - InvalidRole
 - InvalidSchedule
+- InvalidTag
 - InvalidTarget
 - InvalidTargetMaps
 - InvalidTypeNameException
