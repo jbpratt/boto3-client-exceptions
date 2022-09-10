@@ -995,6 +995,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SearchException
 
 ### cloudtrail
+- ChannelARNInvalidException
+- ChannelNotFoundException
 - CloudTrailARNInvalidException
 - CloudTrailAccessNotEnabledException
 - CloudTrailInvalidClientTokenIdException
