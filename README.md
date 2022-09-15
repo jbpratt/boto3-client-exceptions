@@ -429,6 +429,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceConflictException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- UnauthorizedException
 
 ### apigateway
 - BadRequestException
