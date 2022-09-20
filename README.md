@@ -996,6 +996,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SearchException
 
 ### cloudtrail
+- AccountHasOngoingImportException
 - ChannelARNInvalidException
 - ChannelNotFoundException
 - CloudTrailARNInvalidException
@@ -1005,9 +1006,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - EventDataStoreARNInvalidException
 - EventDataStoreAlreadyExistsException
+- EventDataStoreHasOngoingImportException
 - EventDataStoreMaxLimitExceededException
 - EventDataStoreNotFoundException
 - EventDataStoreTerminationProtectedException
+- ImportNotFoundException
 - InactiveEventDataStoreException
 - InactiveQueryException
 - InsightNotEnabledException
@@ -1019,9 +1022,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidCloudWatchLogsRoleArnException
 - InvalidDateRangeException
 - InvalidEventCategoryException
+- InvalidEventDataStoreCategoryException
 - InvalidEventDataStoreStatusException
 - InvalidEventSelectorsException
 - InvalidHomeRegionException
+- InvalidImportSourceException
 - InvalidInsightSelectorsException
 - InvalidKmsKeyIdException
 - InvalidLookupAttributesException
