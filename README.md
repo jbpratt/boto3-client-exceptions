@@ -613,6 +613,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ThrottlingException
 - ValidationException
 
 ### backupstorage
