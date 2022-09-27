@@ -162,6 +162,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iotevents](#iotevents)
 - [iotevents-data](#iotevents-data)
 - [iotfleethub](#iotfleethub)
+- [iotfleetwise](#iotfleetwise)
 - [iotsecuretunneling](#iotsecuretunneling)
 - [iotsitewise](#iotsitewise)
 - [iotthingsgraph](#iotthingsgraph)
@@ -2838,6 +2839,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - ResourceNotFoundException
 - ThrottlingException
+
+### iotfleetwise
+- AccessDeniedException
+- ConflictException
+- DecoderManifestValidationException
+- InternalServerException
+- InvalidNodeException
+- InvalidSignalsException
+- LimitExceededException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### iotsecuretunneling
 - LimitExceededException
