@@ -218,6 +218,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mgn](#mgn)
 - [migration-hub-refactor-spaces](#migration-hub-refactor-spaces)
 - [migrationhub-config](#migrationhub-config)
+- [migrationhuborchestrator](#migrationhuborchestrator)
 - [migrationhubstrategy](#migrationhubstrategy)
 - [mobile](#mobile)
 - [mq](#mq)
@@ -2458,6 +2459,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DataRepositoryTaskEnded
 - DataRepositoryTaskExecuting
 - DataRepositoryTaskNotFound
+- FileCacheNotFound
 - FileSystemNotFound
 - IncompatibleParameterError
 - IncompatibleRegionForMultiAZ
@@ -2470,6 +2472,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidPerUnitStorageThroughput
 - InvalidRegion
 - InvalidSourceKmsKey
+- MissingFileCacheConfiguration
 - MissingFileSystemConfiguration
 - MissingVolumeConfiguration
 - NotServiceResourceError
@@ -3507,6 +3510,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidInputException
 - ServiceUnavailableException
 - ThrottlingException
+
+### migrationhuborchestrator
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### migrationhubstrategy
 - AccessDeniedException
@@ -5071,6 +5081,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - TextSizeLimitExceededException
 - TooManyRequestsException
+- TooManyTagsException
 - UnsupportedDisplayLanguageCodeException
 - UnsupportedLanguagePairException
 
