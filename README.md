@@ -83,6 +83,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connect](#connect)
 - [connect-contact-lens](#connect-contact-lens)
 - [connectcampaigns](#connectcampaigns)
+- [connectcases](#connectcases)
 - [connectparticipant](#connectparticipant)
 - [controltower](#controltower)
 - [cur](#cur)
@@ -1684,6 +1685,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - InvalidCampaignStateException
 - InvalidStateException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### connectcases
+- AccessDeniedException
+- ConflictException
+- InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
