@@ -1947,6 +1947,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DirectoryAlreadyInRegionException
 - DirectoryAlreadySharedException
 - DirectoryDoesNotExistException
+- DirectoryInDesiredStateException
 - DirectoryLimitExceededException
 - DirectoryNotSharedException
 - DirectoryUnavailableException
