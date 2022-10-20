@@ -1668,6 +1668,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceConflictException
 - ResourceInUseException
 - ResourceNotFoundException
+- ResourceNotReadyException
 - ServiceQuotaExceededException
 - ThrottlingException
 - UserNotFoundException
