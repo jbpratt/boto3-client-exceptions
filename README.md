@@ -2552,6 +2552,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidPortRangeException
 - LimitExceededException
 - ListenerNotFoundException
+- TransactionInProgressException
 
 ### glue
 - AccessDeniedException
