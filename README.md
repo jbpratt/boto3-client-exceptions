@@ -3257,6 +3257,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ServiceUnavailableException
+- TooManyTagsException
 - UnrecognizedClientException
 
 ### lookoutequipment
@@ -4637,6 +4638,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadRequestException
 - ConcurrentModificationException
 - ConflictException
+- InternalServiceErrorException
 - InvalidNextTokenException
 - LimitExceededException
 - MailFromDomainNotVerifiedException
