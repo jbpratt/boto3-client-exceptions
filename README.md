@@ -1001,6 +1001,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### cloudtrail
 - AccountHasOngoingImportException
+- AccountNotFoundException
+- AccountNotRegisteredException
+- AccountRegisteredException
+- CannotDelegateManagementAccountException
 - ChannelARNInvalidException
 - ChannelNotFoundException
 - CloudTrailARNInvalidException
@@ -1008,6 +1012,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CloudTrailInvalidClientTokenIdException
 - CloudWatchLogsDeliveryUnavailableException
 - ConflictException
+- DelegatedAdminAccountLimitExceededException
 - EventDataStoreARNInvalidException
 - EventDataStoreAlreadyExistsException
 - EventDataStoreHasOngoingImportException
@@ -1052,6 +1057,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - KmsKeyNotFoundException
 - MaxConcurrentQueriesException
 - MaximumNumberOfTrailsExceededException
+- NoManagementAccountSLRExistsException
+- NotOrganizationManagementAccountException
 - NotOrganizationMasterAccountException
 - OperationNotPermittedException
 - OrganizationNotInAllFeaturesModeException
