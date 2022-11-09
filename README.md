@@ -259,6 +259,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [redshift-serverless](#redshift-serverless)
 - [rekognition](#rekognition)
 - [resiliencehub](#resiliencehub)
+- [resource-explorer-2](#resource-explorer-2)
 - [resource-groups](#resource-groups)
 - [resourcegroupstaggingapi](#resourcegroupstaggingapi)
 - [robomaker](#robomaker)
@@ -4251,6 +4252,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### resource-explorer-2
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- UnauthorizedException
 - ValidationException
 
 ### resource-groups
