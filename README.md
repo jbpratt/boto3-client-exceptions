@@ -280,6 +280,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sagemaker-featurestore-runtime](#sagemaker-featurestore-runtime)
 - [sagemaker-runtime](#sagemaker-runtime)
 - [savingsplans](#savingsplans)
+- [scheduler](#scheduler)
 - [schemas](#schemas)
 - [sdb](#sdb)
 - [secretsmanager](#secretsmanager)
@@ -4498,6 +4499,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ValidationException
+
+### scheduler
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### schemas
