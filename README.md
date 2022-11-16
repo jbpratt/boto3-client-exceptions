@@ -303,6 +303,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [ssm](#ssm)
 - [ssm-contacts](#ssm-contacts)
 - [ssm-incidents](#ssm-incidents)
+- [ssmsap](#ssmsap)
 - [sso](#sso)
 - [sso-admin](#sso-admin)
 - [sso-oidc](#sso-oidc)
@@ -4939,6 +4940,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### ssmsap
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
 - ValidationException
 
 ### sso
