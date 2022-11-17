@@ -2909,6 +2909,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConnectorFailureException
 - ConnectorTimeoutException
 - InternalServerException
+- QueryTimeoutException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
@@ -4880,6 +4881,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ItemContentMismatchException
 - ItemSizeLimitExceededException
 - MaxDocumentSizeExceeded
+- OpsItemAccessDeniedException
 - OpsItemAlreadyExistsException
 - OpsItemInvalidParameterException
 - OpsItemLimitExceededException
@@ -4907,6 +4909,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceDataSyncNotFoundException
 - ResourceInUseException
 - ResourceLimitExceededException
+- ResourcePolicyConflictException
+- ResourcePolicyInvalidParameterException
+- ResourcePolicyLimitExceededException
 - ServiceSettingNotFound
 - StatusUnchanged
 - SubTypeCountLimitExceededException
@@ -5316,7 +5321,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### xray
+- InvalidPolicyRevisionIdException
 - InvalidRequestException
+- LockoutPreventionException
+- MalformedPolicyDocumentException
+- PolicyCountLimitExceededException
+- PolicySizeLimitExceededException
 - ResourceNotFoundException
 - RuleLimitExceededException
 - ThrottledException
