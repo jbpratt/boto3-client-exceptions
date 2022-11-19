@@ -52,6 +52,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [chime-sdk-media-pipelines](#chime-sdk-media-pipelines)
 - [chime-sdk-meetings](#chime-sdk-meetings)
 - [chime-sdk-messaging](#chime-sdk-messaging)
+- [chime-sdk-voice](#chime-sdk-voice)
 - [cloud9](#cloud9)
 - [cloudcontrol](#cloudcontrol)
 - [clouddirectory](#clouddirectory)
@@ -156,6 +157,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iot](#iot)
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
+- [iot-roborunner](#iot-roborunner)
 - [iot1click-devices](#iot1click-devices)
 - [iot1click-projects](#iot1click-projects)
 - [iotanalytics](#iotanalytics)
@@ -303,7 +305,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [ssm](#ssm)
 - [ssm-contacts](#ssm-contacts)
 - [ssm-incidents](#ssm-incidents)
-- [ssmsap](#ssmsap)
+- [ssm-sap](#ssm-sap)
 - [sso](#sso)
 - [sso-admin](#sso-admin)
 - [sso-oidc](#sso-oidc)
@@ -741,6 +743,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottledClientException
 - UnauthorizedClientException
 
+### chime-sdk-voice
+- AccessDeniedException
+- BadRequestException
+- ConflictException
+- ForbiddenException
+- NotFoundException
+- ResourceLimitExceededException
+- ServiceFailureException
+- ServiceUnavailableException
+- ThrottledClientException
+- UnauthorizedClientException
+
 ### cloud9
 - BadRequestException
 - ConcurrentAccessException
@@ -918,6 +932,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUse
 - ResponseHeadersPolicyAlreadyExists
 - ResponseHeadersPolicyInUse
+- StagingDistributionInUse
 - StreamingDistributionAlreadyExists
 - StreamingDistributionNotDisabled
 - TestFunctionFailed
@@ -2809,6 +2824,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TerminalStateException
 - ThrottlingException
 
+### iot-roborunner
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### iot1click-devices
 - ForbiddenException
 - InternalFailureException
@@ -3907,6 +3931,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalFailureException
 - InvalidNextTokenException
 - InvalidParameterValueException
+- InvalidRequestException
 - LimitExceededException
 - PreconditionNotMetException
 - QuickSightUserNotFoundException
@@ -4947,7 +4972,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
-### ssmsap
+### ssm-sap
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
