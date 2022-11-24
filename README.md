@@ -3968,6 +3968,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnknownResourceException
 
 ### rbin
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
