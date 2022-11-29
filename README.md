@@ -231,6 +231,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
 - [nimble](#nimble)
+- [oam](#oam)
 - [opensearch](#opensearch)
 - [opsworks](#opsworks)
 - [opsworkscm](#opsworkscm)
@@ -2138,6 +2139,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidParameterException
 - LimitExceededException
 - MissingVersionException
+- NamespaceNotFoundException
 - NoUpdateAvailableException
 - PlatformTaskDefinitionIncompatibilityException
 - PlatformUnknownException
@@ -3707,6 +3709,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### oam
+- ConflictException
+- InternalServiceFault
+- InvalidParameterException
+- MissingRequiredParameterException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- TooManyTagsException
+- ValidationException
+
 ### opensearch
 - AccessDeniedException
 - BaseException
@@ -3773,6 +3785,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyTypeAlreadyEnabledException
 - PolicyTypeNotAvailableForOrganizationException
 - PolicyTypeNotEnabledException
+- ResourcePolicyNotFoundException
 - RootNotFoundException
 - ServiceException
 - SourceParentNotFoundException
@@ -3979,6 +3992,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AuthorizationNotFound
 - AuthorizationQuotaExceeded
 - BackupPolicyNotFoundFault
+- BlueGreenDeploymentAlreadyExistsFault
+- BlueGreenDeploymentNotFoundFault
 - CertificateNotFound
 - CustomAvailabilityZoneNotFound
 - CustomDBEngineVersionAlreadyExistsFault
@@ -4044,6 +4059,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InsufficientDBClusterCapacityFault
 - InsufficientDBInstanceCapacity
 - InsufficientStorageClusterCapacity
+- InvalidBlueGreenDeploymentStateFault
 - InvalidCustomDBEngineVersionStateFault
 - InvalidDBClusterCapacityFault
 - InvalidDBClusterEndpointStateFault
@@ -4086,6 +4102,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SNSTopicArnNotFound
 - SharedSnapshotQuotaExceeded
 - SnapshotQuotaExceeded
+- SourceClusterNotSupportedFault
+- SourceDatabaseNotSupportedFault
 - SourceNotFound
 - StorageQuotaExceeded
 - StorageTypeNotSupported
