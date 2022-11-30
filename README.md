@@ -35,6 +35,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [apprunner](#apprunner)
 - [appstream](#appstream)
 - [appsync](#appsync)
+- [arc-zonal-shift](#arc-zonal-shift)
 - [athena](#athena)
 - [auditmanager](#auditmanager)
 - [autoscaling](#autoscaling)
@@ -232,7 +233,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [networkmanager](#networkmanager)
 - [nimble](#nimble)
 - [oam](#oam)
+- [omics](#omics)
 - [opensearch](#opensearch)
+- [opensearchserverless](#opensearchserverless)
 - [opsworks](#opsworks)
 - [opsworkscm](#opsworkscm)
 - [organizations](#organizations)
@@ -288,6 +291,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sdb](#sdb)
 - [secretsmanager](#secretsmanager)
 - [securityhub](#securityhub)
+- [securitylake](#securitylake)
 - [serverlessrepo](#serverlessrepo)
 - [service-quotas](#service-quotas)
 - [servicecatalog](#servicecatalog)
@@ -297,6 +301,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sesv2](#sesv2)
 - [shield](#shield)
 - [signer](#signer)
+- [simspaceweaver](#simspaceweaver)
 - [sms](#sms)
 - [sms-voice](#sms-voice)
 - [snow-device-management](#snow-device-management)
@@ -570,6 +575,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - NotFoundException
 - UnauthorizedException
+
+### arc-zonal-shift
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### athena
 - InternalServerException
@@ -1623,6 +1636,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### config
 - ConformancePackTemplateValidationException
+- IdempotentParameterMismatch
 - InsufficientDeliveryPolicyException
 - InsufficientPermissionsException
 - InvalidConfigurationRecorderNameException
@@ -3138,6 +3152,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - TagException
 - UnsupportedOperationException
+- XksKeyAlreadyInUseException
+- XksKeyInvalidConfigurationException
+- XksKeyNotFoundException
+- XksProxyIncorrectAuthenticationCredentialException
+- XksProxyInvalidConfigurationException
+- XksProxyInvalidResponseException
+- XksProxyUriEndpointInUseException
+- XksProxyUriInUseException
+- XksProxyUriUnreachableException
+- XksProxyVpcEndpointServiceInUseException
+- XksProxyVpcEndpointServiceInvalidConfigurationException
+- XksProxyVpcEndpointServiceNotFoundException
 
 ### lakeformation
 - AccessDeniedException
@@ -3191,6 +3217,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ResourceNotReadyException
 - ServiceException
+- SnapStartException
+- SnapStartNotReadyException
+- SnapStartTimeoutException
 - SubnetIPAddressLimitReachedException
 - TooManyRequestsException
 - UnsupportedMediaTypeException
@@ -3719,6 +3748,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTagsException
 - ValidationException
 
+### omics
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- RangeNotSatisfiableException
+- RequestTimeoutException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### opensearch
 - AccessDeniedException
 - BaseException
@@ -3729,6 +3769,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidTypeException
 - LimitExceededException
 - ResourceAlreadyExistsException
+- ResourceNotFoundException
+- ValidationException
+
+### opensearchserverless
+- ConflictException
+- InternalServerException
 - ResourceNotFoundException
 - ValidationException
 
@@ -4609,6 +4655,23 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceConflictException
 - ResourceNotFoundException
 
+### securitylake
+- AccessDeniedException
+- AccountNotFoundException
+- BucketNotFoundException
+- ConcurrentModificationException
+- ConflictException
+- ConflictSourceNamesException
+- ConflictSubscriptionException
+- EventBridgeException
+- InternalServerException
+- InvalidInputException
+- ResourceNotFoundException
+- S3Exception
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### serverlessrepo
 - BadRequestException
 - ConflictException
@@ -4745,6 +4808,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceLimitExceededException
 - ThrottlingException
 - TooManyRequestsException
+- ValidationException
+
+### simspaceweaver
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- TooManyTagsException
 - ValidationException
 
 ### sms
