@@ -103,6 +103,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [dlm](#dlm)
 - [dms](#dms)
 - [docdb](#docdb)
+- [docdb-elastic](#docdb-elastic)
 - [drs](#drs)
 - [ds](#ds)
 - [dynamodb](#dynamodb)
@@ -284,6 +285,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sagemaker-a2i-runtime](#sagemaker-a2i-runtime)
 - [sagemaker-edge](#sagemaker-edge)
 - [sagemaker-featurestore-runtime](#sagemaker-featurestore-runtime)
+- [sagemaker-geospatial](#sagemaker-geospatial)
 - [sagemaker-runtime](#sagemaker-runtime)
 - [savingsplans](#savingsplans)
 - [scheduler](#scheduler)
@@ -589,6 +591,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - MetadataException
 - ResourceNotFoundException
+- SessionAlreadyExistsException
 - TooManyRequestsException
 
 ### auditmanager
@@ -1966,6 +1969,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionAlreadyExist
 - SubscriptionCategoryNotFound
 - SubscriptionNotFound
+
+### docdb-elastic
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### drs
 - AccessDeniedException
@@ -4578,6 +4590,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFound
 - ServiceUnavailable
 - ValidationError
+
+### sagemaker-geospatial
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### sagemaker-runtime
 - InternalDependencyException
