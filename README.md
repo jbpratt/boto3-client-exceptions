@@ -67,6 +67,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [cloudwatch](#cloudwatch)
 - [codeartifact](#codeartifact)
 - [codebuild](#codebuild)
+- [codecatalyst](#codecatalyst)
 - [codecommit](#codecommit)
 - [codedeploy](#codedeploy)
 - [codeguru-reviewer](#codeguru-reviewer)
@@ -250,6 +251,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pinpoint-email](#pinpoint-email)
 - [pinpoint-sms-voice](#pinpoint-sms-voice)
 - [pinpoint-sms-voice-v2](#pinpoint-sms-voice-v2)
+- [pipes](#pipes)
 - [polly](#polly)
 - [pricing](#pricing)
 - [privatenetworks](#privatenetworks)
@@ -1137,6 +1139,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OAuthProviderException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
+
+### codecatalyst
+- AccessDeniedException
+- ConflictException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### codecommit
 - ActorDoesNotExistException
@@ -3930,6 +3940,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### pipes
+- ConflictException
+- InternalException
+- NotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### polly
 - EngineNotSupportedException
 - InvalidLexiconException
@@ -5144,6 +5162,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TaskDoesNotExist
 - TaskTimedOut
 - TooManyTags
+- ValidationException
 
 ### storagegateway
 - InternalServerError
