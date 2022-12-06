@@ -694,6 +694,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### ce
 - BillExpirationException
 - DataUnavailableException
+- GenerationExistsException
 - InvalidNextTokenException
 - LimitExceededException
 - RequestChangedException
