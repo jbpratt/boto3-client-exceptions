@@ -878,6 +878,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CannotChangeImmutablePublicKeyFields
 - CloudFrontOriginAccessIdentityAlreadyExists
 - CloudFrontOriginAccessIdentityInUse
+- ContinuousDeploymentPolicyAlreadyExists
+- ContinuousDeploymentPolicyInUse
 - DistributionAlreadyExists
 - DistributionNotDisabled
 - FieldLevelEncryptionConfigAlreadyExists
@@ -924,6 +926,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MonitoringSubscriptionAlreadyExists
 - NoSuchCachePolicy
 - NoSuchCloudFrontOriginAccessIdentity
+- NoSuchContinuousDeploymentPolicy
 - NoSuchDistribution
 - NoSuchFieldLevelEncryptionConfig
 - NoSuchFieldLevelEncryptionProfile
@@ -961,6 +964,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyCachePolicies
 - TooManyCertificates
 - TooManyCloudFrontOriginAccessIdentities
+- TooManyContinuousDeploymentPolicies
 - TooManyCookieNamesInWhiteList
 - TooManyCookiesInCachePolicy
 - TooManyCookiesInOriginRequestPolicy
