@@ -3628,6 +3628,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### migrationhubstrategy
 - AccessDeniedException
 - ConflictException
+- DependencyException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceLinkedRoleLockClientException
