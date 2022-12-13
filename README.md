@@ -288,6 +288,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sagemaker-edge](#sagemaker-edge)
 - [sagemaker-featurestore-runtime](#sagemaker-featurestore-runtime)
 - [sagemaker-geospatial](#sagemaker-geospatial)
+- [sagemaker-metrics](#sagemaker-metrics)
 - [sagemaker-runtime](#sagemaker-runtime)
 - [savingsplans](#savingsplans)
 - [scheduler](#scheduler)
@@ -3141,6 +3142,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotAuthorizedException
 - ResourceInUseException
 - ResourceNotFoundException
+- StreamEdgeConfigurationNotFoundException
 - TagsPerResourceExceededLimitException
 - VersionMismatchException
 
@@ -4623,6 +4625,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
+
+### sagemaker-metrics
 
 ### sagemaker-runtime
 - InternalDependencyException
