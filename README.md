@@ -3057,6 +3057,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### kinesis
+- AccessDeniedException
 - ExpiredIteratorException
 - ExpiredNextTokenException
 - InternalFailureException
