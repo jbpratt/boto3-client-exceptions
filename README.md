@@ -184,6 +184,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [kinesis-video-archived-media](#kinesis-video-archived-media)
 - [kinesis-video-media](#kinesis-video-media)
 - [kinesis-video-signaling](#kinesis-video-signaling)
+- [kinesis-video-webrtc-storage](#kinesis-video-webrtc-storage)
 - [kinesisanalytics](#kinesisanalytics)
 - [kinesisanalyticsv2](#kinesisanalyticsv2)
 - [kinesisvideo](#kinesisvideo)
@@ -3100,6 +3101,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotAuthorizedException
 - ResourceNotFoundException
 - SessionExpiredException
+
+### kinesis-video-webrtc-storage
+- AccessDeniedException
+- ClientLimitExceededException
+- InvalidArgumentException
+- ResourceNotFoundException
 
 ### kinesisanalytics
 - CodeValidationException
