@@ -4536,6 +4536,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### route53domains
+- DnssecLimitExceeded
 - DomainLimitExceeded
 - DuplicateRequest
 - InvalidInput
