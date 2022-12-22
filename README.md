@@ -196,6 +196,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [lexv2-models](#lexv2-models)
 - [lexv2-runtime](#lexv2-runtime)
 - [license-manager](#license-manager)
+- [license-manager-linux-subscriptions](#license-manager-linux-subscriptions)
 - [license-manager-user-subscriptions](#license-manager-user-subscriptions)
 - [lightsail](#lightsail)
 - [location](#location)
@@ -3320,6 +3321,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServerInternalException
 - UnsupportedDigitalSignatureMethodException
+- ValidationException
+
+### license-manager-linux-subscriptions
+- InternalServerException
+- ThrottlingException
 - ValidationException
 
 ### license-manager-user-subscriptions
