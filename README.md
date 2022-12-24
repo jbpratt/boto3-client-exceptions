@@ -1849,6 +1849,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TagQuotaPerResourceExceeded
 
 ### detective
+- AccessDeniedException
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
