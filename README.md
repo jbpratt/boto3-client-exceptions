@@ -3555,6 +3555,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ParameterGroupAlreadyExistsFault
 - ParameterGroupNotFoundFault
 - ParameterGroupQuotaExceededFault
+- ReservedNodeAlreadyExistsFault
+- ReservedNodeNotFoundFault
+- ReservedNodeQuotaExceededFault
+- ReservedNodesOfferingNotFoundFault
 - ServiceLinkedRoleNotFoundFault
 - ServiceUpdateNotFoundFault
 - ShardNotFoundFault
