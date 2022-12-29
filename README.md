@@ -4149,6 +4149,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DBSubnetQuotaExceededFault
 - DBUpgradeDependencyFailure
 - DomainNotFoundFault
+- Ec2ImagePropertiesNotSupportedFault
 - EventSubscriptionQuotaExceeded
 - ExportTaskAlreadyExists
 - ExportTaskNotFound
