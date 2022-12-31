@@ -1009,6 +1009,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyQueryStringsInCachePolicy
 - TooManyQueryStringsInOriginRequestPolicy
 - TooManyRealtimeLogConfigs
+- TooManyRemoveHeadersInResponseHeadersPolicy
 - TooManyResponseHeadersPolicies
 - TooManyStreamingDistributionCNAMEs
 - TooManyStreamingDistributions
