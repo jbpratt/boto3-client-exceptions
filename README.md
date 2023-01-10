@@ -179,6 +179,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [kafka](#kafka)
 - [kafkaconnect](#kafkaconnect)
 - [kendra](#kendra)
+- [kendra-ranking](#kendra-ranking)
 - [keyspaces](#keyspaces)
 - [kinesis](#kinesis)
 - [kinesis-video-archived-media](#kinesis-video-archived-media)
@@ -2165,6 +2166,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ReferencedImagesNotFoundException
 - RegistryNotFoundException
 - RepositoryAlreadyExistsException
+- RepositoryCatalogDataNotFoundException
 - RepositoryNotEmptyException
 - RepositoryNotFoundException
 - RepositoryPolicyNotFoundException
@@ -3046,6 +3048,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - ResourceAlreadyExistException
 - ResourceInUseException
+- ResourceNotFoundException
+- ResourceUnavailableException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### kendra-ranking
+- AccessDeniedException
+- ConflictException
+- InternalServerException
 - ResourceNotFoundException
 - ResourceUnavailableException
 - ServiceQuotaExceededException
