@@ -54,6 +54,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [chime-sdk-meetings](#chime-sdk-meetings)
 - [chime-sdk-messaging](#chime-sdk-messaging)
 - [chime-sdk-voice](#chime-sdk-voice)
+- [cleanrooms](#cleanrooms)
 - [cloud9](#cloud9)
 - [cloudcontrol](#cloudcontrol)
 - [clouddirectory](#clouddirectory)
@@ -778,6 +779,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - ThrottledClientException
 - UnauthorizedClientException
+
+### cleanrooms
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### cloud9
 - BadRequestException
