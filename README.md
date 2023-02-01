@@ -65,6 +65,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [cloudsearch](#cloudsearch)
 - [cloudsearchdomain](#cloudsearchdomain)
 - [cloudtrail](#cloudtrail)
+- [cloudtrail-data](#cloudtrail-data)
 - [cloudwatch](#cloudwatch)
 - [codeartifact](#codeartifact)
 - [codebuild](#codebuild)
@@ -1063,6 +1064,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccountRegisteredException
 - CannotDelegateManagementAccountException
 - ChannelARNInvalidException
+- ChannelAlreadyExistsException
+- ChannelExistsForEDSException
+- ChannelMaxLimitExceededException
 - ChannelNotFoundException
 - CloudTrailARNInvalidException
 - CloudTrailAccessNotEnabledException
@@ -1105,6 +1109,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidS3BucketNameException
 - InvalidS3PrefixException
 - InvalidSnsTopicNameException
+- InvalidSourceException
 - InvalidTagParameterException
 - InvalidTimeRangeException
 - InvalidTokenException
@@ -1121,13 +1126,24 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OrganizationNotInAllFeaturesModeException
 - OrganizationsNotInUseException
 - QueryIdNotFoundException
+- ResourceARNNotValidException
 - ResourceNotFoundException
+- ResourcePolicyNotFoundException
+- ResourcePolicyNotValidException
 - ResourceTypeNotSupportedException
 - S3BucketDoesNotExistException
 - TagsLimitExceededException
 - TrailAlreadyExistsException
 - TrailNotFoundException
 - TrailNotProvidedException
+- UnsupportedOperationException
+
+### cloudtrail-data
+- ChannelInsufficientPermission
+- ChannelNotFound
+- ChannelUnsupportedSchema
+- DuplicatedAuditEventId
+- InvalidChannelARN
 - UnsupportedOperationException
 
 ### cloudwatch
