@@ -615,6 +615,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AlreadyExists
 - InstanceRefreshInProgress
 - InvalidNextToken
+- IrreversibleInstanceRefresh
 - LimitExceeded
 - ResourceContention
 - ResourceInUse
