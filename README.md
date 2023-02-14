@@ -362,6 +362,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### account
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - TooManyRequestsException
