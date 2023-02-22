@@ -335,6 +335,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [textract](#textract)
 - [timestream-query](#timestream-query)
 - [timestream-write](#timestream-write)
+- [tnb](#tnb)
 - [transcribe](#transcribe)
 - [transfer](#transfer)
 - [translate](#translate)
@@ -5327,6 +5328,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - InvalidEndpointException
 - RejectedRecordsException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### tnb
+- AccessDeniedException
+- InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
