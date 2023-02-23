@@ -3861,6 +3861,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
+- SlotNotAvailableException
 - ValidationException
 
 ### opensearchserverless
