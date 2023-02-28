@@ -159,6 +159,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [importexport](#importexport)
 - [inspector](#inspector)
 - [inspector2](#inspector2)
+- [internetmonitor](#internetmonitor)
 - [iot](#iot)
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
@@ -2847,6 +2848,19 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### internetmonitor
+- AccessDeniedException
+- BadRequestException
+- ConflictException
+- InternalServerErrorException
+- InternalServerException
+- LimitExceededException
+- NotFoundException
+- ResourceNotFoundException
+- ThrottlingException
+- TooManyRequestsException
 - ValidationException
 
 ### iot
