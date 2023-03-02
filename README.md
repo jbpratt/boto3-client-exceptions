@@ -4056,6 +4056,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedPlsLanguageException
 
 ### pricing
+- AccessDeniedException
 - ExpiredNextTokenException
 - InternalErrorException
 - InvalidNextTokenException
@@ -4669,6 +4670,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ThrottlingException
 - ValidationException
 
 ### sagemaker
