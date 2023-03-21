@@ -522,6 +522,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - LimitExceededException
 - ObjectNotFoundException
+- ResourceNotFoundException
+- TooManyTagsException
 - ValidationException
 
 ### application-insights
@@ -4669,6 +4671,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- OutpostOfflineException
 - ResourceNotFoundException
 - ThrottlingException
 - ValidationException
