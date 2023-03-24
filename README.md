@@ -178,6 +178,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iottwinmaker](#iottwinmaker)
 - [iotwireless](#iotwireless)
 - [ivs](#ivs)
+- [ivs-realtime](#ivs-realtime)
 - [ivschat](#ivschat)
 - [kafka](#kafka)
 - [kafkaconnect](#kafkaconnect)
@@ -734,6 +735,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadRequestException
 - ConflictException
 - ForbiddenException
+- NotFoundException
 - ResourceLimitExceededException
 - ServiceFailureException
 - ServiceUnavailableException
@@ -742,6 +744,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### chime-sdk-media-pipelines
 - BadRequestException
+- ConflictException
 - ForbiddenException
 - NotFoundException
 - ResourceLimitExceededException
@@ -780,12 +783,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadRequestException
 - ConflictException
 - ForbiddenException
+- GoneException
 - NotFoundException
 - ResourceLimitExceededException
 - ServiceFailureException
 - ServiceUnavailableException
 - ThrottledClientException
 - UnauthorizedClientException
+- UnprocessableEntityException
 
 ### cleanrooms
 - AccessDeniedException
@@ -3054,6 +3059,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - StreamUnavailable
 - ThrottlingException
+- ValidationException
+
+### ivs-realtime
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- PendingVerification
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ValidationException
 
 ### ivschat
