@@ -4172,6 +4172,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BlueGreenDeploymentAlreadyExistsFault
 - BlueGreenDeploymentNotFoundFault
 - CertificateNotFound
+- CreateCustomDBEngineVersionFault
 - CustomAvailabilityZoneNotFound
 - CustomDBEngineVersionAlreadyExistsFault
 - CustomDBEngineVersionNotFoundFault
