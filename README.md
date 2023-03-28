@@ -4861,6 +4861,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### servicediscovery
