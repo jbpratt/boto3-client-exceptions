@@ -3897,7 +3897,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### opensearchserverless
 - ConflictException
 - InternalServerException
+- OcuLimitExceededException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ValidationException
 
 ### opsworks
