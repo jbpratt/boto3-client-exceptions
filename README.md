@@ -342,6 +342,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [transfer](#transfer)
 - [translate](#translate)
 - [voice-id](#voice-id)
+- [vpc-lattice](#vpc-lattice)
 - [waf](#waf)
 - [waf-regional](#waf-regional)
 - [wafv2](#wafv2)
@@ -3103,6 +3104,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### kendra
 - AccessDeniedException
 - ConflictException
+- FeaturedResultsConflictException
 - InternalServerException
 - InvalidRequestException
 - ResourceAlreadyExistException
@@ -5415,6 +5417,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedLanguagePairException
 
 ### voice-id
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### vpc-lattice
 - AccessDeniedException
 - ConflictException
 - InternalServerException
