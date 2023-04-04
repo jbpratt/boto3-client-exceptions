@@ -2678,6 +2678,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CrawlerRunningException
 - CrawlerStoppingException
 - EntityNotFoundException
+- FederatedResourceAlreadyExistsException
+- FederationSourceException
+- FederationSourceRetryableException
 - GlueEncryptionException
 - IdempotentParameterMismatchException
 - IllegalBlueprintStateException
