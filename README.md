@@ -4475,6 +4475,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ResourceNotReadyException
 - ServiceQuotaExceededException
+- SessionNotFoundException
 - ThrottlingException
 - VideoTooLargeException
 
