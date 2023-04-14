@@ -3542,7 +3542,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### mediaconnect
 - AddFlowOutputs420Exception
 - BadRequestException
+- ConflictException
+- CreateBridge420Exception
 - CreateFlow420Exception
+- CreateGateway420Exception
 - ForbiddenException
 - GrantFlowEntitlements420Exception
 - InternalServerErrorException
