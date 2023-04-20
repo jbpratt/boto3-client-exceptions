@@ -4149,11 +4149,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidMaxResultsException
 - InvalidNextTokenException
 - InvalidParameterException
+- InvalidPolicyException
 - InvalidResourceTypeException
 - InvalidStateTransitionException
 - MalformedArnException
+- MalformedPolicyTemplateException
 - MissingRequiredParameterException
 - OperationNotPermittedException
+- PermissionAlreadyExistsException
+- PermissionLimitExceededException
+- PermissionVersionsLimitExceededException
 - ResourceArnNotFoundException
 - ResourceShareInvitationAlreadyAcceptedException
 - ResourceShareInvitationAlreadyRejectedException
@@ -4166,6 +4171,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TagPolicyViolationException
 - ThrottlingException
 - UnknownResourceException
+- UnmatchedPolicyPermissionException
 
 ### rbin
 - ConflictException
