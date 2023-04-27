@@ -248,6 +248,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [opsworks](#opsworks)
 - [opsworkscm](#opsworkscm)
 - [organizations](#organizations)
+- [osis](#osis)
 - [outposts](#outposts)
 - [panorama](#panorama)
 - [personalize](#personalize)
@@ -3970,6 +3971,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TargetNotFoundException
 - TooManyRequestsException
 - UnsupportedAPIEndpointException
+
+### osis
+- AccessDeniedException
+- ConflictException
+- InternalException
+- InvalidPaginationTokenException
+- LimitExceededException
+- ResourceAlreadyExistsException
+- ResourceNotFoundException
+- ValidationException
 
 ### outposts
 - AccessDeniedException
