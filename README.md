@@ -2462,6 +2462,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### emr-containers
 - InternalServerException
+- RequestThrottledException
 - ResourceNotFoundException
 - ValidationException
 
@@ -2733,6 +2734,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### guardduty
 - BadRequestException
+- ConflictException
 - InternalServerErrorException
 
 ### health
