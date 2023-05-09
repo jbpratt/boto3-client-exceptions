@@ -2733,6 +2733,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 
 ### guardduty
+- AccessDeniedException
 - BadRequestException
 - ConflictException
 - InternalServerErrorException
