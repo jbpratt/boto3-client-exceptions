@@ -4316,6 +4316,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SourceDatabaseNotSupportedFault
 - SourceNotFound
 - StorageQuotaExceeded
+- StorageTypeNotAvailableFault
 - StorageTypeNotSupported
 - SubnetAlreadyInUse
 - SubscriptionAlreadyExist
