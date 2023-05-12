@@ -3885,6 +3885,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- NotSupportedOperationException
 - RangeNotSatisfiableException
 - RequestTimeoutException
 - ResourceNotFoundException
@@ -5331,6 +5332,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CaseIdNotFound
 - DescribeAttachmentLimitExceeded
 - InternalServerError
+- ThrottlingException
 
 ### support-app
 - AccessDeniedException
