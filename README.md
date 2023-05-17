@@ -5527,6 +5527,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WAFTagOperationException
 - WAFTagOperationInternalErrorException
 - WAFUnavailableEntityException
+- WAFUnsupportedAggregateKeyTypeException
 
 ### wellarchitected
 - AccessDeniedException
