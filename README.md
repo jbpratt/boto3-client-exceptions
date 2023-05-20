@@ -222,6 +222,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [medialive](#medialive)
 - [mediapackage](#mediapackage)
 - [mediapackage-vod](#mediapackage-vod)
+- [mediapackagev2](#mediapackagev2)
 - [mediastore](#mediastore)
 - [mediastore-data](#mediastore-data)
 - [mediatailor](#mediatailor)
@@ -3591,6 +3592,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - TooManyRequestsException
 - UnprocessableEntityException
+
+### mediapackagev2
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### mediastore
 - ContainerInUseException
