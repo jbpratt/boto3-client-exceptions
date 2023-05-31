@@ -4848,20 +4848,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### securitylake
 - AccessDeniedException
-- AccountNotFoundException
-- BucketNotFoundException
-- ConcurrentModificationException
+- BadRequestException
 - ConflictException
-- ConflictSourceNamesException
-- ConflictSubscriptionException
-- EventBridgeException
 - InternalServerException
-- InvalidInputException
 - ResourceNotFoundException
-- S3Exception
-- ServiceQuotaExceededException
 - ThrottlingException
-- ValidationException
 
 ### serverlessrepo
 - BadRequestException
