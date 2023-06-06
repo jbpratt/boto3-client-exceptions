@@ -2512,9 +2512,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### finspace
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - InvalidRequestException
 - LimitExceededException
+- ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
