@@ -2904,6 +2904,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ResourceRegistrationFailureException
+- ServiceQuotaExceededException
 - ServiceUnavailableException
 - SqlParseException
 - TaskAlreadyExistsException
@@ -2911,6 +2912,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TransferAlreadyCompletedException
 - TransferConflictException
 - UnauthorizedException
+- ValidationException
 - VersionConflictException
 - VersionsLimitExceededException
 
@@ -5096,6 +5098,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AWS.SimpleQueueService.NonExistentQueue
 - QueueAlreadyExists
 - ReceiptHandleIsInvalid
+- ResourceNotFoundException
 - AWS.SimpleQueueService.TooManyEntriesInBatchRequest
 - AWS.SimpleQueueService.UnsupportedOperation
 
