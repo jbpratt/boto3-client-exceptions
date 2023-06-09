@@ -252,6 +252,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [osis](#osis)
 - [outposts](#outposts)
 - [panorama](#panorama)
+- [payment-cryptography](#payment-cryptography)
+- [payment-cryptography-data](#payment-cryptography-data)
 - [personalize](#personalize)
 - [personalize-events](#personalize-events)
 - [personalize-runtime](#personalize-runtime)
@@ -4016,6 +4018,24 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ValidationException
+
+### payment-cryptography
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ServiceUnavailableException
+- ThrottlingException
+- ValidationException
+
+### payment-cryptography-data
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+- VerificationFailedException
 
 ### personalize
 - InvalidInputException
