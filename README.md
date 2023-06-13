@@ -462,6 +462,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceConflictException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
 - UnauthorizedException
 
 ### apigateway
@@ -4518,6 +4519,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### rekognition
 - AccessDeniedException
+- ConflictException
 - HumanLoopQuotaExceededException
 - IdempotentParameterMismatchException
 - ImageTooLargeException
