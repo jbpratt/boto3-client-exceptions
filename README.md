@@ -73,6 +73,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [codecommit](#codecommit)
 - [codedeploy](#codedeploy)
 - [codeguru-reviewer](#codeguru-reviewer)
+- [codeguru-security](#codeguru-security)
 - [codeguruprofiler](#codeguruprofiler)
 - [codepipeline](#codepipeline)
 - [codestar](#codestar)
@@ -345,6 +346,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [transcribe](#transcribe)
 - [transfer](#transfer)
 - [translate](#translate)
+- [verifiedpermissions](#verifiedpermissions)
 - [voice-id](#voice-id)
 - [vpc-lattice](#vpc-lattice)
 - [waf](#waf)
@@ -1507,6 +1509,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - NotFoundException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
+### codeguru-security
+- AccessDeniedException
+- ConflictException
+- InternalServerException
 - ResourceNotFoundException
 - ThrottlingException
 - ValidationException
@@ -5474,6 +5484,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTagsException
 - UnsupportedDisplayLanguageCodeException
 - UnsupportedLanguagePairException
+
+### verifiedpermissions
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### voice-id
 - AccessDeniedException
