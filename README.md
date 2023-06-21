@@ -3349,6 +3349,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyLengthExceededException
 - PreconditionFailedException
 - ProvisionedConcurrencyConfigNotFoundException
+- RecursiveInvocationException
 - RequestTooLargeException
 - ResourceConflictException
 - ResourceInUseException
@@ -4408,6 +4409,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ClusterSubnetGroupQuotaExceeded
 - ClusterSubnetQuotaExceededFault
 - CopyToRegionDisabledFault
+- CustomCnameAssociationFault
+- CustomDomainAssociationNotFoundFault
 - DependentServiceRequestThrottlingFault
 - DependentServiceUnavailableFault
 - EndpointAlreadyExists
