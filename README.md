@@ -5325,6 +5325,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ActivityDoesNotExist
 - ActivityLimitExceeded
 - ActivityWorkerLimitExceeded
+- ConflictException
 - ExecutionAlreadyExists
 - ExecutionDoesNotExist
 - ExecutionLimitExceeded
@@ -5338,6 +5339,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidTracingConfiguration
 - MissingRequiredParameter
 - ResourceNotFound
+- ServiceQuotaExceededException
 - StateMachineAlreadyExists
 - StateMachineDeleting
 - StateMachineDoesNotExist
