@@ -1779,6 +1779,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidParameterException
 - InvalidRequestException
 - LimitExceededException
+- MaximumResultReturnedException
 - OutboundContactNotPermittedException
 - PropertyValidationException
 - ResourceConflictException
