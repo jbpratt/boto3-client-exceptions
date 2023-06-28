@@ -26,6 +26,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [apigatewayv2](#apigatewayv2)
 - [appconfig](#appconfig)
 - [appconfigdata](#appconfigdata)
+- [appfabric](#appfabric)
 - [appflow](#appflow)
 - [appintegrations](#appintegrations)
 - [application-autoscaling](#application-autoscaling)
@@ -502,6 +503,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ThrottlingException
+
+### appfabric
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### appflow
 - AccessDeniedException
