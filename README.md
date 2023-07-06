@@ -3279,6 +3279,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CustomKeyStoreNotFoundException
 - DependencyTimeoutException
 - DisabledException
+- DryRunOperationException
 - ExpiredImportTokenException
 - IncorrectKeyException
 - IncorrectKeyMaterialException
