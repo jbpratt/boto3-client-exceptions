@@ -228,6 +228,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mediastore](#mediastore)
 - [mediastore-data](#mediastore-data)
 - [mediatailor](#mediatailor)
+- [medical-imaging](#medical-imaging)
 - [memorydb](#memorydb)
 - [meteringmarketplace](#meteringmarketplace)
 - [mgh](#mgh)
@@ -3648,6 +3649,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### mediatailor
 - BadRequestException
+
+### medical-imaging
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### memorydb
 - ACLAlreadyExistsFault
