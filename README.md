@@ -4750,6 +4750,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ResourceUnavailableException
+- ServiceQuotaExceededException
 - ThrottlingException
 - UnknownResourceException
 - ValidationException
