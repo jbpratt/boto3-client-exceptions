@@ -130,6 +130,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [emr](#emr)
 - [emr-containers](#emr-containers)
 - [emr-serverless](#emr-serverless)
+- [entityresolution](#entityresolution)
 - [es](#es)
 - [events](#events)
 - [evidently](#evidently)
@@ -216,6 +217,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [macie](#macie)
 - [macie2](#macie2)
 - [managedblockchain](#managedblockchain)
+- [managedblockchain-query](#managedblockchain-query)
 - [marketplace-catalog](#marketplace-catalog)
 - [marketplace-entitlement](#marketplace-entitlement)
 - [marketplacecommerceanalytics](#marketplacecommerceanalytics)
@@ -2499,6 +2501,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ValidationException
 
+### entityresolution
+- AccessDeniedException
+- ConflictException
+- ExceedsLimitException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
 ### es
 - AccessDeniedException
 - BaseException
@@ -3556,6 +3567,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotReadyException
 - ThrottlingException
 - TooManyTagsException
+
+### managedblockchain-query
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### marketplace-catalog
 - AccessDeniedException
