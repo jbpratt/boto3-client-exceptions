@@ -4297,6 +4297,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CustomDBEngineVersionNotFoundFault
 - CustomDBEngineVersionQuotaExceededFault
 - DBClusterAlreadyExistsFault
+- DBClusterAutomatedBackupNotFoundFault
+- DBClusterAutomatedBackupQuotaExceededFault
 - DBClusterBacktrackNotFoundFault
 - DBClusterEndpointAlreadyExistsFault
 - DBClusterEndpointNotFoundFault
@@ -4359,6 +4361,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InsufficientStorageClusterCapacity
 - InvalidBlueGreenDeploymentStateFault
 - InvalidCustomDBEngineVersionStateFault
+- InvalidDBClusterAutomatedBackupStateFault
 - InvalidDBClusterCapacityFault
 - InvalidDBClusterEndpointStateFault
 - InvalidDBClusterSnapshotStateFault
