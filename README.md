@@ -1165,6 +1165,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceTypeNotSupportedException
 - S3BucketDoesNotExistException
 - TagsLimitExceededException
+- ThrottlingException
 - TrailAlreadyExistsException
 - TrailNotFoundException
 - TrailNotProvidedException
