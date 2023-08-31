@@ -244,6 +244,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mturk](#mturk)
 - [mwaa](#mwaa)
 - [neptune](#neptune)
+- [neptunedata](#neptunedata)
 - [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
 - [nimble](#nimble)
@@ -259,6 +260,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [panorama](#panorama)
 - [payment-cryptography](#payment-cryptography)
 - [payment-cryptography-data](#payment-cryptography-data)
+- [pca-connector-ad](#pca-connector-ad)
 - [personalize](#personalize)
 - [personalize-events](#personalize-events)
 - [personalize-runtime](#personalize-runtime)
@@ -3908,6 +3910,42 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionCategoryNotFound
 - SubscriptionNotFound
 
+### neptunedata
+- AccessDeniedException
+- BadRequestException
+- BulkLoadIdNotFoundException
+- CancelledByUserException
+- ClientTimeoutException
+- ConcurrentModificationException
+- ConstraintViolationException
+- ExpiredStreamException
+- FailureByQueryException
+- IllegalArgumentException
+- InternalFailureException
+- InvalidArgumentException
+- InvalidNumericDataException
+- InvalidParameterException
+- LoadUrlAccessDeniedException
+- MLResourceNotFoundException
+- MalformedQueryException
+- MemoryLimitExceededException
+- MethodNotAllowedException
+- MissingParameterException
+- ParsingException
+- PreconditionsFailedException
+- QueryLimitExceededException
+- QueryLimitException
+- QueryTooLargeException
+- ReadOnlyViolationException
+- S3Exception
+- ServerShutdownException
+- StatisticsNotAvailableException
+- StreamRecordsNotFoundException
+- ThrottlingException
+- TimeLimitExceededException
+- TooManyRequestsException
+- UnsupportedOperationException
+
 ### network-firewall
 - InsufficientCapacityException
 - InternalServerError
@@ -4090,6 +4128,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 - VerificationFailedException
+
+### pca-connector-ad
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### personalize
 - InvalidInputException
