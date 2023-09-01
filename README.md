@@ -1837,6 +1837,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
@@ -4905,8 +4906,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### sagemaker-runtime
 - InternalDependencyException
 - InternalFailure
+- InternalStreamFailure
 - ModelError
 - ModelNotReadyException
+- ModelStreamError
 - ServiceUnavailable
 - ValidationError
 
