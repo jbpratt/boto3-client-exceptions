@@ -1804,6 +1804,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotReadyException
 - ServiceQuotaExceededException
 - ThrottlingException
+- TooManyRequestsException
 - UserNotFoundException
 
 ### connect-contact-lens
