@@ -45,6 +45,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [backup-gateway](#backup-gateway)
 - [backupstorage](#backupstorage)
 - [batch](#batch)
+- [bedrock](#bedrock)
+- [bedrock-runtime](#bedrock-runtime)
 - [billingconductor](#billingconductor)
 - [braket](#braket)
 - [budgets](#budgets)
@@ -694,6 +696,28 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### batch
 - ClientException
 - ServerException
+
+### bedrock
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- TooManyTagsException
+- ValidationException
+
+### bedrock-runtime
+- AccessDeniedException
+- InternalServerException
+- ModelErrorException
+- ModelNotReadyException
+- ModelStreamErrorException
+- ModelTimeoutException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### billingconductor
 - AccessDeniedException
