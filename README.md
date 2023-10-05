@@ -101,6 +101,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [dataexchange](#dataexchange)
 - [datapipeline](#datapipeline)
 - [datasync](#datasync)
+- [datazone](#datazone)
 - [dax](#dax)
 - [detective](#detective)
 - [devicefarm](#devicefarm)
@@ -1916,6 +1917,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### datasync
 - InternalException
 - InvalidRequestException
+
+### datazone
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- UnauthorizedException
+- ValidationException
 
 ### dax
 - ClusterAlreadyExistsFault
