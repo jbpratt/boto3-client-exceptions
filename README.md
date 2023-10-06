@@ -5798,13 +5798,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### workspaces
 - AccessDeniedException
+- ApplicationNotSupportedException
+- ComputeNotCompatibleException
+- IncompatibleApplicationsException
 - InvalidParameterValuesException
 - InvalidResourceStateException
+- OperatingSystemNotCompatibleException
 - OperationInProgressException
 - OperationNotSupportedException
 - ResourceAlreadyExistsException
 - ResourceAssociatedException
 - ResourceCreationFailedException
+- ResourceInUseException
 - ResourceLimitExceededException
 - ResourceNotFoundException
 - ResourceUnavailableException
