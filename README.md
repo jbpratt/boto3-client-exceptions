@@ -5544,6 +5544,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### textract
 - AccessDeniedException
 - BadDocumentException
+- ConflictException
 - DocumentTooLargeException
 - HumanLoopQuotaExceededException
 - IdempotentParameterMismatchException
@@ -5554,8 +5555,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidS3ObjectException
 - LimitExceededException
 - ProvisionedThroughputExceededException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - UnsupportedDocumentException
+- ValidationException
 
 ### timestream-query
 - AccessDeniedException
