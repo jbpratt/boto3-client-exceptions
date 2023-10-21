@@ -2000,6 +2000,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - HomeRegionNotSetException
 - InvalidParameterException
 - InvalidParameterValueException
+- LimitExceededException
 - OperationNotPermittedException
 - ResourceInUseException
 - ResourceNotFoundException
@@ -5344,6 +5345,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MaxDocumentSizeExceeded
 - OpsItemAccessDeniedException
 - OpsItemAlreadyExistsException
+- OpsItemConflictException
 - OpsItemInvalidParameterException
 - OpsItemLimitExceededException
 - OpsItemNotFoundException
