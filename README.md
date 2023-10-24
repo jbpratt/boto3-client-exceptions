@@ -4658,6 +4658,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ImageTooLargeException
 - InternalServerError
 - InvalidImageFormatException
+- InvalidManifestException
 - InvalidPaginationTokenException
 - InvalidParameterException
 - InvalidPolicyRevisionIdException
