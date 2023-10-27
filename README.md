@@ -4528,6 +4528,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ClusterSubnetGroupNotFoundFault
 - ClusterSubnetGroupQuotaExceeded
 - ClusterSubnetQuotaExceededFault
+- ConflictPolicyUpdateFault
 - CopyToRegionDisabledFault
 - CustomCnameAssociationFault
 - CustomDomainAssociationNotFoundFault
@@ -4551,6 +4552,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IncompatibleOrderableOptions
 - InsufficientClusterCapacity
 - InsufficientS3BucketPolicyFault
+- IntegrationNotFoundFault
 - InvalidAuthenticationProfileRequestFault
 - InvalidAuthorizationState
 - InvalidClusterParameterGroupState
@@ -4567,6 +4569,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidHsmClientCertificateStateFault
 - InvalidHsmConfigurationStateFault
 - InvalidNamespaceFault
+- InvalidPolicyFault
 - InvalidReservedNodeState
 - InvalidRestore
 - InvalidRetentionPeriodFault
@@ -5221,6 +5224,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidParameter
 - ParameterValueInvalid
 - InvalidSecurity
+- InvalidState
 - KMSAccessDenied
 - KMSDisabled
 - KMSInvalidState
@@ -5230,6 +5234,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFound
 - OptedOut
 - PlatformApplicationDisabled
+- ReplayLimitExceeded
 - ResourceNotFound
 - StaleTag
 - SubscriptionLimitExceeded
@@ -5415,6 +5420,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- UnauthorizedException
 - ValidationException
 
 ### sso
