@@ -4584,6 +4584,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidTagFault
 - InvalidUsageLimit
 - InvalidVPCNetworkStateFault
+- Ipv6CidrBlockNotFoundFault
 - LimitExceededFault
 - NumberOfNodesPerClusterLimitExceeded
 - NumberOfNodesQuotaExceeded
