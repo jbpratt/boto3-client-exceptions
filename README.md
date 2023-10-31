@@ -4435,6 +4435,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InsufficientDBClusterCapacityFault
 - InsufficientDBInstanceCapacity
 - InsufficientStorageClusterCapacity
+- IntegrationAlreadyExistsFault
+- IntegrationConflictOperationFault
+- IntegrationNotFoundFault
+- IntegrationQuotaExceededFault
 - InvalidBlueGreenDeploymentStateFault
 - InvalidCustomDBEngineVersionStateFault
 - InvalidDBClusterAutomatedBackupStateFault
@@ -4457,6 +4461,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidExportSourceState
 - InvalidExportTaskStateFault
 - InvalidGlobalClusterStateFault
+- InvalidIntegrationStateFault
 - InvalidOptionGroupStateFault
 - InvalidRestoreFault
 - InvalidS3BucketFault
