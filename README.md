@@ -3555,9 +3555,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### m2
 - AccessDeniedException
 - ConflictException
+- ExecutionTimeoutException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ServiceUnavailableException
 - ThrottlingException
 - ValidationException
 
