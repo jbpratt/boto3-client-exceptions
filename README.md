@@ -2724,6 +2724,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - AssociatedEndpointGroupFoundException
 - AssociatedListenerFoundException
+- AttachmentNotFoundException
 - ByoipCidrNotFoundException
 - ConflictException
 - EndpointAlreadyExistsException
