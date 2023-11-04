@@ -201,6 +201,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [kms](#kms)
 - [lakeformation](#lakeformation)
 - [lambda](#lambda)
+- [launch-wizard](#launch-wizard)
 - [lex-models](#lex-models)
 - [lex-runtime](#lex-runtime)
 - [lexv2-models](#lexv2-models)
@@ -3418,6 +3419,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubnetIPAddressLimitReachedException
 - TooManyRequestsException
 - UnsupportedMediaTypeException
+
+### launch-wizard
+- InternalServerException
+- ResourceLimitException
+- ResourceNotFoundException
+- ValidationException
 
 ### lex-models
 - AccessDeniedException
