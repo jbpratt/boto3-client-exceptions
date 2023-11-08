@@ -4423,6 +4423,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - QuotaExceeded.DBSecurityGroup
 - DBSnapshotAlreadyExists
 - DBSnapshotNotFound
+- DBSnapshotTenantDatabaseNotFoundFault
 - DBSubnetGroupAlreadyExists
 - DBSubnetGroupDoesNotCoverEnoughAZs
 - DBSubnetGroupNotAllowedFault
@@ -4504,6 +4505,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionAlreadyExist
 - SubscriptionCategoryNotFound
 - SubscriptionNotFound
+- TenantDatabaseAlreadyExists
+- TenantDatabaseNotFound
+- TenantDatabaseQuotaExceeded
 
 ### rds-data
 - AccessDeniedException
