@@ -3520,6 +3520,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### logs
+- AccessDeniedException
+- ConflictException
 - DataAlreadyAcceptedException
 - InvalidOperationException
 - InvalidParameterException
@@ -3529,9 +3531,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationAbortedException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ServiceUnavailableException
+- ThrottlingException
 - TooManyTagsException
 - UnrecognizedClientException
+- ValidationException
 
 ### lookoutequipment
 - AccessDeniedException
