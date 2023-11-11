@@ -1881,6 +1881,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateReportNameException
 - InternalErrorException
 - ReportLimitReachedException
+- ResourceNotFoundException
 - ValidationException
 
 ### customer-profiles
