@@ -2293,6 +2293,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ClusterContainsServicesException
 - ClusterContainsTasksException
 - ClusterNotFoundException
+- ConflictException
 - InvalidParameterException
 - LimitExceededException
 - MissingVersionException
