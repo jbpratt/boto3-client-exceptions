@@ -5498,6 +5498,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ExecutionAlreadyExists
 - ExecutionDoesNotExist
 - ExecutionLimitExceeded
+- ExecutionNotRedrivable
 - InvalidArn
 - InvalidDefinition
 - InvalidExecutionInput
