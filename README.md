@@ -2746,6 +2746,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### glue
 - AccessDeniedException
 - AlreadyExistsException
+- ColumnStatisticsTaskNotRunningException
+- ColumnStatisticsTaskRunningException
+- ColumnStatisticsTaskStoppingException
 - ConcurrentModificationException
 - ConcurrentRunsExceededException
 - ConditionCheckFailureException
