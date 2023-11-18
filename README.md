@@ -217,7 +217,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [lookoutvision](#lookoutvision)
 - [m2](#m2)
 - [machinelearning](#machinelearning)
-- [macie](#macie)
 - [macie2](#macie2)
 - [managedblockchain](#managedblockchain)
 - [managedblockchain-query](#managedblockchain-query)
@@ -355,6 +354,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [transcribe](#transcribe)
 - [transfer](#transfer)
 - [translate](#translate)
+- [trustedadvisor](#trustedadvisor)
 - [verifiedpermissions](#verifiedpermissions)
 - [voice-id](#voice-id)
 - [vpc-lattice](#vpc-lattice)
@@ -1625,11 +1625,23 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### codestar-connections
+- AccessDeniedException
+- ConcurrentModificationException
+- ConditionalCheckFailedException
 - ConflictException
+- InternalServerException
+- InvalidInputException
 - LimitExceededException
+- ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ResourceUnavailableException
+- RetryLatestCommitFailedException
+- SyncBlockerDoesNotExistException
+- SyncConfigurationStillExistsException
+- ThrottlingException
 - UnsupportedOperationException
+- UnsupportedProviderTypeException
+- UpdateOutOfSyncException
 
 ### codestar-notifications
 - AccessDeniedException
@@ -2251,8 +2263,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RepositoryNotFoundException
 - RepositoryPolicyNotFoundException
 - ScanNotFoundException
+- SecretNotFoundException
 - ServerException
 - TooManyTagsException
+- UnableToAccessSecretException
+- UnableToDecryptSecretValueException
+- UnableToGetUpstreamImageException
+- UnableToGetUpstreamLayerException
 - UnsupportedImageTypeException
 - UnsupportedUpstreamRegistryException
 - UploadNotFoundException
@@ -3591,12 +3608,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - TagLimitExceededException
 
-### macie
-- AccessDeniedException
-- InternalException
-- InvalidInputException
-- LimitExceededException
-
 ### macie2
 - AccessDeniedException
 - ConflictException
@@ -4561,6 +4572,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CopyToRegionDisabledFault
 - CustomCnameAssociationFault
 - CustomDomainAssociationNotFoundFault
+- DependentServiceAccessDenied
 - DependentServiceRequestThrottlingFault
 - DependentServiceUnavailableFault
 - EndpointAlreadyExists
@@ -4618,6 +4630,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NumberOfNodesPerClusterLimitExceeded
 - NumberOfNodesQuotaExceeded
 - PartnerNotFound
+- RedshiftIdcApplicationAlreadyExists
+- RedshiftIdcApplicationNotExists
+- RedshiftIdcApplicationQuotaExceeded
 - ReservedNodeAlreadyExists
 - ReservedNodeAlreadyMigrated
 - ReservedNodeExchangeNotFond
@@ -5488,6 +5503,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidClientMetadataException
 - InvalidGrantException
 - InvalidRequestException
+- InvalidRequestRegionException
 - InvalidScopeException
 - SlowDownException
 - UnauthorizedClientException
@@ -5667,6 +5683,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedDisplayLanguageCodeException
 - UnsupportedLanguagePairException
 
+### trustedadvisor
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
 ### verifiedpermissions
 - AccessDeniedException
 - ConflictException
@@ -5771,6 +5795,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - PreconditionFailedException
+- RequestTimeoutException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - TooManyTagsException
