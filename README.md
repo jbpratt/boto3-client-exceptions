@@ -1625,23 +1625,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### codestar-connections
-- AccessDeniedException
-- ConcurrentModificationException
-- ConditionalCheckFailedException
 - ConflictException
-- InternalServerException
-- InvalidInputException
 - LimitExceededException
-- ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ResourceUnavailableException
-- RetryLatestCommitFailedException
-- SyncBlockerDoesNotExistException
-- SyncConfigurationStillExistsException
-- ThrottlingException
 - UnsupportedOperationException
-- UnsupportedProviderTypeException
-- UpdateOutOfSyncException
 
 ### codestar-notifications
 - AccessDeniedException
