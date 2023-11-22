@@ -63,6 +63,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [clouddirectory](#clouddirectory)
 - [cloudformation](#cloudformation)
 - [cloudfront](#cloudfront)
+- [cloudfront-keyvaluestore](#cloudfront-keyvaluestore)
 - [cloudhsm](#cloudhsm)
 - [cloudhsmv2](#cloudhsmv2)
 - [cloudsearch](#cloudsearch)
@@ -163,6 +164,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [imagebuilder](#imagebuilder)
 - [importexport](#importexport)
 - [inspector](#inspector)
+- [inspector-scan](#inspector-scan)
 - [inspector2](#inspector2)
 - [internetmonitor](#internetmonitor)
 - [iot](#iot)
@@ -950,12 +952,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CachePolicyAlreadyExists
 - CachePolicyInUse
 - CannotChangeImmutablePublicKeyFields
+- CannotDeleteEntityWhileInUse
 - CloudFrontOriginAccessIdentityAlreadyExists
 - CloudFrontOriginAccessIdentityInUse
 - ContinuousDeploymentPolicyAlreadyExists
 - ContinuousDeploymentPolicyInUse
 - DistributionAlreadyExists
 - DistributionNotDisabled
+- EntityAlreadyExists
+- EntityLimitExceeded
+- EntityNotFound
+- EntitySizeLimitExceeded
 - FieldLevelEncryptionConfigAlreadyExists
 - FieldLevelEncryptionConfigInUse
 - FieldLevelEncryptionProfileAlreadyExists
@@ -1088,6 +1095,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TrustedKeyGroupDoesNotExist
 - TrustedSignerDoesNotExist
 - UnsupportedOperation
+
+### cloudfront-keyvaluestore
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ValidationException
 
 ### cloudhsm
 - CloudHsmInternalException
@@ -2937,6 +2952,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceTemporarilyUnavailableException
 - UnsupportedFeatureException
 
+### inspector-scan
+- AccessDeniedException
+- InternalServerException
+- ThrottlingException
+- ValidationException
+
 ### inspector2
 - AccessDeniedException
 - BadRequestException
@@ -3099,16 +3120,19 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 
 ### iotsitewise
+- AccessDeniedException
 - ConflictingOperationException
 - InternalFailureException
 - InvalidRequestException
 - LimitExceededException
+- QueryTimeoutException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ServiceUnavailableException
 - ThrottlingException
 - TooManyTagsException
 - UnauthorizedException
+- ValidationException
 
 ### iotthingsgraph
 - InternalFailureException
