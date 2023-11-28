@@ -41,10 +41,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [auditmanager](#auditmanager)
 - [autoscaling](#autoscaling)
 - [autoscaling-plans](#autoscaling-plans)
+- [b2bi](#b2bi)
 - [backup](#backup)
 - [backup-gateway](#backup-gateway)
 - [backupstorage](#backupstorage)
 - [batch](#batch)
+- [bcm-data-exports](#bcm-data-exports)
 - [bedrock](#bedrock)
 - [bedrock-runtime](#bedrock-runtime)
 - [billingconductor](#billingconductor)
@@ -96,6 +98,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connectcases](#connectcases)
 - [connectparticipant](#connectparticipant)
 - [controltower](#controltower)
+- [cost-optimization-hub](#cost-optimization-hub)
 - [cur](#cur)
 - [customer-profiles](#customer-profiles)
 - [databrew](#databrew)
@@ -125,6 +128,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [ecs](#ecs)
 - [efs](#efs)
 - [eks](#eks)
+- [eks-auth](#eks-auth)
 - [elastic-inference](#elastic-inference)
 - [elasticache](#elasticache)
 - [elasticbeanstalk](#elasticbeanstalk)
@@ -146,6 +150,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [forecast](#forecast)
 - [forecastquery](#forecastquery)
 - [frauddetector](#frauddetector)
+- [freetier](#freetier)
 - [fsx](#fsx)
 - [gamelift](#gamelift)
 - [glacier](#glacier)
@@ -289,6 +294,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [redshift-data](#redshift-data)
 - [redshift-serverless](#redshift-serverless)
 - [rekognition](#rekognition)
+- [repostspace](#repostspace)
 - [resiliencehub](#resiliencehub)
 - [resource-explorer-2](#resource-explorer-2)
 - [resource-groups](#resource-groups)
@@ -370,15 +376,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [workmail](#workmail)
 - [workmailmessageflow](#workmailmessageflow)
 - [workspaces](#workspaces)
+- [workspaces-thin-client](#workspaces-thin-client)
 - [workspaces-web](#workspaces-web)
 - [xray](#xray)
 ### accessanalyzer
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- InvalidParameterException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- UnprocessableEntityException
 - ValidationException
 
 ### account
@@ -664,6 +673,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ObjectNotFoundException
 - ValidationException
 
+### b2bi
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### backup
 - AlreadyExistsException
 - ConflictException
@@ -699,6 +717,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### batch
 - ClientException
 - ServerException
+
+### bcm-data-exports
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### bedrock
 - AccessDeniedException
@@ -1132,6 +1157,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SearchException
 
 ### cloudtrail
+- AccessDeniedException
 - AccountHasOngoingImportException
 - AccountNotFoundException
 - AccountNotRegisteredException
@@ -1146,10 +1172,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CloudTrailAccessNotEnabledException
 - CloudTrailInvalidClientTokenIdException
 - CloudWatchLogsDeliveryUnavailableException
+- ConcurrentModificationException
 - ConflictException
 - DelegatedAdminAccountLimitExceededException
 - EventDataStoreARNInvalidException
 - EventDataStoreAlreadyExistsException
+- EventDataStoreFederationEnabledException
 - EventDataStoreHasOngoingImportException
 - EventDataStoreMaxLimitExceededException
 - EventDataStoreNotFoundException
@@ -1640,11 +1668,23 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### codestar-connections
+- AccessDeniedException
+- ConcurrentModificationException
+- ConditionalCheckFailedException
 - ConflictException
+- InternalServerException
+- InvalidInputException
 - LimitExceededException
+- ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ResourceUnavailableException
+- RetryLatestCommitFailedException
+- SyncBlockerDoesNotExistException
+- SyncConfigurationStillExistsException
+- ThrottlingException
 - UnsupportedOperationException
+- UnsupportedProviderTypeException
+- UpdateOutOfSyncException
 
 ### codestar-notifications
 - AccessDeniedException
@@ -1889,6 +1929,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### cost-optimization-hub
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
@@ -2338,6 +2385,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessPointNotFound
 - AvailabilityZonesMismatch
 - BadRequest
+- ConflictException
 - DependencyTimeout
 - FileSystemAlreadyExists
 - FileSystemInUse
@@ -2354,6 +2402,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NetworkInterfaceLimitExceeded
 - NoFreeAddressesInSubnet
 - PolicyNotFound
+- ReplicationAlreadyExists
 - ReplicationNotFound
 - SecurityGroupLimitExceeded
 - SecurityGroupNotFound
@@ -2378,6 +2427,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServerException
 - ServiceUnavailableException
 - UnsupportedAvailabilityZoneException
+
+### eks-auth
+- AccessDeniedException
+- ExpiredTokenException
+- InternalServerException
+- InvalidParameterException
+- InvalidRequestException
+- InvalidTokenException
+- ResourceNotFoundException
+- ServiceUnavailableException
+- ThrottlingException
 
 ### elastic-inference
 - BadRequestException
@@ -2511,15 +2571,19 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ALPNPolicyNotFound
 - AllocationIdNotFound
 - AvailabilityZoneNotSupported
+- CaCertificatesBundleNotFound
 - CertificateNotFound
 - DuplicateListener
 - DuplicateLoadBalancerName
 - DuplicateTagKeys
 - DuplicateTargetGroupName
+- DuplicateTrustStoreName
 - HealthUnavailable
 - IncompatibleProtocols
+- InvalidCaCertificatesBundle
 - InvalidConfigurationRequest
 - InvalidLoadBalancerAction
+- InvalidRevocationContent
 - InvalidScheme
 - InvalidSecurityGroup
 - InvalidSubnet
@@ -2529,6 +2593,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationNotPermitted
 - PriorityInUse
 - ResourceInUse
+- RevocationContentNotFound
+- RevocationIdNotFound
 - RuleNotFound
 - SSLPolicyNotFound
 - SubnetNotFound
@@ -2543,7 +2609,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTags
 - TooManyTargetGroups
 - TooManyTargets
+- TooManyTrustStoreRevocationEntries
+- TooManyTrustStores
 - TooManyUniqueTargetGroupsPerLoadBalancer
+- TrustStoreInUse
+- TrustStoreNotFound
+- TrustStoreNotReady
 - UnsupportedProtocol
 
 ### emr
@@ -2674,6 +2745,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ResourceUnavailableException
+- ThrottlingException
+- ValidationException
+
+### freetier
+- InternalServerException
 - ThrottlingException
 - ValidationException
 
@@ -4735,6 +4811,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - VideoTooLargeException
 
+### repostspace
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### resiliencehub
 - AccessDeniedException
 - ConflictException
@@ -5067,6 +5152,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidInputException
 - LimitExceededException
 - ResourceConflictException
+- ResourceInUseException
 - ResourceNotFoundException
 
 ### securitylake
@@ -5887,6 +5973,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedNetworkConfigurationException
 - UnsupportedWorkspaceConfigurationException
 - WorkspacesDefaultRoleNotFoundException
+
+### workspaces-thin-client
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InternalServiceException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### workspaces-web
 - AccessDeniedException
