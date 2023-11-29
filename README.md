@@ -48,6 +48,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [batch](#batch)
 - [bcm-data-exports](#bcm-data-exports)
 - [bedrock](#bedrock)
+- [bedrock-agent](#bedrock-agent)
+- [bedrock-agent-runtime](#bedrock-agent-runtime)
 - [bedrock-runtime](#bedrock-runtime)
 - [billingconductor](#billingconductor)
 - [braket](#braket)
@@ -283,6 +285,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pricing](#pricing)
 - [privatenetworks](#privatenetworks)
 - [proton](#proton)
+- [qbusiness](#qbusiness)
+- [qconnect](#qconnect)
 - [qldb](#qldb)
 - [qldb-session](#qldb-session)
 - [quicksight](#quicksight)
@@ -733,6 +737,26 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - TooManyTagsException
+- ValidationException
+
+### bedrock-agent
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### bedrock-agent-runtime
+- AccessDeniedException
+- BadGatewayException
+- ConflictException
+- DependencyFailedException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### bedrock-runtime
@@ -1877,6 +1901,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - MaximumResultReturnedException
 - OutboundContactNotPermittedException
+- OutputTypeNotFoundException
 - PropertyValidationException
 - ResourceConflictException
 - ResourceInUseException
@@ -2472,11 +2497,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidCacheClusterState
 - InvalidCacheParameterGroupState
 - InvalidCacheSecurityGroupState
+- InvalidCredentialsException
 - InvalidGlobalReplicationGroupState
 - InvalidKMSKeyFault
 - InvalidParameterCombination
 - InvalidParameterValue
 - InvalidReplicationGroupState
+- InvalidServerlessCacheSnapshotStateFault
+- InvalidServerlessCacheStateFault
 - InvalidSnapshotState
 - InvalidSubnet
 - InvalidUserGroupState
@@ -2495,6 +2523,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ReservedCacheNodeNotFound
 - ReservedCacheNodeQuotaExceeded
 - ReservedCacheNodesOfferingNotFound
+- ServerlessCacheAlreadyExistsFault
+- ServerlessCacheNotFoundFault
+- ServerlessCacheQuotaForCustomerExceededFault
+- ServerlessCacheSnapshotAlreadyExistsFault
+- ServerlessCacheSnapshotNotFoundFault
+- ServerlessCacheSnapshotQuotaExceededFault
 - ServiceLinkedRoleNotFoundFault
 - ServiceUpdateNotFoundFault
 - SnapshotAlreadyExistsFault
@@ -4402,6 +4436,26 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### qbusiness
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- LicenseNotFoundException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### qconnect
+- AccessDeniedException
+- ConflictException
+- PreconditionFailedException
+- RequestTimeoutException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- TooManyTagsException
 - ValidationException
 
 ### qldb
