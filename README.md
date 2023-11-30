@@ -62,6 +62,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [chime-sdk-messaging](#chime-sdk-messaging)
 - [chime-sdk-voice](#chime-sdk-voice)
 - [cleanrooms](#cleanrooms)
+- [cleanroomsml](#cleanroomsml)
 - [cloud9](#cloud9)
 - [cloudcontrol](#cloudcontrol)
 - [clouddirectory](#clouddirectory)
@@ -898,6 +899,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### cleanroomsml
+- AccessDeniedException
+- ConflictException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ValidationException
 
 ### cloud9
