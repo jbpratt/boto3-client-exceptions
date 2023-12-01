@@ -230,7 +230,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [macie2](#macie2)
 - [managedblockchain](#managedblockchain)
 - [managedblockchain-query](#managedblockchain-query)
+- [marketplace-agreement](#marketplace-agreement)
 - [marketplace-catalog](#marketplace-catalog)
+- [marketplace-deployment](#marketplace-deployment)
 - [marketplace-entitlement](#marketplace-entitlement)
 - [marketplacecommerceanalytics](#marketplacecommerceanalytics)
 - [mediaconnect](#mediaconnect)
@@ -3768,12 +3770,28 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### marketplace-agreement
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
 ### marketplace-catalog
 - AccessDeniedException
 - InternalServiceException
 - ResourceInUseException
 - ResourceNotFoundException
 - ResourceNotSupportedException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### marketplace-deployment
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
