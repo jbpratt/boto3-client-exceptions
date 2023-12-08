@@ -1606,6 +1606,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidTrafficRoutingConfigurationException
 - InvalidTriggerConfigException
 - InvalidUpdateOutdatedInstancesOnlyValueException
+- InvalidZonalDeploymentConfigurationException
 - LifecycleEventAlreadyCompletedException
 - LifecycleHookLimitExceededException
 - MultipleIamArnsProvidedException
