@@ -3688,6 +3688,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ServiceUnavailableException
+- SessionStreamingException
+- SessionTimeoutException
 - ThrottlingException
 - TooManyTagsException
 - UnrecognizedClientException
