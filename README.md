@@ -258,6 +258,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mturk](#mturk)
 - [mwaa](#mwaa)
 - [neptune](#neptune)
+- [neptune-graph](#neptune-graph)
 - [neptunedata](#neptunedata)
 - [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
@@ -2750,6 +2751,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConcurrentModificationException
 - InvalidArgumentException
 - InvalidKMSResourceException
+- InvalidSourceException
 - LimitExceededException
 - ResourceInUseException
 - ResourceNotFoundException
@@ -4119,6 +4121,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionAlreadyExist
 - SubscriptionCategoryNotFound
 - SubscriptionNotFound
+
+### neptune-graph
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### neptunedata
 - AccessDeniedException
