@@ -1900,6 +1900,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### connect
 - AccessDeniedException
+- ConflictException
 - ContactFlowNotPublishedException
 - ContactNotFoundException
 - DestinationNotAllowedException
