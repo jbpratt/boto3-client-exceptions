@@ -560,6 +560,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ResourceQuotaExceededException
 - ThrottlingException
+- UnsupportedOperationException
 
 ### application-autoscaling
 - ConcurrentUpdateException
@@ -1364,7 +1365,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EncryptionIntegrityChecksFailedException
 - EncryptionKeyAccessDeniedException
 - EncryptionKeyDisabledException
+- EncryptionKeyInvalidIdException
+- EncryptionKeyInvalidUsageException
 - EncryptionKeyNotFoundException
+- EncryptionKeyRequiredException
 - EncryptionKeyUnavailableException
 - FileContentAndSourceFileSpecifiedException
 - FileContentRequiredException
@@ -4677,6 +4681,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidGlobalClusterStateFault
 - InvalidIntegrationStateFault
 - InvalidOptionGroupStateFault
+- InvalidResourceStateFault
 - InvalidRestoreFault
 - InvalidS3BucketFault
 - InvalidSubnet
@@ -4715,11 +4720,19 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### rds-data
 - AccessDeniedException
 - BadRequestException
+- DatabaseErrorException
+- DatabaseNotFoundException
+- DatabaseUnavailableException
 - ForbiddenException
+- HttpEndpointNotEnabledException
 - InternalServerErrorException
+- InvalidSecretException
 - NotFoundException
+- SecretsErrorException
 - ServiceUnavailableError
 - StatementTimeoutException
+- TransactionNotFoundException
+- UnsupportedResultException
 
 ### redshift
 - AccessToClusterDenied
