@@ -262,6 +262,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [neptunedata](#neptunedata)
 - [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
+- [networkmonitor](#networkmonitor)
 - [nimble](#nimble)
 - [oam](#oam)
 - [omics](#omics)
@@ -4189,6 +4190,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - CoreNetworkPolicyException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### networkmonitor
+- AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
