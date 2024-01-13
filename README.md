@@ -360,6 +360,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [stepfunctions](#stepfunctions)
 - [storagegateway](#storagegateway)
 - [sts](#sts)
+- [supplychain](#supplychain)
 - [support](#support)
 - [support-app](#support-app)
 - [swf](#swf)
@@ -5757,6 +5758,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MalformedPolicyDocument
 - PackedPolicyTooLarge
 - RegionDisabledException
+
+### supplychain
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### support
 - AttachmentIdNotFound
