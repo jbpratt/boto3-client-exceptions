@@ -4639,6 +4639,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DBSecurityGroupNotFound
 - DBSecurityGroupNotSupported
 - QuotaExceeded.DBSecurityGroup
+- DBShardGroupAlreadyExists
+- DBShardGroupNotFound
 - DBSnapshotAlreadyExists
 - DBSnapshotNotFound
 - DBSnapshotTenantDatabaseNotFoundFault
@@ -4681,6 +4683,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidDBProxyEndpointStateFault
 - InvalidDBProxyStateFault
 - InvalidDBSecurityGroupState
+- InvalidDBShardGroupState
 - InvalidDBSnapshotState
 - InvalidDBSubnetGroupFault
 - InvalidDBSubnetGroupStateFault
@@ -4691,6 +4694,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidExportTaskStateFault
 - InvalidGlobalClusterStateFault
 - InvalidIntegrationStateFault
+- InvalidMaxAcu
 - InvalidOptionGroupStateFault
 - InvalidResourceStateFault
 - InvalidRestoreFault
@@ -4698,6 +4702,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidSubnet
 - InvalidVPCNetworkStateFault
 - KMSKeyNotAccessibleFault
+- MaxDBShardGroupLimitReached
 - NetworkTypeNotSupported
 - OptionGroupAlreadyExistsFault
 - OptionGroupNotFoundFault
@@ -4727,6 +4732,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TenantDatabaseAlreadyExists
 - TenantDatabaseNotFound
 - TenantDatabaseQuotaExceeded
+- UnsupportedDBEngineVersion
 
 ### rds-data
 - AccessDeniedException
