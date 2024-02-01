@@ -988,7 +988,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AlreadyExistsException
 - CFNRegistryException
 - ChangeSetNotFound
+- ConcurrentResourcesLimitExceeded
 - CreatedButModifiedException
+- GeneratedTemplateNotFound
 - InsufficientCapabilitiesException
 - InvalidChangeSetStatus
 - InvalidOperationException
@@ -999,6 +1001,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationInProgressException
 - OperationNotFoundException
 - ConditionalCheckFailed
+- ResourceScanInProgress
+- ResourceScanLimitExceeded
+- ResourceScanNotFound
 - StackInstanceNotFoundException
 - StackNotFoundException
 - StackSetNotEmptyException
