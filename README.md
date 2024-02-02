@@ -4135,11 +4135,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubscriptionNotFound
 
 ### neptune-graph
+- AccessDeniedException
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- UnprocessableException
 - ValidationException
 
 ### neptunedata
