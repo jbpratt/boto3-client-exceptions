@@ -1666,6 +1666,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ActionTypeNotFoundException
 - ApprovalAlreadyCompletedException
 - ConcurrentModificationException
+- ConcurrentPipelineExecutionsLimitExceededException
 - ConflictException
 - DuplicatedStopRequestException
 - InvalidActionDeclarationException
