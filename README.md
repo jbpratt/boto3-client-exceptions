@@ -4483,6 +4483,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextTokenException
 - InvalidParameterException
 - NotFoundException
+- ThrottlingException
 
 ### privatenetworks
 - AccessDeniedException
