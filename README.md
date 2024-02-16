@@ -37,6 +37,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [appstream](#appstream)
 - [appsync](#appsync)
 - [arc-zonal-shift](#arc-zonal-shift)
+- [artifact](#artifact)
 - [athena](#athena)
 - [auditmanager](#auditmanager)
 - [autoscaling](#autoscaling)
@@ -645,6 +646,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
+### artifact
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
