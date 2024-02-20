@@ -56,6 +56,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [braket](#braket)
 - [budgets](#budgets)
 - [ce](#ce)
+- [chatbot](#chatbot)
 - [chime](#chime)
 - [chime-sdk-identity](#chime-sdk-identity)
 - [chime-sdk-media-pipelines](#chime-sdk-media-pipelines)
@@ -833,6 +834,36 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnknownMonitorException
 - UnknownSubscriptionException
 - UnresolvableUsageUnitException
+
+### chatbot
+- ConflictException
+- CreateChimeWebhookConfigurationException
+- CreateSlackChannelConfigurationException
+- CreateTeamsChannelConfigurationException
+- DeleteChimeWebhookConfigurationException
+- DeleteMicrosoftTeamsUserIdentityException
+- DeleteSlackChannelConfigurationException
+- DeleteSlackUserIdentityException
+- DeleteSlackWorkspaceAuthorizationFault
+- DeleteTeamsChannelConfigurationException
+- DeleteTeamsConfiguredTeamException
+- DescribeChimeWebhookConfigurationsException
+- DescribeSlackChannelConfigurationsException
+- DescribeSlackUserIdentitiesException
+- DescribeSlackWorkspacesException
+- GetAccountPreferencesException
+- GetTeamsChannelConfigurationException
+- InvalidParameterException
+- InvalidRequestException
+- LimitExceededException
+- ListMicrosoftTeamsConfiguredTeamsException
+- ListMicrosoftTeamsUserIdentitiesException
+- ListTeamsChannelConfigurationsException
+- ResourceNotFoundException
+- UpdateAccountPreferencesException
+- UpdateChimeWebhookConfigurationException
+- UpdateSlackChannelConfigurationException
+- UpdateTeamsChannelConfigurationException
 
 ### chime
 - AccessDeniedException
