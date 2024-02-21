@@ -2806,17 +2806,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidArgumentException
 - InvalidKMSResourceException
 - InvalidSourceException
-- InvalidStreamTypeException
 - LimitExceededException
 - ResourceInUseException
 - ResourceNotFoundException
 - ServiceUnavailableException
-- TagrisAccessDeniedException
-- TagrisInternalServiceException
-- TagrisInvalidArnException
-- TagrisInvalidParameterException
-- TagrisPartialResourcesExistResultsException
-- TagrisThrottledException
 
 ### fis
 - ConflictException
