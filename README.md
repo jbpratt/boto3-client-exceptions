@@ -5665,6 +5665,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvocationDoesNotExist
 - ItemContentMismatchException
 - ItemSizeLimitExceededException
+- MalformedResourcePolicyDocumentException
 - MaxDocumentSizeExceeded
 - OpsItemAccessDeniedException
 - OpsItemAlreadyExistsException
@@ -5695,9 +5696,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceDataSyncNotFoundException
 - ResourceInUseException
 - ResourceLimitExceededException
+- ResourceNotFoundException
 - ResourcePolicyConflictException
 - ResourcePolicyInvalidParameterException
 - ResourcePolicyLimitExceededException
+- ResourcePolicyNotFoundException
 - ServiceSettingNotFound
 - StatusUnchanged
 - SubTypeCountLimitExceededException
