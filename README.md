@@ -4063,6 +4063,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### migrationhuborchestrator
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ThrottlingException
