@@ -180,7 +180,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iot](#iot)
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
-- [iot-roborunner](#iot-roborunner)
 - [iot1click-devices](#iot1click-devices)
 - [iot1click-projects](#iot1click-projects)
 - [iotanalytics](#iotanalytics)
@@ -368,6 +367,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [swf](#swf)
 - [synthetics](#synthetics)
 - [textract](#textract)
+- [timestream-influxdb](#timestream-influxdb)
 - [timestream-query](#timestream-query)
 - [timestream-write](#timestream-write)
 - [tnb](#tnb)
@@ -2373,6 +2373,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SerialConsoleAccessDisabledException
 - SerialConsoleSessionLimitExceededException
 - SerialConsoleSessionUnavailableException
+- SerialConsoleSessionUnsupportedException
 - ServiceException
 - ThrottlingException
 
@@ -3213,15 +3214,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - TerminalStateException
 - ThrottlingException
-
-### iot-roborunner
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ThrottlingException
-- ValidationException
 
 ### iot1click-devices
 - ForbiddenException
@@ -5890,6 +5882,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - UnsupportedDocumentException
+- ValidationException
+
+### timestream-influxdb
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### timestream-query
