@@ -2331,6 +2331,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ItemCollectionSizeLimitExceededException
 - LimitExceededException
 - PointInTimeRecoveryUnavailableException
+- PolicyNotFoundException
 - ProvisionedThroughputExceededException
 - ReplicaAlreadyExistsException
 - ReplicaNotFoundException
