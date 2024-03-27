@@ -822,6 +822,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### ce
+- BackfillLimitExceededException
 - BillExpirationException
 - DataUnavailableException
 - GenerationExistsException
