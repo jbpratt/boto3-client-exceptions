@@ -82,6 +82,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [codebuild](#codebuild)
 - [codecatalyst](#codecatalyst)
 - [codecommit](#codecommit)
+- [codeconnections](#codeconnections)
 - [codedeploy](#codedeploy)
 - [codeguru-reviewer](#codeguru-reviewer)
 - [codeguru-security](#codeguru-security)
@@ -1561,6 +1562,25 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TipsDivergenceExceededException
 - TitleRequiredException
 - TooManyTagsException
+
+### codeconnections
+- AccessDeniedException
+- ConcurrentModificationException
+- ConditionalCheckFailedException
+- ConflictException
+- InternalServerException
+- InvalidInputException
+- LimitExceededException
+- ResourceAlreadyExistsException
+- ResourceNotFoundException
+- ResourceUnavailableException
+- RetryLatestCommitFailedException
+- SyncBlockerDoesNotExistException
+- SyncConfigurationStillExistsException
+- ThrottlingException
+- UnsupportedOperationException
+- UnsupportedProviderTypeException
+- UpdateOutOfSyncException
 
 ### codedeploy
 - AlarmsLimitExceededException
