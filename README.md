@@ -113,6 +113,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [datasync](#datasync)
 - [datazone](#datazone)
 - [dax](#dax)
+- [deadline](#deadline)
 - [detective](#detective)
 - [devicefarm](#devicefarm)
 - [devops-guru](#devops-guru)
@@ -2131,6 +2132,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubnetQuotaExceededFault
 - TagNotFoundFault
 - TagQuotaPerResourceExceeded
+
+### deadline
+- AccessDeniedException
+- ConflictException
+- InternalServerErrorException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### detective
 - AccessDeniedException
