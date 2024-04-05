@@ -2756,6 +2756,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 
 ### emr-containers
+- EKSRequestThrottledException
 - InternalServerException
 - RequestThrottledException
 - ResourceNotFoundException
