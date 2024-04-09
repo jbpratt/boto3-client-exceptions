@@ -103,6 +103,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connectcampaigns](#connectcampaigns)
 - [connectcases](#connectcases)
 - [connectparticipant](#connectparticipant)
+- [controlcatalog](#controlcatalog)
 - [controltower](#controltower)
 - [cost-optimization-hub](#cost-optimization-hub)
 - [cur](#cur)
@@ -2033,6 +2034,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### controlcatalog
+- AccessDeniedException
+- InternalServerException
 - ThrottlingException
 - ValidationException
 
