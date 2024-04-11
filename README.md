@@ -6207,7 +6207,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
-- InternalServiceException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
