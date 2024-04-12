@@ -3098,6 +3098,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MalformedCertificate
 - MalformedPolicyDocument
 - NoSuchEntity
+- OpenIdIdpCommunicationError
 - PasswordPolicyViolation
 - PolicyEvaluation
 - PolicyNotAttachable
