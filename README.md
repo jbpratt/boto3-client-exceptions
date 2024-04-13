@@ -3562,6 +3562,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CloudHsmClusterNotActiveException
 - CloudHsmClusterNotFoundException
 - CloudHsmClusterNotRelatedException
+- ConflictException
 - CustomKeyStoreHasCMKsException
 - CustomKeyStoreInvalidStateException
 - CustomKeyStoreNameInUseException
