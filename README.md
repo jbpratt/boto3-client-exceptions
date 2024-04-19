@@ -6188,7 +6188,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ApplicationNotSupportedException
 - ComputeNotCompatibleException
+- ConflictException
 - IncompatibleApplicationsException
+- InternalServerException
 - InvalidParameterValuesException
 - InvalidResourceStateException
 - OperatingSystemNotCompatibleException
@@ -6203,6 +6205,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceUnavailableException
 - UnsupportedNetworkConfigurationException
 - UnsupportedWorkspaceConfigurationException
+- ValidationException
 - WorkspacesDefaultRoleNotFoundException
 
 ### workspaces-thin-client
