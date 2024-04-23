@@ -319,6 +319,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [route53-recovery-control-config](#route53-recovery-control-config)
 - [route53-recovery-readiness](#route53-recovery-readiness)
 - [route53domains](#route53domains)
+- [route53profiles](#route53profiles)
 - [route53resolver](#route53resolver)
 - [rum](#rum)
 - [s3](#s3)
@@ -5189,6 +5190,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationLimitExceeded
 - TLDRulesViolation
 - UnsupportedTLD
+
+### route53profiles
+- AccessDeniedException
+- ConflictException
+- InternalServiceErrorException
+- InvalidNextTokenException
+- InvalidParameterException
+- LimitExceededException
+- ResourceExistsException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### route53resolver
 - AccessDeniedException
