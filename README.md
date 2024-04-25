@@ -2944,6 +2944,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - LimitExceededException
 - NotFoundException
+- NotReadyException
 - OutOfCapacityException
 - TaggingFailedException
 - TerminalRoutingStrategyException
@@ -5697,6 +5698,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidFilterValue
 - InvalidInstanceId
 - InvalidInstanceInformationFilterValue
+- InvalidInstancePropertyFilterValue
 - InvalidInventoryGroupException
 - InvalidInventoryItemContextException
 - InvalidInventoryRequestException
