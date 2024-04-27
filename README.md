@@ -1754,6 +1754,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OutputVariablesSizeExceededException
 - PipelineExecutionNotFoundException
 - PipelineExecutionNotStoppableException
+- PipelineExecutionOutdatedException
 - PipelineNameInUseException
 - PipelineNotFoundException
 - PipelineVersionNotFoundException
@@ -1762,6 +1763,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - StageNotFoundException
 - StageNotRetryableException
 - TooManyTagsException
+- UnableToRollbackStageException
 - ValidationException
 - WebhookNotFoundException
 
