@@ -823,6 +823,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidParameterException
 - NotFoundException
 - ResourceLockedException
+- ServiceQuotaExceededException
 - ThrottlingException
 
 ### ce
