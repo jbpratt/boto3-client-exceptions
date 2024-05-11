@@ -5831,6 +5831,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidClientException
 - InvalidClientMetadataException
 - InvalidGrantException
+- InvalidRedirectUriException
 - InvalidRequestException
 - InvalidRequestRegionException
 - InvalidScopeException
