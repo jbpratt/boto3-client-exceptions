@@ -4413,6 +4413,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### osis
 - AccessDeniedException
 - ConflictException
+- DisabledOperationException
 - InternalException
 - InvalidPaginationTokenException
 - LimitExceededException
