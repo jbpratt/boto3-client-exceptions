@@ -232,6 +232,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [m2](#m2)
 - [machinelearning](#machinelearning)
 - [macie2](#macie2)
+- [mailmanager](#mailmanager)
 - [managedblockchain](#managedblockchain)
 - [managedblockchain-query](#managedblockchain-query)
 - [marketplace-agreement](#marketplace-agreement)
@@ -3846,6 +3847,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - UnprocessableEntityException
+- ValidationException
+
+### mailmanager
+- AccessDeniedException
+- ConflictException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### managedblockchain
