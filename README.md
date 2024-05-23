@@ -860,6 +860,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DescribeSlackWorkspacesException
 - GetAccountPreferencesException
 - GetTeamsChannelConfigurationException
+- InternalServiceError
 - InvalidParameterException
 - InvalidRequestException
 - LimitExceededException
@@ -867,6 +868,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ListMicrosoftTeamsUserIdentitiesException
 - ListTeamsChannelConfigurationsException
 - ResourceNotFoundException
+- ServiceUnavailableException
+- TooManyTagsException
 - UpdateAccountPreferencesException
 - UpdateChimeWebhookConfigurationException
 - UpdateSlackChannelConfigurationException
