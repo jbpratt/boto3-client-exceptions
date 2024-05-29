@@ -5935,6 +5935,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTagsFault
 - TypeAlreadyExistsFault
 - TypeDeprecatedFault
+- TypeNotDeprecatedFault
 - UnknownResourceFault
 - WorkflowExecutionAlreadyStartedFault
 
