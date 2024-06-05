@@ -371,6 +371,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [support-app](#support-app)
 - [swf](#swf)
 - [synthetics](#synthetics)
+- [taxsettings](#taxsettings)
 - [textract](#textract)
 - [timestream-influxdb](#timestream-influxdb)
 - [timestream-query](#timestream-query)
@@ -5949,6 +5950,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - TooManyRequestsException
+- ValidationException
+
+### taxsettings
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
 - ValidationException
 
 ### textract
