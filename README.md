@@ -16,7 +16,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [account](#account)
 - [acm](#acm)
 - [acm-pca](#acm-pca)
-- [alexaforbusiness](#alexaforbusiness)
 - [amp](#amp)
 - [amplify](#amplify)
 - [amplifybackend](#amplifybackend)
@@ -171,7 +170,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [guardduty](#guardduty)
 - [health](#health)
 - [healthlake](#healthlake)
-- [honeycode](#honeycode)
 - [iam](#iam)
 - [identitystore](#identitystore)
 - [imagebuilder](#imagebuilder)
@@ -454,23 +452,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RequestInProgressException
 - ResourceNotFoundException
 - TooManyTagsException
-
-### alexaforbusiness
-- AlreadyExistsException
-- ConcurrentModificationException
-- DeviceNotRegisteredException
-- InvalidCertificateAuthorityException
-- InvalidDeviceException
-- InvalidSecretsManagerResourceException
-- InvalidServiceLinkedRoleStateException
-- InvalidUserStatusException
-- LimitExceededException
-- NameInUseException
-- NotFoundException
-- ResourceAssociatedException
-- ResourceInUseException
-- SkillNotLinkedException
-- UnauthorizedException
 
 ### amp
 - AccessDeniedException
@@ -3073,18 +3054,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
-- ThrottlingException
-- ValidationException
-
-### honeycode
-- AccessDeniedException
-- AutomationExecutionException
-- AutomationExecutionTimeoutException
-- InternalServerException
-- RequestTimeoutException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ServiceUnavailableException
 - ThrottlingException
 - ValidationException
 
