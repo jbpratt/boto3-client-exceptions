@@ -30,6 +30,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [appintegrations](#appintegrations)
 - [application-autoscaling](#application-autoscaling)
 - [application-insights](#application-insights)
+- [application-signals](#application-signals)
 - [applicationcostprofiler](#applicationcostprofiler)
 - [appmesh](#appmesh)
 - [apprunner](#apprunner)
@@ -572,6 +573,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - TagsAlreadyExistException
 - TooManyTagsException
+- ValidationException
+
+### application-signals
+- AccessDeniedException
+- ConflictException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### applicationcostprofiler
