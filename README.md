@@ -281,6 +281,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [payment-cryptography](#payment-cryptography)
 - [payment-cryptography-data](#payment-cryptography-data)
 - [pca-connector-ad](#pca-connector-ad)
+- [pca-connector-scep](#pca-connector-scep)
 - [personalize](#personalize)
 - [personalize-events](#personalize-events)
 - [personalize-runtime](#personalize-runtime)
@@ -3052,6 +3053,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadRequestException
 - ConflictException
 - InternalServerErrorException
+- ResourceNotFoundException
 
 ### health
 - ConcurrentModificationException
@@ -4448,6 +4450,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### pca-connector-ad
 - AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### pca-connector-scep
+- AccessDeniedException
+- BadRequestException
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
