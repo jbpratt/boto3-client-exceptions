@@ -36,6 +36,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [apprunner](#apprunner)
 - [appstream](#appstream)
 - [appsync](#appsync)
+- [apptest](#apptest)
 - [arc-zonal-shift](#arc-zonal-shift)
 - [artifact](#artifact)
 - [athena](#athena)
@@ -45,7 +46,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [b2bi](#b2bi)
 - [backup](#backup)
 - [backup-gateway](#backup-gateway)
-- [backupstorage](#backupstorage)
 - [batch](#batch)
 - [bcm-data-exports](#bcm-data-exports)
 - [bedrock](#bedrock)
@@ -639,6 +639,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - UnauthorizedException
 
+### apptest
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### arc-zonal-shift
 - AccessDeniedException
 - ConflictException
@@ -720,18 +729,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ThrottlingException
 - ValidationException
-
-### backupstorage
-- AccessDeniedException
-- DataAlreadyExistsException
-- IllegalArgumentException
-- KMSInvalidKeyUsageException
-- NotReadableInputStreamException
-- ResourceNotFoundException
-- RetryableException
-- ServiceInternalException
-- ServiceUnavailableException
-- ThrottlingException
 
 ### batch
 - ClientException
