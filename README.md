@@ -3006,6 +3006,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidStateException
 - MLTransformNotReadyException
 - NoScheduleException
+- OperationNotSupportedException
 - OperationTimeoutException
 - PermissionTypeMismatchException
 - ResourceNotReadyException
