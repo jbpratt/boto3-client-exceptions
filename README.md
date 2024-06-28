@@ -4603,6 +4603,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RequestTimeoutException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
 - TooManyTagsException
 - ValidationException
 
