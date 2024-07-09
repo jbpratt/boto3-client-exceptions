@@ -295,6 +295,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pricing](#pricing)
 - [privatenetworks](#privatenetworks)
 - [proton](#proton)
+- [qapps](#qapps)
 - [qbusiness](#qbusiness)
 - [qconnect](#qconnect)
 - [qldb](#qldb)
@@ -4584,6 +4585,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### qapps
+- AccessDeniedException
+- ConflictException
+- ContentTooLargeException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- UnauthorizedException
 - ValidationException
 
 ### qbusiness
