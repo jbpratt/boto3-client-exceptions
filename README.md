@@ -3723,6 +3723,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### license-manager-linux-subscriptions
 - InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
