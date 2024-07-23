@@ -257,7 +257,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [migrationhub-config](#migrationhub-config)
 - [migrationhuborchestrator](#migrationhuborchestrator)
 - [migrationhubstrategy](#migrationhubstrategy)
-- [mobile](#mobile)
 - [mq](#mq)
 - [mturk](#mturk)
 - [mwaa](#mwaa)
@@ -4112,16 +4111,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
-### mobile
-- AccountActionRequiredException
-- BadRequestException
-- InternalFailureException
-- LimitExceededException
-- NotFoundException
-- ServiceUnavailableException
-- TooManyRequestsException
-- UnauthorizedException
-
 ### mq
 - BadRequestException
 - ConflictException
@@ -5011,6 +5000,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InsufficientCapacityException
 - InternalServerException
 - InvalidPaginationException
+- Ipv6CidrBlockNotFoundException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
