@@ -780,6 +780,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ModelTimeoutException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ServiceUnavailableException
 - ThrottlingException
 - ValidationException
 
@@ -1510,6 +1511,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NoChangeException
 - NumberOfRuleTemplatesExceededException
 - NumberOfRulesExceededException
+- OperationNotAllowedException
 - OverrideAlreadySetException
 - OverrideStatusRequiredException
 - ParentCommitDoesNotExistException
@@ -2443,6 +2445,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ScanNotFoundException
 - SecretNotFoundException
 - ServerException
+- TemplateAlreadyExistsException
+- TemplateNotFoundException
 - TooManyTagsException
 - UnableToAccessSecretException
 - UnableToDecryptSecretValueException
@@ -2710,6 +2714,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AvailabilityZoneNotSupported
 - CaCertificatesBundleNotFound
 - CertificateNotFound
+- DeleteAssociationSameAccount
 - DuplicateListener
 - DuplicateLoadBalancerName
 - DuplicateTagKeys
@@ -2730,6 +2735,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationNotPermitted
 - PriorityInUse
 - ResourceInUse
+- ResourceNotFound
 - RevocationContentNotFound
 - RevocationIdNotFound
 - RuleNotFound
@@ -2749,6 +2755,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTrustStoreRevocationEntries
 - TooManyTrustStores
 - TooManyUniqueTargetGroupsPerLoadBalancer
+- AssociationNotFound
 - TrustStoreInUse
 - TrustStoreNotFound
 - TrustStoreNotReady
@@ -5846,6 +5853,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedGrantTypeException
 
 ### stepfunctions
+- ActivityAlreadyExists
 - ActivityDoesNotExist
 - ActivityLimitExceeded
 - ActivityWorkerLimitExceeded
@@ -5856,12 +5864,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ExecutionNotRedrivable
 - InvalidArn
 - InvalidDefinition
+- InvalidEncryptionConfiguration
 - InvalidExecutionInput
 - InvalidLoggingConfiguration
 - InvalidName
 - InvalidOutput
 - InvalidToken
 - InvalidTracingConfiguration
+- KmsAccessDeniedException
+- KmsInvalidStateException
+- KmsThrottlingException
 - MissingRequiredParameter
 - ResourceNotFound
 - ServiceQuotaExceededException
