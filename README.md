@@ -1728,6 +1728,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ApprovalAlreadyCompletedException
 - ConcurrentModificationException
 - ConcurrentPipelineExecutionsLimitExceededException
+- ConditionNotOverridableException
 - ConflictException
 - DuplicatedStopRequestException
 - InvalidActionDeclarationException
