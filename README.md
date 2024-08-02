@@ -359,6 +359,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [ssm](#ssm)
 - [ssm-contacts](#ssm-contacts)
 - [ssm-incidents](#ssm-incidents)
+- [ssm-quicksetup](#ssm-quicksetup)
 - [ssm-sap](#ssm-sap)
 - [sso](#sso)
 - [sso-admin](#sso-admin)
@@ -2040,6 +2041,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### controlcatalog
 - AccessDeniedException
 - InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
@@ -5812,6 +5814,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### ssm-quicksetup
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
