@@ -1844,6 +1844,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - MFAMethodNotFoundException
 - NotAuthorizedException
+- PasswordHistoryPolicyViolationException
 - PasswordResetRequiredException
 - PreconditionNotMetException
 - ResourceNotFoundException
