@@ -4640,6 +4640,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConcurrentUpdatingException
 - ConflictException
+- CustomerManagedKeyUnavailableException
 - DomainNotWhitelistedException
 - IdentityTypeNotSupportedException
 - InternalFailureException
