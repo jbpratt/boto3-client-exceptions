@@ -88,7 +88,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [codeguru-security](#codeguru-security)
 - [codeguruprofiler](#codeguruprofiler)
 - [codepipeline](#codepipeline)
-- [codestar](#codestar)
 - [codestar-connections](#codestar-connections)
 - [codestar-notifications](#codestar-notifications)
 - [cognito-identity](#cognito-identity)
@@ -1764,21 +1763,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnableToRollbackStageException
 - ValidationException
 - WebhookNotFoundException
-
-### codestar
-- ConcurrentModificationException
-- InvalidNextTokenException
-- InvalidServiceRoleException
-- LimitExceededException
-- ProjectAlreadyExistsException
-- ProjectConfigurationException
-- ProjectCreationFailedException
-- ProjectNotFoundException
-- TeamMemberAlreadyAssociatedException
-- TeamMemberNotFoundException
-- UserProfileAlreadyExistsException
-- UserProfileNotFoundException
-- ValidationException
 
 ### codestar-connections
 - AccessDeniedException
