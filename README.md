@@ -3318,6 +3318,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalFailureException
 - InvalidRequestException
 - LimitExceededException
+- PreconditionFailedException
 - QueryTimeoutException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
