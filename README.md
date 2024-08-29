@@ -280,6 +280,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [payment-cryptography-data](#payment-cryptography-data)
 - [pca-connector-ad](#pca-connector-ad)
 - [pca-connector-scep](#pca-connector-scep)
+- [pcs](#pcs)
 - [personalize](#personalize)
 - [personalize-events](#personalize-events)
 - [personalize-runtime](#personalize-runtime)
@@ -4445,6 +4446,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### pca-connector-scep
 - AccessDeniedException
 - BadRequestException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### pcs
+- AccessDeniedException
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
