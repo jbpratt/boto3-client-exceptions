@@ -4993,11 +4993,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UsageLimitNotFound
 
 ### redshift-data
+- ActiveSessionsExceededException
 - ActiveStatementsExceededException
 - BatchExecuteStatementException
 - DatabaseConnectionException
 - ExecuteStatementException
 - InternalServerException
+- QueryTimeoutException
 - ResourceNotFoundException
 - ValidationException
 
