@@ -3010,6 +3010,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SchedulerNotRunningException
 - SchedulerRunningException
 - SchedulerTransitioningException
+- ThrottlingException
 - ValidationException
 - VersionMismatchException
 
