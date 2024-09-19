@@ -125,6 +125,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [docdb-elastic](#docdb-elastic)
 - [drs](#drs)
 - [ds](#ds)
+- [ds-data](#ds-data)
 - [dynamodb](#dynamodb)
 - [dynamodbstreams](#dynamodbstreams)
 - [ebs](#ebs)
@@ -2336,6 +2337,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedOperationException
 - UnsupportedSettingsException
 - UserDoesNotExistException
+
+### ds-data
+- AccessDeniedException
+- ConflictException
+- DirectoryUnavailableException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### dynamodb
 - BackupInUseException
