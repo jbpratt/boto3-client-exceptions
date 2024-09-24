@@ -4809,7 +4809,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidExportTaskStateFault
 - InvalidGlobalClusterStateFault
 - InvalidIntegrationStateFault
-- InvalidMaxAcu
 - InvalidOptionGroupStateFault
 - InvalidResourceStateFault
 - InvalidRestoreFault
