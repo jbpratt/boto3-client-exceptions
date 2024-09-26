@@ -392,7 +392,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [wellarchitected](#wellarchitected)
 - [wisdom](#wisdom)
 - [workdocs](#workdocs)
-- [worklink](#worklink)
 - [workmail](#workmail)
 - [workmailmessageflow](#workmailmessageflow)
 - [workspaces](#workspaces)
@@ -6221,14 +6220,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManySubscriptionsException
 - UnauthorizedOperationException
 - UnauthorizedResourceAccessException
-
-### worklink
-- InternalServerErrorException
-- InvalidRequestException
-- ResourceAlreadyExistsException
-- ResourceNotFoundException
-- TooManyRequestsException
-- UnauthorizedException
 
 ### workmail
 - DirectoryInUseException
