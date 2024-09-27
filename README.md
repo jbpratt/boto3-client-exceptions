@@ -3646,7 +3646,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyLengthExceededException
 - PreconditionFailedException
 - ProvisionedConcurrencyConfigNotFoundException
-- PublicPolicyException
 - RecursiveInvocationException
 - RequestTooLargeException
 - ResourceConflictException
