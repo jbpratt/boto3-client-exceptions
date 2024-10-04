@@ -238,6 +238,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [marketplace-catalog](#marketplace-catalog)
 - [marketplace-deployment](#marketplace-deployment)
 - [marketplace-entitlement](#marketplace-entitlement)
+- [marketplace-reporting](#marketplace-reporting)
 - [marketplacecommerceanalytics](#marketplacecommerceanalytics)
 - [mediaconnect](#mediaconnect)
 - [mediaconvert](#mediaconvert)
@@ -3897,6 +3898,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServiceErrorException
 - InvalidParameterException
 - ThrottlingException
+
+### marketplace-reporting
+- AccessDeniedException
+- BadRequestException
+- InternalServerException
+- UnauthorizedException
 
 ### marketplacecommerceanalytics
 - MarketplaceCommerceAnalyticsException
