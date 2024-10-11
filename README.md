@@ -357,6 +357,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [snow-device-management](#snow-device-management)
 - [snowball](#snowball)
 - [sns](#sns)
+- [socialmessaging](#socialmessaging)
 - [sqs](#sqs)
 - [ssm](#ssm)
 - [ssm-contacts](#ssm-contacts)
@@ -2197,6 +2198,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### dms
 - AccessDeniedFault
 - CollectorNotFoundFault
+- FailedDependencyFault
 - InsufficientResourceCapacityFault
 - InvalidCertificateFault
 - InvalidOperationFault
@@ -5647,6 +5649,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UserError
 - ValidationException
 - VerificationException
+
+### socialmessaging
+- AccessDeniedByMetaException
+- AccessDeniedException
+- DependencyException
+- InternalServiceException
+- InvalidParametersException
+- ResourceNotFoundException
+- ThrottledRequestException
+- ValidationException
 
 ### sqs
 - BatchEntryIdsNotDistinct
