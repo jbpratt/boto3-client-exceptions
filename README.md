@@ -4926,7 +4926,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IncompatibleOrderableOptions
 - InsufficientClusterCapacity
 - InsufficientS3BucketPolicyFault
+- IntegrationAlreadyExistsFault
+- IntegrationConflictOperationFault
+- IntegrationConflictStateFault
 - IntegrationNotFoundFault
+- IntegrationQuotaExceededFault
+- IntegrationSourceNotFoundFault
+- IntegrationTargetNotFoundFault
 - InvalidAuthenticationProfileRequestFault
 - InvalidAuthorizationState
 - InvalidClusterParameterGroupState
