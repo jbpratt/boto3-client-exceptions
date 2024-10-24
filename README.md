@@ -4143,6 +4143,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - InternalServerException
 - ResourceNotFoundException
+- RestApiClientException
+- RestApiServerException
 - ValidationException
 
 ### neptune
