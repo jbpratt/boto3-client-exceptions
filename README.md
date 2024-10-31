@@ -161,6 +161,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [freetier](#freetier)
 - [fsx](#fsx)
 - [gamelift](#gamelift)
+- [geo-maps](#geo-maps)
+- [geo-places](#geo-places)
+- [geo-routes](#geo-routes)
 - [glacier](#glacier)
 - [globalaccelerator](#globalaccelerator)
 - [glue](#glue)
@@ -635,10 +638,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ApiLimitExceededException
 - BadRequestException
 - ConcurrentModificationException
+- ConflictException
 - GraphQLSchemaException
 - InternalFailureException
 - LimitExceededException
 - NotFoundException
+- ServiceQuotaExceededException
 - UnauthorizedException
 
 ### apptest
@@ -2953,6 +2958,24 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TerminalRoutingStrategyException
 - UnauthorizedException
 - UnsupportedRegionException
+
+### geo-maps
+- AccessDeniedException
+- InternalServerException
+- ThrottlingException
+- ValidationException
+
+### geo-places
+- AccessDeniedException
+- InternalServerException
+- ThrottlingException
+- ValidationException
+
+### geo-routes
+- AccessDeniedException
+- InternalServerException
+- ThrottlingException
+- ValidationException
 
 ### glacier
 - InsufficientCapacityException
