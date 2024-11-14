@@ -52,6 +52,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [bedrock-agent](#bedrock-agent)
 - [bedrock-agent-runtime](#bedrock-agent-runtime)
 - [bedrock-runtime](#bedrock-runtime)
+- [billing](#billing)
 - [billingconductor](#billingconductor)
 - [braket](#braket)
 - [budgets](#budgets)
@@ -791,6 +792,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### billing
+- AccessDeniedException
+- InternalServerException
+- ThrottlingException
+- ValidationException
+
 ### billingconductor
 - AccessDeniedException
 - ConflictException
@@ -1273,6 +1280,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EventDataStoreMaxLimitExceededException
 - EventDataStoreNotFoundException
 - EventDataStoreTerminationProtectedException
+- GenerateResponseException
 - ImportNotFoundException
 - InactiveEventDataStoreException
 - InactiveQueryException
