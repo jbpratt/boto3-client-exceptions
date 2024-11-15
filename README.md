@@ -281,6 +281,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [osis](#osis)
 - [outposts](#outposts)
 - [panorama](#panorama)
+- [partnercentral-selling](#partnercentral-selling)
 - [payment-cryptography](#payment-cryptography)
 - [payment-cryptography-data](#payment-cryptography-data)
 - [pca-connector-ad](#pca-connector-ad)
@@ -3106,6 +3107,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### iam
+- AccountNotManagementOrDelegatedAdministratorException
+- CallerIsNotManagementAccountException
 - ConcurrentModification
 - ReportExpired
 - ReportNotPresent
@@ -3126,10 +3129,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MalformedPolicyDocument
 - NoSuchEntity
 - OpenIdIdpCommunicationError
+- OrganizationNotFoundException
+- OrganizationNotInAllFeaturesModeException
 - PasswordPolicyViolation
 - PolicyEvaluation
 - PolicyNotAttachable
 - ReportGenerationLimitExceeded
+- ServiceAccessNotEnabledException
 - ServiceFailure
 - NotSupportedService
 - UnmodifiableEntity
@@ -4458,6 +4464,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ValidationException
 
+### partnercentral-selling
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### payment-cryptography
 - AccessDeniedException
 - ConflictException
@@ -4681,6 +4696,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DomainNotWhitelistedException
 - IdentityTypeNotSupportedException
 - InternalFailureException
+- InternalServerException
 - InvalidNextTokenException
 - InvalidParameterValueException
 - InvalidRequestException
