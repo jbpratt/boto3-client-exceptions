@@ -101,6 +101,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connect](#connect)
 - [connect-contact-lens](#connect-contact-lens)
 - [connectcampaigns](#connectcampaigns)
+- [connectcampaignsv2](#connectcampaignsv2)
 - [connectcases](#connectcases)
 - [connectparticipant](#connectparticipant)
 - [controlcatalog](#controlcatalog)
@@ -2011,6 +2012,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### connectcampaigns
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidCampaignStateException
+- InvalidStateException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### connectcampaignsv2
 - AccessDeniedException
 - ConflictException
 - InternalServerException
