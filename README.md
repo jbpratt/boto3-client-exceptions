@@ -1048,6 +1048,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConcurrentResourcesLimitExceeded
 - CreatedButModifiedException
 - GeneratedTemplateNotFound
+- HookResultNotFound
 - InsufficientCapabilitiesException
 - InvalidChangeSetStatus
 - InvalidOperationException
@@ -4792,6 +4793,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DBInstanceAutomatedBackupNotFound
 - DBInstanceAutomatedBackupQuotaExceeded
 - DBInstanceNotFound
+- DBInstanceNotReady
 - DBInstanceRoleAlreadyExists
 - DBInstanceRoleNotFound
 - DBInstanceRoleQuotaExceeded
@@ -4911,6 +4913,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadRequestException
 - DatabaseErrorException
 - DatabaseNotFoundException
+- DatabaseResumingException
 - DatabaseUnavailableException
 - ForbiddenException
 - HttpEndpointNotEnabledException
