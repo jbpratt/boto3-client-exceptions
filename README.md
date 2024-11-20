@@ -6055,6 +6055,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### taxsettings
+- AccessDeniedException
+- AttachmentUploadException
+- CaseCreationLimitExceededException
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
