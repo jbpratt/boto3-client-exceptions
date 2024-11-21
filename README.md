@@ -1079,6 +1079,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CachePolicyInUse
 - CannotChangeImmutablePublicKeyFields
 - CannotDeleteEntityWhileInUse
+- CannotUpdateEntityWhileInUse
 - CloudFrontOriginAccessIdentityAlreadyExists
 - CloudFrontOriginAccessIdentityInUse
 - ContinuousDeploymentPolicyAlreadyExists
@@ -2740,6 +2741,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AllocationIdNotFound
 - AvailabilityZoneNotSupported
 - CaCertificatesBundleNotFound
+- CapacityDecreaseRequestLimitExceeded
+- CapacityReservationPending
+- CapacityUnitsLimitExceeded
 - CertificateNotFound
 - DeleteAssociationSameAccount
 - DuplicateListener
@@ -2749,6 +2753,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateTrustStoreName
 - HealthUnavailable
 - IncompatibleProtocols
+- InsufficientCapacity
 - InvalidCaCertificatesBundle
 - InvalidConfigurationRequest
 - InvalidLoadBalancerAction
@@ -2760,6 +2765,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ListenerNotFound
 - LoadBalancerNotFound
 - OperationNotPermitted
+- PriorRequestNotComplete
 - PriorityInUse
 - ResourceInUse
 - ResourceNotFound
