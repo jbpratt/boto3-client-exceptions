@@ -48,6 +48,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [backup-gateway](#backup-gateway)
 - [batch](#batch)
 - [bcm-data-exports](#bcm-data-exports)
+- [bcm-pricing-calculator](#bcm-pricing-calculator)
 - [bedrock](#bedrock)
 - [bedrock-agent](#bedrock-agent)
 - [bedrock-agent-runtime](#bedrock-agent-runtime)
@@ -272,6 +273,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [network-firewall](#network-firewall)
 - [networkmanager](#networkmanager)
 - [networkmonitor](#networkmonitor)
+- [notifications](#notifications)
+- [notificationscontacts](#notificationscontacts)
 - [oam](#oam)
 - [omics](#omics)
 - [opensearch](#opensearch)
@@ -751,6 +754,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### bcm-pricing-calculator
+- AccessDeniedException
+- ConflictException
+- DataUnavailableException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### bedrock
 - AccessDeniedException
 - ConflictException
@@ -834,6 +847,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### ce
+- AnalysisNotFoundException
 - BackfillLimitExceededException
 - BillExpirationException
 - DataUnavailableException
@@ -876,6 +890,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceUnavailableException
 - TooManyTagsException
+- UnauthorizedException
 - UpdateAccountPreferencesException
 - UpdateChimeWebhookConfigurationException
 - UpdateSlackChannelConfigurationException
@@ -1337,6 +1352,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourcePolicyNotValidException
 - ResourceTypeNotSupportedException
 - S3BucketDoesNotExistException
+- ServiceQuotaExceededException
 - TagsLimitExceededException
 - ThrottlingException
 - TrailAlreadyExistsException
@@ -1833,6 +1849,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateProviderException
 - EnableSoftwareTokenMFAException
 - ExpiredCodeException
+- FeatureUnavailableInTierException
 - ForbiddenException
 - GroupExistsException
 - InternalErrorException
@@ -1846,6 +1863,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidUserPoolConfigurationException
 - LimitExceededException
 - MFAMethodNotFoundException
+- ManagedLoginBrandingExistsException
 - NotAuthorizedException
 - PasswordHistoryPolicyViolationException
 - PasswordResetRequiredException
@@ -1853,6 +1871,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ScopeDoesNotExistException
 - SoftwareTokenMFANotFoundException
+- TierChangeNotAllowedException
 - TooManyFailedAttemptsException
 - TooManyRequestsException
 - UnauthorizedException
@@ -1868,6 +1887,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UserPoolAddOnNotEnabledException
 - UserPoolTaggingException
 - UsernameExistsException
+- WebAuthnChallengeNotFoundException
+- WebAuthnClientMismatchException
+- WebAuthnConfigurationMissingException
+- WebAuthnCredentialNotSupportedException
+- WebAuthnNotEnabledException
+- WebAuthnOriginNotAllowedException
+- WebAuthnRelyingPartyMismatchException
 
 ### cognito-sync
 - AlreadyStreamedException
@@ -1981,6 +2007,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### connect
 - AccessDeniedException
+- ConditionalOperationFailedException
 - ConflictException
 - ContactFlowNotPublishedException
 - ContactNotFoundException
@@ -3301,12 +3328,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### iot-jobs-data
 - CertificateValidationException
+- ConflictException
+- InternalServerException
 - InvalidRequestException
 - InvalidStateTransitionException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ServiceUnavailableException
 - TerminalStateException
 - ThrottlingException
+- ValidationException
 
 ### iot1click-devices
 - ForbiddenException
@@ -4350,6 +4381,24 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### notifications
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### notificationscontacts
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### oam
 - ConflictException
 - InternalServiceFault
@@ -5337,12 +5386,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### s3
 - BucketAlreadyExists
 - BucketAlreadyOwnedByYou
+- EncryptionTypeMismatch
 - InvalidObjectState
+- InvalidRequest
+- InvalidWriteOffset
 - NoSuchBucket
 - NoSuchKey
 - NoSuchUpload
 - ObjectAlreadyInActiveTierError
 - ObjectNotInActiveTierError
+- TooManyParts
 
 ### s3control
 - BadRequestException
@@ -5888,8 +5941,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedInventoryItemContextException
 - UnsupportedInventorySchemaVersionException
 - UnsupportedOperatingSystem
+- UnsupportedOperationException
 - UnsupportedParameterType
 - UnsupportedPlatformType
+- ValidationException
 
 ### ssm-contacts
 - AccessDeniedException
