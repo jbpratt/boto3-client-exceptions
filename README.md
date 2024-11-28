@@ -276,6 +276,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [notifications](#notifications)
 - [notificationscontacts](#notificationscontacts)
 - [oam](#oam)
+- [observabilityadmin](#observabilityadmin)
 - [omics](#omics)
 - [opensearch](#opensearch)
 - [opensearchserverless](#opensearchserverless)
@@ -1950,6 +1951,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### config
+- ConflictException
 - ConformancePackTemplateValidationException
 - IdempotentParameterMismatch
 - InsufficientDeliveryPolicyException
@@ -2003,6 +2005,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotDiscoveredException
 - ResourceNotFoundException
 - TooManyTagsException
+- UnmodifiableEntityException
 - ValidationException
 
 ### connect
@@ -4407,6 +4410,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - TooManyTagsException
+- ValidationException
+
+### observabilityadmin
+- AccessDeniedException
+- InternalServerException
 - ValidationException
 
 ### omics
