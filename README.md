@@ -185,6 +185,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [inspector-scan](#inspector-scan)
 - [inspector2](#inspector2)
 - [internetmonitor](#internetmonitor)
+- [invoicing](#invoicing)
 - [iot](#iot)
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
@@ -271,6 +272,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [neptune-graph](#neptune-graph)
 - [neptunedata](#neptunedata)
 - [network-firewall](#network-firewall)
+- [networkflowmonitor](#networkflowmonitor)
 - [networkmanager](#networkmanager)
 - [networkmonitor](#networkmonitor)
 - [notifications](#notifications)
@@ -349,6 +351,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [schemas](#schemas)
 - [sdb](#sdb)
 - [secretsmanager](#secretsmanager)
+- [security-ir](#security-ir)
 - [securityhub](#securityhub)
 - [securitylake](#securitylake)
 - [serverlessrepo](#serverlessrepo)
@@ -2866,6 +2869,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### events
+- AccessDeniedException
 - ConcurrentModificationException
 - IllegalStatusException
 - InternalException
@@ -2877,6 +2881,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyLengthExceededException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
+- ThrottlingException
 
 ### evidently
 - AccessDeniedException
@@ -3280,6 +3285,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ThrottlingException
 - TooManyRequestsException
+- ValidationException
+
+### invoicing
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### iot
@@ -4099,6 +4112,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidClusterStateFault
 - InvalidCredentialsException
 - InvalidKMSKeyFault
+- InvalidMultiRegionClusterStateFault
 - InvalidNodeStateFault
 - InvalidParameterCombinationException
 - InvalidParameterGroupStateFault
@@ -4107,6 +4121,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidSubnet
 - InvalidUserStateFault
 - InvalidVPCNetworkStateFault
+- MultiRegionClusterAlreadyExistsFault
+- MultiRegionClusterNotFoundFault
+- MultiRegionParameterGroupNotFoundFault
 - NoOperationFault
 - NodeQuotaForClusterExceededFault
 - NodeQuotaForCustomerExceededFault
@@ -4364,6 +4381,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceOwnerCheckException
 - ThrottlingException
 - UnsupportedOperationException
+
+### networkflowmonitor
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### networkmanager
 - AccessDeniedException
@@ -4730,8 +4756,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### qbusiness
 - AccessDeniedException
 - ConflictException
+- ExternalResourceException
 - InternalServerException
 - LicenseNotFoundException
+- MediaTooLargeException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
@@ -5531,6 +5559,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PublicPolicyException
 - ResourceExistsException
 - ResourceNotFoundException
+
+### security-ir
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidTokenException
+- ResourceNotFoundException
+- SecurityIncidentResponseNotActiveException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### securityhub
 - AccessDeniedException
