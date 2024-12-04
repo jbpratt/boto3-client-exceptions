@@ -129,6 +129,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [drs](#drs)
 - [ds](#ds)
 - [ds-data](#ds-data)
+- [dsql](#dsql)
 - [dynamodb](#dynamodb)
 - [dynamodbstreams](#dynamodbstreams)
 - [ebs](#ebs)
@@ -339,6 +340,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [s3](#s3)
 - [s3control](#s3control)
 - [s3outposts](#s3outposts)
+- [s3tables](#s3tables)
 - [sagemaker](#sagemaker)
 - [sagemaker-a2i-runtime](#sagemaker-a2i-runtime)
 - [sagemaker-edge](#sagemaker-edge)
@@ -800,6 +802,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### bedrock-runtime
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - ModelErrorException
 - ModelNotReadyException
@@ -2409,6 +2412,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### dsql
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### dynamodb
 - BackupInUseException
 - BackupNotFoundException
@@ -2433,6 +2445,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ProvisionedThroughputExceededException
 - ReplicaAlreadyExistsException
 - ReplicaNotFoundException
+- ReplicatedWriteConflictException
 - RequestLimitExceeded
 - ResourceInUseException
 - ResourceNotFoundException
@@ -3094,19 +3107,27 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IllegalBlueprintStateException
 - IllegalSessionStateException
 - IllegalWorkflowStateException
+- IntegrationConflictOperationFault
+- IntegrationNotFoundFault
+- IntegrationQuotaExceededFault
+- InternalServerException
 - InternalServiceException
 - InvalidInputException
+- InvalidIntegrationStateFault
 - InvalidStateException
+- KMSKeyNotAccessibleFault
 - MLTransformNotReadyException
 - NoScheduleException
 - OperationNotSupportedException
 - OperationTimeoutException
 - PermissionTypeMismatchException
+- ResourceNotFoundException
 - ResourceNotReadyException
 - ResourceNumberLimitExceededException
 - SchedulerNotRunningException
 - SchedulerRunningException
 - SchedulerTransitioningException
+- TargetResourceNotFound
 - ThrottlingException
 - ValidationException
 - VersionMismatchException
@@ -5455,6 +5476,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ThrottlingException
 - ValidationException
+
+### s3tables
+- AccessDeniedException
+- BadRequestException
+- ConflictException
+- ForbiddenException
+- InternalServerErrorException
+- NotFoundException
+- TooManyRequestsException
 
 ### sagemaker
 - ConflictException
