@@ -52,6 +52,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [bedrock](#bedrock)
 - [bedrock-agent](#bedrock-agent)
 - [bedrock-agent-runtime](#bedrock-agent-runtime)
+- [bedrock-data-automation](#bedrock-data-automation)
+- [bedrock-data-automation-runtime](#bedrock-data-automation-runtime)
 - [bedrock-runtime](#bedrock-runtime)
 - [billing](#billing)
 - [billingconductor](#billingconductor)
@@ -776,6 +778,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ServiceUnavailableException
 - ThrottlingException
 - TooManyTagsException
 - ValidationException
@@ -794,6 +797,23 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadGatewayException
 - ConflictException
 - DependencyFailedException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### bedrock-data-automation
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### bedrock-data-automation-runtime
+- AccessDeniedException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
