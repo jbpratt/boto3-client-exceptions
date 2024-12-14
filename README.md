@@ -1282,6 +1282,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CloudHsmAccessDeniedException
 - CloudHsmInternalFailureException
 - CloudHsmInvalidRequestException
+- CloudHsmResourceLimitExceededException
 - CloudHsmResourceNotFoundException
 - CloudHsmServiceException
 - CloudHsmTagException
@@ -5697,6 +5698,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceLimitExceeded
 - ResourceNotFoundException
 - ServiceAlreadyExists
+- ServiceAttributesLimitExceededException
 - ServiceNotFound
 - TooManyTagsException
 
