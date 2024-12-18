@@ -46,6 +46,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [b2bi](#b2bi)
 - [backup](#backup)
 - [backup-gateway](#backup-gateway)
+- [backupsearch](#backupsearch)
 - [batch](#batch)
 - [bcm-data-exports](#bcm-data-exports)
 - [bcm-pricing-calculator](#bcm-pricing-calculator)
@@ -748,6 +749,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
+### backupsearch
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
