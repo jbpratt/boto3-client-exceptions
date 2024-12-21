@@ -808,6 +808,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - DependencyFailedException
 - InternalServerException
+- ModelNotReadyException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
@@ -846,7 +847,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### billing
 - AccessDeniedException
+- ConflictException
 - InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
