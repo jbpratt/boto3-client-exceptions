@@ -193,8 +193,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iot](#iot)
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
-- [iot1click-devices](#iot1click-devices)
-- [iot1click-projects](#iot1click-projects)
 - [iotanalytics](#iotanalytics)
 - [iotdeviceadvisor](#iotdeviceadvisor)
 - [iotevents](#iotevents)
@@ -3410,22 +3408,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TerminalStateException
 - ThrottlingException
 - ValidationException
-
-### iot1click-devices
-- ForbiddenException
-- InternalFailureException
-- InvalidRequestException
-- PreconditionFailedException
-- RangeNotSatisfiableException
-- ResourceConflictException
-- ResourceNotFoundException
-
-### iot1click-projects
-- InternalFailureException
-- InvalidRequestException
-- ResourceConflictException
-- ResourceNotFoundException
-- TooManyRequestsException
 
 ### iotanalytics
 - InternalFailureException
