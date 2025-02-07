@@ -1118,6 +1118,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceScanNotFound
 - StackInstanceNotFoundException
 - StackNotFoundException
+- StackRefactorNotFoundException
 - StackSetNotEmptyException
 - StackSetNotFoundException
 - StaleRequestException
