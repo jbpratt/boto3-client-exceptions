@@ -5048,6 +5048,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ForbiddenException
 - HttpEndpointNotEnabledException
 - InternalServerErrorException
+- InvalidResourceStateException
 - InvalidSecretException
 - NotFoundException
 - SecretsErrorException
