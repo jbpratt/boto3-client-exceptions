@@ -144,7 +144,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [efs](#efs)
 - [eks](#eks)
 - [eks-auth](#eks-auth)
-- [elastic-inference](#elastic-inference)
 - [elasticache](#elasticache)
 - [elasticbeanstalk](#elasticbeanstalk)
 - [elastictranscoder](#elastictranscoder)
@@ -2678,11 +2677,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceUnavailableException
 - ThrottlingException
-
-### elastic-inference
-- BadRequestException
-- InternalServerException
-- ResourceNotFoundException
 
 ### elasticache
 - APICallRateForCustomerExceeded
