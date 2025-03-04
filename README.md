@@ -1886,6 +1886,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CodeDeliveryFailureException
 - CodeMismatchException
 - ConcurrentModificationException
+- DeviceKeyExistsException
 - DuplicateProviderException
 - EnableSoftwareTokenMFAException
 - ExpiredCodeException
@@ -5448,6 +5449,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- InvalidPolicyRevisionIdException
+- MalformedPolicyDocumentException
+- PolicyNotFoundException
+- PolicySizeLimitExceededException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
