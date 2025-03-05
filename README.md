@@ -192,6 +192,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iot](#iot)
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
+- [iot-managed-integrations](#iot-managed-integrations)
 - [iotanalytics](#iotanalytics)
 - [iotdeviceadvisor](#iotdeviceadvisor)
 - [iotevents](#iotevents)
@@ -3403,6 +3404,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - TerminalStateException
 - ThrottlingException
+- ValidationException
+
+### iot-managed-integrations
+- AccessDeniedException
+- ConflictException
+- InternalFailureException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ServiceUnavailableException
+- ThrottlingException
+- UnauthorizedException
 - ValidationException
 
 ### iotanalytics
