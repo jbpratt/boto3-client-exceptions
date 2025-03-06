@@ -167,6 +167,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [freetier](#freetier)
 - [fsx](#fsx)
 - [gamelift](#gamelift)
+- [gameliftstreams](#gameliftstreams)
 - [geo-maps](#geo-maps)
 - [geo-places](#geo-places)
 - [geo-routes](#geo-routes)
@@ -3064,6 +3065,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TerminalRoutingStrategyException
 - UnauthorizedException
 - UnsupportedRegionException
+
+### gameliftstreams
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### geo-maps
 - AccessDeniedException
