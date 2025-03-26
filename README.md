@@ -2661,6 +2661,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ClientException
 - InvalidParameterException
 - InvalidRequestException
+- InvalidStateException
 - NotFoundException
 - ResourceInUseException
 - ResourceLimitExceededException
@@ -2668,6 +2669,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourcePropagationDelayException
 - ServerException
 - ServiceUnavailableException
+- ThrottlingException
 - UnsupportedAvailabilityZoneException
 
 ### eks-auth
