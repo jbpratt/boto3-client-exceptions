@@ -1435,6 +1435,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### codebuild
 - AccountLimitExceededException
+- AccountSuspendedException
 - InvalidInputException
 - OAuthProviderException
 - ResourceAlreadyExistsException
