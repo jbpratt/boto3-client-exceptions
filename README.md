@@ -1912,6 +1912,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PasswordHistoryPolicyViolationException
 - PasswordResetRequiredException
 - PreconditionNotMetException
+- RefreshTokenReuseException
 - ResourceNotFoundException
 - ScopeDoesNotExistException
 - SoftwareTokenMFANotFoundException
