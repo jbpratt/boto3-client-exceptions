@@ -2615,6 +2615,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ServerException
+- ServiceDeploymentNotFoundException
 - ServiceNotActiveException
 - ServiceNotFoundException
 - TargetNotConnectedException
