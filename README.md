@@ -1160,6 +1160,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IllegalUpdate
 - InconsistentQuantities
 - InvalidArgument
+- InvalidAssociation
 - InvalidDefaultRootObject
 - InvalidDomainNameForOriginAccessControl
 - InvalidErrorCode
@@ -1217,6 +1218,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RealtimeLogConfigInUse
 - RealtimeLogConfigOwnerMismatch
 - ResourceInUse
+- ResourceNotDisabled
 - ResponseHeadersPolicyAlreadyExists
 - ResponseHeadersPolicyInUse
 - StagingDistributionInUse
