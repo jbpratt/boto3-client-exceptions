@@ -377,6 +377,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sqs](#sqs)
 - [ssm](#ssm)
 - [ssm-contacts](#ssm-contacts)
+- [ssm-guiconnect](#ssm-guiconnect)
 - [ssm-incidents](#ssm-incidents)
 - [ssm-quicksetup](#ssm-quicksetup)
 - [ssm-sap](#ssm-sap)
@@ -5936,6 +5937,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedOperation
 
 ### ssm
+- AccessDeniedException
 - AlreadyExistsException
 - AssociatedInstances
 - AssociationAlreadyExists
@@ -6054,11 +6056,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourcePolicyInvalidParameterException
 - ResourcePolicyLimitExceededException
 - ResourcePolicyNotFoundException
+- ServiceQuotaExceededException
 - ServiceSettingNotFound
 - StatusUnchanged
 - SubTypeCountLimitExceededException
 - TargetInUseException
 - TargetNotConnected
+- ThrottlingException
 - TooManyTagsError
 - TooManyUpdates
 - TotalSizeLimitExceededException
@@ -6076,6 +6080,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - DataEncryptionException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### ssm-guiconnect
+- AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
