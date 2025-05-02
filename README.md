@@ -6373,6 +6373,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- TooManyTagsException
 - ValidationException
 
 ### voice-id
