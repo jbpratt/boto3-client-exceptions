@@ -6243,6 +6243,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WorkflowExecutionAlreadyStartedFault
 
 ### synthetics
+- AccessDeniedException
 - BadRequestException
 - ConflictException
 - InternalFailureException
