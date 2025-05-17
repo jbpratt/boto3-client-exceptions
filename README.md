@@ -1803,6 +1803,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### codepipeline
+- ActionExecutionNotFoundException
 - ActionNotFoundException
 - ActionTypeAlreadyExistsException
 - ActionTypeNotFoundException
