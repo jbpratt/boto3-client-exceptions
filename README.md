@@ -308,7 +308,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pipes](#pipes)
 - [polly](#polly)
 - [pricing](#pricing)
-- [privatenetworks](#privatenetworks)
 - [proton](#proton)
 - [qapps](#qapps)
 - [qbusiness](#qbusiness)
@@ -4790,14 +4789,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - ResourceNotFoundException
 - ThrottlingException
-
-### privatenetworks
-- AccessDeniedException
-- InternalServerException
-- LimitExceededException
-- ResourceNotFoundException
-- ThrottlingException
-- ValidationException
 
 ### proton
 - AccessDeniedException
