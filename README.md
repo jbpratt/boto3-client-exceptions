@@ -1414,6 +1414,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### cloudwatch
 - ConcurrentModificationException
+- ConflictException
 - InvalidParameterInput
 - ResourceNotFound
 - InternalServiceError
