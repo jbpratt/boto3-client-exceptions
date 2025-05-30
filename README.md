@@ -1350,6 +1350,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InsightNotEnabledException
 - InsufficientDependencyServiceAccessPermissionException
 - InsufficientEncryptionPolicyException
+- InsufficientIAMAccessPermissionException
 - InsufficientS3BucketPolicyException
 - InsufficientSnsTopicPolicyException
 - InvalidCloudWatchLogsLogGroupArnException
