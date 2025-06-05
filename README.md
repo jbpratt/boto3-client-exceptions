@@ -156,6 +156,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [es](#es)
 - [events](#events)
 - [evidently](#evidently)
+- [evs](#evs)
 - [finspace](#finspace)
 - [finspace-data](#finspace-data)
 - [firehose](#firehose)
@@ -2945,6 +2946,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ServiceUnavailableException
 - ThrottlingException
+- ValidationException
+
+### evs
+- ResourceNotFoundException
+- TagPolicyException
+- ThrottlingException
+- TooManyTagsException
 - ValidationException
 
 ### finspace
