@@ -269,6 +269,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [migrationhub-config](#migrationhub-config)
 - [migrationhuborchestrator](#migrationhuborchestrator)
 - [migrationhubstrategy](#migrationhubstrategy)
+- [mpa](#mpa)
 - [mq](#mq)
 - [mturk](#mturk)
 - [mwaa](#mwaa)
@@ -4308,6 +4309,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### mpa
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidParameterException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- TooManyTagsException
+- ValidationException
+
 ### mq
 - BadRequestException
 - ConflictException
@@ -5654,13 +5666,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### securityhub
 - AccessDeniedException
+- ConflictException
 - InternalException
+- InternalServerException
 - InvalidAccessException
 - InvalidInputException
 - LimitExceededException
 - ResourceConflictException
 - ResourceInUseException
 - ResourceNotFoundException
+- ThrottlingException
+- ValidationException
 
 ### securitylake
 - AccessDeniedException
