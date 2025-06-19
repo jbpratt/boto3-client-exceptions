@@ -16,6 +16,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [account](#account)
 - [acm](#acm)
 - [acm-pca](#acm-pca)
+- [aiops](#aiops)
 - [amp](#amp)
 - [amplify](#amplify)
 - [amplifybackend](#amplifybackend)
@@ -475,6 +476,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RequestInProgressException
 - ResourceNotFoundException
 - TooManyTagsException
+
+### aiops
+- AccessDeniedException
+- ConflictException
+- ForbiddenException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### amp
 - AccessDeniedException
@@ -5507,6 +5518,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BucketAlreadyExists
 - BucketAlreadyOwnedByYou
 - EncryptionTypeMismatch
+- IdempotencyParameterMismatch
 - InvalidObjectState
 - InvalidRequest
 - InvalidWriteOffset
