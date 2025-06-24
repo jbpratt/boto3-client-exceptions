@@ -416,6 +416,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [workmail](#workmail)
 - [workmailmessageflow](#workmailmessageflow)
 - [workspaces](#workspaces)
+- [workspaces-instances](#workspaces-instances)
 - [workspaces-thin-client](#workspaces-thin-client)
 - [workspaces-web](#workspaces-web)
 - [xray](#xray)
@@ -6588,6 +6589,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnsupportedWorkspaceConfigurationException
 - ValidationException
 - WorkspacesDefaultRoleNotFoundException
+
+### workspaces-instances
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### workspaces-thin-client
 - AccessDeniedException
