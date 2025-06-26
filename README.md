@@ -3043,6 +3043,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### fsx
+- AccessPointAlreadyOwnedByYou
 - ActiveDirectoryError
 - BackupBeingCopied
 - BackupInProgress
@@ -3058,6 +3059,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IncompatibleParameterError
 - IncompatibleRegionForMultiAZ
 - InternalServerError
+- InvalidAccessPoint
 - InvalidDataRepositoryType
 - InvalidDestinationKmsKey
 - InvalidExportPath
@@ -3065,6 +3067,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNetworkSettings
 - InvalidPerUnitStorageThroughput
 - InvalidRegion
+- InvalidRequest
 - InvalidSourceKmsKey
 - MissingFileCacheConfiguration
 - MissingFileSystemConfiguration
@@ -3072,10 +3075,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotServiceResourceError
 - ResourceDoesNotSupportTagging
 - ResourceNotFound
+- S3AccessPointAttachmentNotFound
 - ServiceLimitExceeded
 - SnapshotNotFound
 - SourceBackupUnavailable
 - StorageVirtualMachineNotFound
+- TooManyAccessPoints
 - UnsupportedOperation
 - VolumeNotFound
 
