@@ -215,6 +215,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [kendra](#kendra)
 - [kendra-ranking](#kendra-ranking)
 - [keyspaces](#keyspaces)
+- [keyspacesstreams](#keyspacesstreams)
 - [kinesis](#kinesis)
 - [kinesis-video-archived-media](#kinesis-video-archived-media)
 - [kinesis-video-media](#kinesis-video-media)
@@ -3457,6 +3458,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalFailureException
 - InternalServerException
+- InvalidRequestException
+- LimitExceededException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ServiceUnavailableException
@@ -3649,6 +3652,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ValidationException
+
+### keyspacesstreams
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
 - ValidationException
 
 ### kinesis
@@ -6578,6 +6588,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - IncompatibleApplicationsException
 - InternalServerException
+- InvalidParameterCombinationException
 - InvalidParameterValuesException
 - InvalidResourceStateException
 - OperatingSystemNotCompatibleException
