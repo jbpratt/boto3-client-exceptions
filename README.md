@@ -4880,6 +4880,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - TooManyTagsException
+- UnauthorizedException
 - ValidationException
 
 ### qldb
