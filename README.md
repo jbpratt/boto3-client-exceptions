@@ -286,6 +286,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [notificationscontacts](#notificationscontacts)
 - [oam](#oam)
 - [observabilityadmin](#observabilityadmin)
+- [odb](#odb)
 - [omics](#omics)
 - [opensearch](#opensearch)
 - [opensearchserverless](#opensearchserverless)
@@ -1037,8 +1038,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### cleanroomsml
 - AccessDeniedException
 - ConflictException
+- InternalServiceException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### cloud9
@@ -4555,6 +4558,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### observabilityadmin
 - AccessDeniedException
 - InternalServerException
+- ValidationException
+
+### odb
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### omics
