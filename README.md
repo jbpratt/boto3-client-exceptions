@@ -3042,7 +3042,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### freetier
+- AccessDeniedException
 - InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
