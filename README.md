@@ -347,6 +347,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [s3control](#s3control)
 - [s3outposts](#s3outposts)
 - [s3tables](#s3tables)
+- [s3vectors](#s3vectors)
 - [sagemaker](#sagemaker)
 - [sagemaker-a2i-runtime](#sagemaker-a2i-runtime)
 - [sagemaker-edge](#sagemaker-edge)
@@ -5591,6 +5592,20 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerErrorException
 - NotFoundException
 - TooManyRequestsException
+
+### s3vectors
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- KmsDisabledException
+- KmsInvalidKeyUsageException
+- KmsInvalidStateException
+- KmsNotFoundException
+- NotFoundException
+- ServiceQuotaExceededException
+- ServiceUnavailableException
+- TooManyRequestsException
+- ValidationException
 
 ### sagemaker
 - ConflictException
