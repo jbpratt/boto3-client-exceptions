@@ -54,6 +54,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [bedrock](#bedrock)
 - [bedrock-agent](#bedrock-agent)
 - [bedrock-agent-runtime](#bedrock-agent-runtime)
+- [bedrock-agentcore](#bedrock-agentcore)
+- [bedrock-agentcore-control](#bedrock-agentcore-control)
 - [bedrock-data-automation](#bedrock-data-automation)
 - [bedrock-data-automation-runtime](#bedrock-data-automation-runtime)
 - [bedrock-runtime](#bedrock-runtime)
@@ -828,6 +830,36 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
+
+### bedrock-agentcore
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidInputException
+- ResourceNotFoundException
+- RuntimeClientError
+- ServiceException
+- ServiceQuotaExceededException
+- ThrottledException
+- ThrottlingException
+- UnauthorizedException
+- ValidationException
+
+### bedrock-agentcore-control
+- AccessDeniedException
+- ConcurrentModificationException
+- ConflictException
+- DecryptionFailure
+- EncryptionFailure
+- InternalServerException
+- ResourceLimitExceededException
+- ResourceNotFoundException
+- ServiceException
+- ServiceQuotaExceededException
+- ThrottledException
+- ThrottlingException
+- UnauthorizedException
 - ValidationException
 
 ### bedrock-data-automation
