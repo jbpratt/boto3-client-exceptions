@@ -4010,6 +4010,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - DataAlreadyAcceptedException
+- InternalStreamingException
 - InvalidOperationException
 - InvalidParameterException
 - InvalidSequenceTokenException
