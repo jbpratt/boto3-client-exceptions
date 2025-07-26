@@ -6011,6 +6011,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DependencyException
 - InternalServiceException
 - InvalidParametersException
+- LimitExceededException
 - ResourceNotFoundException
 - ThrottledRequestException
 - ValidationException
