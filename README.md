@@ -2459,6 +2459,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### ds
+- ADAssessmentLimitExceededException
 - AccessDeniedException
 - AuthenticationFailedException
 - CertificateAlreadyExistsException
