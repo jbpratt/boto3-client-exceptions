@@ -38,6 +38,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [appstream](#appstream)
 - [appsync](#appsync)
 - [apptest](#apptest)
+- [arc-region-switch](#arc-region-switch)
 - [arc-zonal-shift](#arc-zonal-shift)
 - [artifact](#artifact)
 - [athena](#athena)
@@ -687,6 +688,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
+
+### arc-region-switch
+- AccessDeniedException
+- IllegalArgumentException
+- IllegalStateException
+- InternalServerException
+- ResourceNotFoundException
 
 ### arc-zonal-shift
 - AccessDeniedException
@@ -3995,6 +4003,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidInputException
 - NotFoundException
 - OperationFailureException
+- RegionSetupInProgressException
 - ServiceException
 - UnauthenticatedException
 
@@ -4594,7 +4603,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### observabilityadmin
 - AccessDeniedException
+- ConflictException
 - InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- TooManyRequestsException
 - ValidationException
 
 ### odb
