@@ -3009,6 +3009,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### evs
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - TagPolicyException
 - ThrottlingException
 - TooManyTagsException
