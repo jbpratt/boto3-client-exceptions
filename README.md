@@ -3479,6 +3479,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### iot-data
 - ConflictException
+- ForbiddenException
 - InternalFailureException
 - InvalidRequestException
 - MethodNotAllowedException
