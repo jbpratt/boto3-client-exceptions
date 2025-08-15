@@ -52,6 +52,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [batch](#batch)
 - [bcm-data-exports](#bcm-data-exports)
 - [bcm-pricing-calculator](#bcm-pricing-calculator)
+- [bcm-recommended-actions](#bcm-recommended-actions)
 - [bedrock](#bedrock)
 - [bedrock-agent](#bedrock-agent)
 - [bedrock-agent-runtime](#bedrock-agent-runtime)
@@ -805,6 +806,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### bcm-recommended-actions
+- AccessDeniedException
+- InternalServerException
 - ThrottlingException
 - ValidationException
 
@@ -2556,6 +2563,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TableAlreadyExistsException
 - TableInUseException
 - TableNotFoundException
+- ThrottlingException
 - TransactionCanceledException
 - TransactionConflictException
 - TransactionInProgressException
