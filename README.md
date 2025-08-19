@@ -50,6 +50,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [backup-gateway](#backup-gateway)
 - [backupsearch](#backupsearch)
 - [batch](#batch)
+- [bcm-dashboards](#bcm-dashboards)
 - [bcm-data-exports](#bcm-data-exports)
 - [bcm-pricing-calculator](#bcm-pricing-calculator)
 - [bcm-recommended-actions](#bcm-recommended-actions)
@@ -791,6 +792,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### batch
 - ClientException
 - ServerException
+
+### bcm-dashboards
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### bcm-data-exports
 - InternalServerException
