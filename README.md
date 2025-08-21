@@ -1997,6 +1997,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ScopeDoesNotExistException
 - SoftwareTokenMFANotFoundException
+- TermsExistsException
 - TierChangeNotAllowedException
 - TooManyFailedAttemptsException
 - TooManyRequestsException
