@@ -295,8 +295,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [omics](#omics)
 - [opensearch](#opensearch)
 - [opensearchserverless](#opensearchserverless)
-- [opsworks](#opsworks)
-- [opsworkscm](#opsworkscm)
 - [organizations](#organizations)
 - [osis](#osis)
 - [outposts](#outposts)
@@ -2500,7 +2498,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DirectoryLimitExceededException
 - DirectoryNotSharedException
 - DirectoryUnavailableException
+- DisableAlreadyInProgressException
 - DomainControllerLimitExceededException
+- EnableAlreadyInProgressException
 - EntityAlreadyExistsException
 - EntityDoesNotExistException
 - IncompatibleSettingsException
@@ -4673,18 +4673,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OcuLimitExceededException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
-- ValidationException
-
-### opsworks
-- ResourceNotFoundException
-- ValidationException
-
-### opsworkscm
-- InvalidNextTokenException
-- InvalidStateException
-- LimitExceededException
-- ResourceAlreadyExistsException
-- ResourceNotFoundException
 - ValidationException
 
 ### organizations
