@@ -3182,6 +3182,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### geo-maps
 - AccessDeniedException
 - InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
