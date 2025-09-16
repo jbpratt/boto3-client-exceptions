@@ -376,7 +376,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [shield](#shield)
 - [signer](#signer)
 - [simspaceweaver](#simspaceweaver)
-- [sms](#sms)
 - [sms-voice](#sms-voice)
 - [snow-device-management](#snow-device-management)
 - [snowball](#snowball)
@@ -5949,20 +5948,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - TooManyTagsException
 - ValidationException
-
-### sms
-- DryRunOperationException
-- InternalError
-- InvalidParameterException
-- MissingRequiredParameterException
-- NoConnectorsAvailableException
-- OperationNotPermittedException
-- ReplicationJobAlreadyExistsException
-- ReplicationJobNotFoundException
-- ReplicationRunLimitExceededException
-- ServerCannotBeReplicatedException
-- TemporarilyUnavailableException
-- UnauthorizedOperationException
 
 ### sms-voice
 - AlreadyExistsException
