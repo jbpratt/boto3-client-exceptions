@@ -946,6 +946,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### budgets
 - AccessDeniedException
+- BillingViewHealthStatusException
 - CreationLimitExceededException
 - DuplicateRecordException
 - ExpiredNextTokenException
