@@ -2307,6 +2307,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubnetGroupNotFoundFault
 - SubnetGroupQuotaExceededFault
 - SubnetInUse
+- SubnetNotAllowedFault
 - SubnetQuotaExceededFault
 - TagNotFoundFault
 - TagQuotaPerResourceExceeded
