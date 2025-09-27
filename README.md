@@ -917,6 +917,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### billing
 - AccessDeniedException
+- BillingViewHealthStatusException
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
@@ -962,6 +963,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AnalysisNotFoundException
 - BackfillLimitExceededException
 - BillExpirationException
+- BillingViewHealthStatusException
 - DataUnavailableException
 - GenerationExistsException
 - InvalidNextTokenException
