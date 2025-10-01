@@ -2687,6 +2687,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AttributeLimitExceededException
 - BlockedException
 - ClientException
+- ClusterContainsCapacityProviderException
 - ClusterContainsContainerInstancesException
 - ClusterContainsServicesException
 - ClusterContainsTasksException
