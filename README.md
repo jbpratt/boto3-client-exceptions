@@ -4950,6 +4950,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### qconnect
 - AccessDeniedException
 - ConflictException
+- DependencyFailedException
 - PreconditionFailedException
 - RequestTimeoutException
 - ResourceNotFoundException
