@@ -2452,6 +2452,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidSubnet
 - InvalidVPCNetworkStateFault
 - KMSKeyNotAccessibleFault
+- NetworkTypeNotSupported
 - ResourceNotFoundFault
 - SNSInvalidTopic
 - SNSNoAuthorization
