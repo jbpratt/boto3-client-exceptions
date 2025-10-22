@@ -4211,6 +4211,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ForbiddenException
 - InternalServerErrorException
 - NotFoundException
+- ServiceQuotaExceededException
 - TooManyRequestsException
 
 ### medialive
@@ -4339,6 +4340,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DisabledApiException
 - DuplicateRequestException
 - ExpiredTokenException
+- IdempotencyConflictException
 - InternalServiceErrorException
 - InvalidCustomerIdentifierException
 - InvalidEndpointRegionException
