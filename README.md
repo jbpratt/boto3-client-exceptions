@@ -345,6 +345,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [route53domains](#route53domains)
 - [route53profiles](#route53profiles)
 - [route53resolver](#route53resolver)
+- [rtbfabric](#rtbfabric)
 - [rum](#rum)
 - [s3](#s3)
 - [s3control](#s3control)
@@ -5596,6 +5597,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - UnknownResourceException
+- ValidationException
+
+### rtbfabric
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### rum
