@@ -37,7 +37,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [apprunner](#apprunner)
 - [appstream](#appstream)
 - [appsync](#appsync)
-- [apptest](#apptest)
 - [arc-region-switch](#arc-region-switch)
 - [arc-zonal-shift](#arc-zonal-shift)
 - [artifact](#artifact)
@@ -205,7 +204,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iotdeviceadvisor](#iotdeviceadvisor)
 - [iotevents](#iotevents)
 - [iotevents-data](#iotevents-data)
-- [iotfleethub](#iotfleethub)
 - [iotfleetwise](#iotfleetwise)
 - [iotsecuretunneling](#iotsecuretunneling)
 - [iotsitewise](#iotsitewise)
@@ -244,8 +242,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [location](#location)
 - [logs](#logs)
 - [lookoutequipment](#lookoutequipment)
-- [lookoutmetrics](#lookoutmetrics)
-- [lookoutvision](#lookoutvision)
 - [m2](#m2)
 - [machinelearning](#machinelearning)
 - [macie2](#macie2)
@@ -320,8 +316,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [qapps](#qapps)
 - [qbusiness](#qbusiness)
 - [qconnect](#qconnect)
-- [qldb](#qldb)
-- [qldb-session](#qldb-session)
 - [quicksight](#quicksight)
 - [ram](#ram)
 - [rbin](#rbin)
@@ -336,7 +330,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [resource-explorer-2](#resource-explorer-2)
 - [resource-groups](#resource-groups)
 - [resourcegroupstaggingapi](#resourcegroupstaggingapi)
-- [robomaker](#robomaker)
 - [rolesanywhere](#rolesanywhere)
 - [route53](#route53)
 - [route53-recovery-cluster](#route53-recovery-cluster)
@@ -679,15 +672,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - ServiceQuotaExceededException
 - UnauthorizedException
-
-### apptest
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ThrottlingException
-- ValidationException
 
 ### arc-region-switch
 - AccessDeniedException
@@ -3309,6 +3293,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### groundstation
 - DependencyException
 - InvalidParameterException
+- ResourceInUseException
 - ResourceLimitExceededException
 - ResourceNotFoundException
 
@@ -3573,14 +3558,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidRequestException
 - ResourceNotFoundException
 - ServiceUnavailableException
-- ThrottlingException
-
-### iotfleethub
-- ConflictException
-- InternalFailureException
-- InvalidRequestException
-- LimitExceededException
-- ResourceNotFoundException
 - ThrottlingException
 
 ### iotfleetwise
@@ -3935,6 +3912,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ResourceNotReadyException
+- SerializedRequestEntityTooLargeException
 - ServiceException
 - SnapStartException
 - SnapStartNotReadyException
@@ -4067,24 +4045,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### lookoutequipment
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ThrottlingException
-- ValidationException
-
-### lookoutmetrics
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- TooManyRequestsException
-- ValidationException
-
-### lookoutvision
 - AccessDeniedException
 - ConflictException
 - InternalServerException
@@ -4964,22 +4924,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnauthorizedException
 - ValidationException
 
-### qldb
-- InvalidParameterException
-- LimitExceededException
-- ResourceAlreadyExistsException
-- ResourceInUseException
-- ResourceNotFoundException
-- ResourcePreconditionNotMetException
-
-### qldb-session
-- BadRequestException
-- CapacityExceededException
-- InvalidSessionException
-- LimitExceededException
-- OccConflictException
-- RateExceededException
-
 ### quicksight
 - AccessDeniedException
 - ConcurrentUpdatingException
@@ -5443,17 +5387,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidParameterException
 - PaginationTokenExpiredException
 - ThrottledException
-
-### robomaker
-- ConcurrentDeploymentException
-- IdempotentParameterMismatchException
-- InternalServerException
-- InvalidParameterException
-- LimitExceededException
-- ResourceAlreadyExistsException
-- ResourceNotFoundException
-- ServiceUnavailableException
-- ThrottlingException
 
 ### rolesanywhere
 - AccessDeniedException
