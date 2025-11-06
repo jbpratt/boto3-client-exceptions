@@ -3296,6 +3296,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceLimitExceededException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 
 ### guardduty
 - AccessDeniedException
