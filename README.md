@@ -4934,6 +4934,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IdentityTypeNotSupportedException
 - InternalFailureException
 - InternalServerException
+- InvalidDataSetParameterValueException
 - InvalidNextTokenException
 - InvalidParameterValueException
 - InvalidRequestException
@@ -5611,6 +5612,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - KmsInvalidStateException
 - KmsNotFoundException
 - NotFoundException
+- RequestTimeoutException
 - ServiceQuotaExceededException
 - ServiceUnavailableException
 - TooManyRequestsException
@@ -6094,6 +6096,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ItemSizeLimitExceededException
 - MalformedResourcePolicyDocumentException
 - MaxDocumentSizeExceeded
+- NoLongerSupportedException
 - OpsItemAccessDeniedException
 - OpsItemAlreadyExistsException
 - OpsItemConflictException
