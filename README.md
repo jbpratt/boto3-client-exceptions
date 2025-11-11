@@ -6267,6 +6267,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### sts
 - ExpiredTokenException
+- ExpiredTradeInTokenException
 - IDPCommunicationError
 - IDPRejectedClaim
 - InvalidAuthorizationMessageException
