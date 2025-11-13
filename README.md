@@ -5252,6 +5252,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RedshiftIdcApplicationAlreadyExists
 - RedshiftIdcApplicationNotExists
 - RedshiftIdcApplicationQuotaExceeded
+- RedshiftInvalidParameter
 - ReservedNodeAlreadyExists
 - ReservedNodeAlreadyMigrated
 - ReservedNodeExchangeNotFond
