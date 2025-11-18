@@ -276,6 +276,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [mq](#mq)
 - [mturk](#mturk)
 - [mwaa](#mwaa)
+- [mwaa-serverless](#mwaa-serverless)
 - [neptune](#neptune)
 - [neptune-graph](#neptune-graph)
 - [neptunedata](#neptunedata)
@@ -644,6 +645,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### appstream
 - ConcurrentModificationException
+- DryRunOperationException
 - EntitlementAlreadyExistsException
 - EntitlementNotFoundException
 - IncompatibleImageException
@@ -4407,6 +4409,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RestApiServerException
 - ValidationException
 
+### mwaa-serverless
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- OperationTimeoutException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### neptune
 - AuthorizationNotFound
 - CertificateNotFound
@@ -4635,6 +4647,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
 - SlotNotAvailableException
+- ThrottlingException
 - ValidationException
 
 ### opensearchserverless
