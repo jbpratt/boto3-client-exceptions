@@ -718,6 +718,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### autoscaling
 - ActiveInstanceRefreshNotFound
 - AlreadyExists
+- IdempotentParameterMismatch
 - InstanceRefreshInProgress
 - InvalidNextToken
 - IrreversibleInstanceRefresh
@@ -4029,6 +4030,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - DataAlreadyAcceptedException
+- InternalServerException
 - InternalStreamingException
 - InvalidOperationException
 - InvalidParameterException
@@ -6533,6 +6535,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WAFConfigurationWarningException
 - WAFDuplicateItemException
 - WAFExpiredManagedRuleGroupVersionException
+- WAFFeatureNotIncludedInPricingPlanException
 - WAFInternalErrorException
 - WAFInvalidOperationException
 - WAFInvalidParameterException
