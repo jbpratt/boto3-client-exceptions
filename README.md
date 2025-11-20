@@ -296,6 +296,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [osis](#osis)
 - [outposts](#outposts)
 - [panorama](#panorama)
+- [partnercentral-channel](#partnercentral-channel)
 - [partnercentral-selling](#partnercentral-selling)
 - [payment-cryptography](#payment-cryptography)
 - [payment-cryptography-data](#payment-cryptography-data)
@@ -370,6 +371,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sesv2](#sesv2)
 - [shield](#shield)
 - [signer](#signer)
+- [signin](#signin)
 - [simspaceweaver](#simspaceweaver)
 - [sms-voice](#sms-voice)
 - [snow-device-management](#snow-device-management)
@@ -2604,10 +2606,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 
 ### ecr
+- BlockedByOrganizationPolicyException
 - EmptyUploadException
+- ExclusionAlreadyExistsException
+- ExclusionNotFoundException
 - ImageAlreadyExistsException
+- ImageArchivedException
 - ImageDigestDoesNotMatchException
 - ImageNotFoundException
+- ImageStorageClassUpdateNotSupportedException
 - ImageTagAlreadyExistsException
 - InvalidLayerException
 - InvalidLayerPartException
@@ -3333,6 +3340,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateSSHPublicKey
 - EntityAlreadyExists
 - EntityTemporarilyUnmodifiable
+- FeatureDisabled
+- FeatureEnabled
 - InvalidAuthenticationCode
 - InvalidCertificate
 - InvalidInput
@@ -4168,6 +4177,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - GrantFlowEntitlements420Exception
 - InternalServerErrorException
 - NotFoundException
+- RouterInputServiceQuotaExceededException
+- RouterNetworkInterfaceServiceQuotaExceededException
+- RouterOutputServiceQuotaExceededException
 - ServiceUnavailableException
 - TooManyRequestsException
 
@@ -4734,6 +4746,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ValidationException
+
+### partnercentral-channel
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### partnercentral-selling
@@ -5911,6 +5932,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyRequestsException
 - ValidationException
 
+### signin
+- AccessDeniedException
+- InternalServerException
+- TooManyRequestsError
+- ValidationException
+
 ### simspaceweaver
 - AccessDeniedException
 - ConflictException
@@ -6288,9 +6315,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IDPRejectedClaim
 - InvalidAuthorizationMessageException
 - InvalidIdentityToken
+- JWTPayloadSizeExceededException
 - MalformedPolicyDocument
+- OutboundWebIdentityFederationDisabledException
 - PackedPolicyTooLarge
 - RegionDisabledException
+- SessionDurationEscalationException
 
 ### supplychain
 - AccessDeniedException
