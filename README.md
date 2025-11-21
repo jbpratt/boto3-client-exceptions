@@ -888,6 +888,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ServiceUnavailableException
 - ThrottlingException
 - ValidationException
 
@@ -3375,8 +3376,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### imagebuilder
+- AccessDeniedException
 - CallRateLimitExceededException
 - ClientException
+- DryRunOperationException
 - ForbiddenException
 - IdempotentParameterMismatchException
 - InvalidPaginationTokenException
@@ -3392,6 +3395,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceException
 - ServiceQuotaExceededException
 - ServiceUnavailableException
+- TooManyRequestsException
 
 ### importexport
 - BucketPermissionException
@@ -4700,6 +4704,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - HandshakeNotFoundException
 - InvalidHandshakeTransitionException
 - InvalidInputException
+- InvalidResponsibilityTransferTransitionException
 - MalformedPolicyDocumentException
 - MasterCannotLeaveOrganizationException
 - OrganizationNotEmptyException
@@ -4714,6 +4719,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyTypeNotAvailableForOrganizationException
 - PolicyTypeNotEnabledException
 - ResourcePolicyNotFoundException
+- ResponsibilityTransferAlreadyInStatusException
+- ResponsibilityTransferNotFoundException
 - RootNotFoundException
 - ServiceException
 - SourceParentNotFoundException
@@ -5168,6 +5175,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TenantDatabaseNotFound
 - TenantDatabaseQuotaExceeded
 - UnsupportedDBEngineVersion
+- VpcEncryptionControlViolationException
 
 ### rds-data
 - AccessDeniedException
