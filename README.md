@@ -106,6 +106,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [comprehend](#comprehend)
 - [comprehendmedical](#comprehendmedical)
 - [compute-optimizer](#compute-optimizer)
+- [compute-optimizer-automation](#compute-optimizer-automation)
 - [config](#config)
 - [connect](#connect)
 - [connect-contact-lens](#connect-contact-lens)
@@ -2067,6 +2068,20 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceUnavailableException
 - ThrottlingException
 
+### compute-optimizer-automation
+- AccessDeniedException
+- ForbiddenException
+- IdempotencyTokenInUseException
+- IdempotentParameterMismatchException
+- InternalServerException
+- InvalidParameterValueException
+- NotManagementAccountException
+- OptInRequiredException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ServiceUnavailableException
+- ThrottlingException
+
 ### config
 - ConflictException
 - ConformancePackTemplateValidationException
@@ -2641,6 +2656,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ScanNotFoundException
 - SecretNotFoundException
 - ServerException
+- SigningConfigurationNotFoundException
 - TemplateAlreadyExistsException
 - TemplateNotFoundException
 - TooManyTagsException
@@ -3463,6 +3479,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### invoicing
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
@@ -5355,6 +5372,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### redshift-serverless
 - AccessDeniedException
 - ConflictException
+- DryRunException
 - InsufficientCapacityException
 - InternalServerException
 - InvalidPaginationException
