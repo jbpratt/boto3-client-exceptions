@@ -297,6 +297,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [osis](#osis)
 - [outposts](#outposts)
 - [panorama](#panorama)
+- [partnercentral-account](#partnercentral-account)
+- [partnercentral-benefits](#partnercentral-benefits)
 - [partnercentral-channel](#partnercentral-channel)
 - [partnercentral-selling](#partnercentral-selling)
 - [payment-cryptography](#payment-cryptography)
@@ -339,6 +341,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [route53-recovery-control-config](#route53-recovery-control-config)
 - [route53-recovery-readiness](#route53-recovery-readiness)
 - [route53domains](#route53domains)
+- [route53globalresolver](#route53globalresolver)
 - [route53profiles](#route53profiles)
 - [route53resolver](#route53resolver)
 - [rtbfabric](#rtbfabric)
@@ -3915,6 +3918,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WorkUnitsNotReadyYetException
 
 ### lambda
+- CapacityProviderLimitExceededException
 - CodeSigningConfigNotFoundException
 - CodeStorageExceededException
 - CodeVerificationFailedException
@@ -3926,6 +3930,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EFSMountFailureException
 - EFSMountTimeoutException
 - ENILimitReachedException
+- FunctionVersionsPerCapacityProviderLimitExceededException
 - InvalidCodeSignatureException
 - InvalidParameterValueException
 - InvalidRequestContentException
@@ -3937,6 +3942,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - KMSDisabledException
 - KMSInvalidStateException
 - KMSNotFoundException
+- NoPublishedVersionException
 - PolicyLengthExceededException
 - PreconditionFailedException
 - ProvisionedConcurrencyConfigNotFoundException
@@ -4772,6 +4778,24 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ValidationException
 
+### partnercentral-account
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### partnercentral-benefits
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### partnercentral-channel
 - AccessDeniedException
 - ConflictException
@@ -4983,6 +5007,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - TooManyTagsException
 - UnauthorizedException
+- UnprocessableContentException
 - ValidationException
 
 ### quicksight
@@ -5565,6 +5590,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - OperationLimitExceeded
 - TLDRulesViolation
 - UnsupportedTLD
+
+### route53globalresolver
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### route53profiles
 - AccessDeniedException
