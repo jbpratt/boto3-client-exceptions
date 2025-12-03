@@ -287,6 +287,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [networkmonitor](#networkmonitor)
 - [notifications](#notifications)
 - [notificationscontacts](#notificationscontacts)
+- [nova-act](#nova-act)
 - [oam](#oam)
 - [observabilityadmin](#observabilityadmin)
 - [odb](#odb)
@@ -851,6 +852,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### bedrock-agentcore
 - AccessDeniedException
 - ConflictException
+- DuplicateIdException
 - InternalServerException
 - InvalidInputException
 - ResourceNotFoundException
@@ -3918,10 +3920,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WorkUnitsNotReadyYetException
 
 ### lambda
+- CallbackTimeoutException
 - CapacityProviderLimitExceededException
 - CodeSigningConfigNotFoundException
 - CodeStorageExceededException
 - CodeVerificationFailedException
+- DurableExecutionAlreadyStartedException
 - EC2AccessDeniedException
 - EC2ThrottledException
 - EC2UnexpectedException
@@ -4635,6 +4639,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### nova-act
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### oam
 - ConflictException
 - InternalServiceFault
@@ -4649,6 +4662,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- InvalidStateException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - TooManyRequestsException
@@ -5697,6 +5711,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - ForbiddenException
 - InternalServerErrorException
+- MethodNotAllowedException
 - NotFoundException
 - TooManyRequestsException
 
@@ -5841,6 +5856,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceConflictException
 - ResourceInUseException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
