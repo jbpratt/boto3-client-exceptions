@@ -443,6 +443,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ResourceUnavailableException
 - TooManyRequestsException
 - ValidationException
 
