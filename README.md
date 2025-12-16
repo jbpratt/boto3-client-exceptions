@@ -3226,6 +3226,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidParameterValueException
 - LimitExceededException
 - MissingParameterValueException
+- NoLongerSupportedException
 - PolicyEnforcedException
 - RequestTimeoutException
 - ResourceNotFoundException
