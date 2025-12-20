@@ -418,6 +418,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [waf-regional](#waf-regional)
 - [wafv2](#wafv2)
 - [wellarchitected](#wellarchitected)
+- [wickr](#wickr)
 - [wisdom](#wisdom)
 - [workdocs](#workdocs)
 - [workmail](#workmail)
@@ -6668,6 +6669,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
+
+### wickr
+- BadRequestError
+- ForbiddenError
+- InternalServerError
+- RateLimitError
+- ResourceNotFoundError
+- UnauthorizedError
+- ValidationError
 
 ### wisdom
 - AccessDeniedException
