@@ -152,7 +152,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [eks-auth](#eks-auth)
 - [elasticache](#elasticache)
 - [elasticbeanstalk](#elasticbeanstalk)
-- [elastictranscoder](#elastictranscoder)
 - [elb](#elb)
 - [elbv2](#elbv2)
 - [emr](#emr)
@@ -2157,6 +2156,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateResourceException
 - IdempotencyException
 - InternalServiceException
+- InvalidActiveRegionException
 - InvalidContactFlowException
 - InvalidContactFlowModuleException
 - InvalidParameterException
@@ -2892,15 +2892,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyEnvironmentsException
 - TooManyPlatformsException
 - TooManyTagsException
-
-### elastictranscoder
-- AccessDeniedException
-- IncompatibleVersionException
-- InternalServiceException
-- LimitExceededException
-- ResourceInUseException
-- ResourceNotFoundException
-- ValidationException
 
 ### elb
 - LoadBalancerNotFound
@@ -5038,6 +5029,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - InvalidDataSetParameterValueException
 - InvalidNextTokenException
+- InvalidParameterException
 - InvalidParameterValueException
 - InvalidRequestException
 - LimitExceededException
