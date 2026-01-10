@@ -3278,6 +3278,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidStateException
 - KMSKeyNotAccessibleFault
 - MLTransformNotReadyException
+- MaterializedViewRefreshTaskNotRunningException
+- MaterializedViewRefreshTaskRunningException
+- MaterializedViewRefreshTaskStoppingException
 - NoScheduleException
 - OperationNotSupportedException
 - OperationTimeoutException
