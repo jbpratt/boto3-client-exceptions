@@ -3042,6 +3042,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### evs
+- InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - TagPolicyException
@@ -3900,6 +3901,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - AlreadyExistsException
 - ConcurrentModificationException
+- ConflictException
 - EntityNotFoundException
 - ExpiredException
 - GlueEncryptionException
