@@ -857,6 +857,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - InvalidInputException
 - ResourceNotFoundException
+- RetryableConflictException
 - RuntimeClientError
 - ServiceException
 - ServiceQuotaExceededException
