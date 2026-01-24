@@ -2162,6 +2162,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidContactFlowModuleException
 - InvalidParameterException
 - InvalidRequestException
+- InvalidTestCaseException
 - LimitExceededException
 - MaximumResultReturnedException
 - OutboundContactNotPermittedException
