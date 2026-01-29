@@ -5670,6 +5670,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### s3
+- AccessDenied
 - BucketAlreadyExists
 - BucketAlreadyOwnedByYou
 - EncryptionTypeMismatch
