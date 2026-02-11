@@ -3697,6 +3697,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BadRequestException
 - ConflictException
 - ForbiddenException
+- TopicExistsException
+- ClusterConnectivityException
+- KafkaTimeoutException
+- UnknownTopicOrPartitionException
+- ControllerMovedException
+- NotControllerException
+- ReassignmentInProgressException
+- GroupSubscribedToTopicException
+- KafkaRequestException
 - InternalServerErrorException
 - NotFoundException
 - ServiceUnavailableException
