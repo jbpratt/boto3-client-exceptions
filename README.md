@@ -160,7 +160,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [entityresolution](#entityresolution)
 - [es](#es)
 - [events](#events)
-- [evidently](#evidently)
 - [evs](#evs)
 - [finspace](#finspace)
 - [finspace-data](#finspace-data)
@@ -200,7 +199,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iot-data](#iot-data)
 - [iot-jobs-data](#iot-jobs-data)
 - [iot-managed-integrations](#iot-managed-integrations)
-- [iotanalytics](#iotanalytics)
 - [iotdeviceadvisor](#iotdeviceadvisor)
 - [iotevents](#iotevents)
 - [iotevents-data](#iotevents-data)
@@ -3033,16 +3031,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ThrottlingException
 
-### evidently
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ServiceUnavailableException
-- ThrottlingException
-- ValidationException
-
 ### evs
 - InternalServerException
 - ResourceNotFoundException
@@ -3565,15 +3553,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - UnauthorizedException
 - ValidationException
-
-### iotanalytics
-- InternalFailureException
-- InvalidRequestException
-- LimitExceededException
-- ResourceAlreadyExistsException
-- ResourceNotFoundException
-- ServiceUnavailableException
-- ThrottlingException
 
 ### iotdeviceadvisor
 - ConflictException
