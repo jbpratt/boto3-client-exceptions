@@ -373,6 +373,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sesv2](#sesv2)
 - [shield](#shield)
 - [signer](#signer)
+- [signer-data](#signer-data)
 - [signin](#signin)
 - [simspaceweaver](#simspaceweaver)
 - [sms-voice](#sms-voice)
@@ -5996,6 +5997,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ServiceLimitExceededException
 - ThrottlingException
+- TooManyRequestsException
+- ValidationException
+
+### signer-data
+- AccessDeniedException
+- InternalServiceErrorException
 - TooManyRequestsException
 - ValidationException
 
