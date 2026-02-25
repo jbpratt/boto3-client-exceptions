@@ -154,6 +154,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [elasticbeanstalk](#elasticbeanstalk)
 - [elb](#elb)
 - [elbv2](#elbv2)
+- [elementalinference](#elementalinference)
 - [emr](#emr)
 - [emr-containers](#emr-containers)
 - [emr-serverless](#emr-serverless)
@@ -2975,6 +2976,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TrustStoreNotFound
 - TrustStoreNotReady
 - UnsupportedProtocol
+
+### elementalinference
+- AccessDeniedException
+- ConflictException
+- InternalServerErrorException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- TooManyRequestException
+- ValidationException
 
 ### emr
 - InternalServerError
