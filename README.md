@@ -4353,6 +4353,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServiceErrorException
 - InvalidCustomerIdentifierException
 - InvalidEndpointRegionException
+- InvalidLicenseException
 - InvalidProductCodeException
 - InvalidPublicKeyVersionException
 - InvalidRegionException
