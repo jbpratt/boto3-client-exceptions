@@ -1965,6 +1965,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyRequestsException
 
 ### cognito-idp
+- AccessDeniedException
 - AliasExistsException
 - CodeDeliveryFailureException
 - CodeMismatchException
@@ -1977,6 +1978,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ForbiddenException
 - GroupExistsException
 - InternalErrorException
+- InternalServerException
 - InvalidEmailRoleAccessPolicyException
 - InvalidLambdaResponseException
 - InvalidOAuthFlowException
