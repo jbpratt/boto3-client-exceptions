@@ -113,6 +113,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connectcampaigns](#connectcampaigns)
 - [connectcampaignsv2](#connectcampaignsv2)
 - [connectcases](#connectcases)
+- [connecthealth](#connecthealth)
 - [connectparticipant](#connectparticipant)
 - [controlcatalog](#controlcatalog)
 - [controltower](#controltower)
@@ -2209,6 +2210,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### connectcases
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### connecthealth
 - AccessDeniedException
 - ConflictException
 - InternalServerException
