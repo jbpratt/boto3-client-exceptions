@@ -796,6 +796,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### bcm-data-exports
+- AccessDeniedException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
