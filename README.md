@@ -377,6 +377,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [signer](#signer)
 - [signer-data](#signer-data)
 - [signin](#signin)
+- [simpledbv2](#simpledbv2)
 - [simspaceweaver](#simspaceweaver)
 - [sms-voice](#sms-voice)
 - [snow-device-management](#snow-device-management)
@@ -6035,6 +6036,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - TooManyRequestsError
 - ValidationException
+
+### simpledbv2
+- ConflictException
+- InvalidNextTokenException
+- InvalidParameterCombinationException
+- InvalidParameterValueException
+- NoSuchDomainException
+- NoSuchExportException
+- NumberExportsLimitExceeded
 
 ### simspaceweaver
 - AccessDeniedException
