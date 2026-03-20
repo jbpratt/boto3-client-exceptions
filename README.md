@@ -4977,11 +4977,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MaxLexemeLengthExceededException
 - MaxLexiconsNumberExceededException
 - ServiceFailureException
+- ServiceQuotaExceededException
 - SsmlMarksNotSupportedForTextTypeException
 - SynthesisTaskNotFoundException
 - TextLengthExceededException
+- ThrottlingException
 - UnsupportedPlsAlphabetException
 - UnsupportedPlsLanguageException
+- ValidationException
 
 ### pricing
 - AccessDeniedException
