@@ -412,6 +412,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [transfer](#transfer)
 - [translate](#translate)
 - [trustedadvisor](#trustedadvisor)
+- [uxc](#uxc)
 - [verifiedpermissions](#verifiedpermissions)
 - [voice-id](#voice-id)
 - [vpc-lattice](#vpc-lattice)
@@ -4173,6 +4174,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### marketplace-agreement
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ThrottlingException
@@ -6596,6 +6598,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
+### uxc
+- AccessDeniedException
+- InternalServerException
 - ThrottlingException
 - ValidationException
 
