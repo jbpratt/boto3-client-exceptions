@@ -129,6 +129,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [deadline](#deadline)
 - [detective](#detective)
 - [devicefarm](#devicefarm)
+- [devops-agent](#devops-agent)
 - [devops-guru](#devops-guru)
 - [directconnect](#directconnect)
 - [discovery](#discovery)
@@ -2375,6 +2376,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TagOperationException
 - TagPolicyException
 - TooManyTagsException
+
+### devops-agent
+- AccessDeniedException
+- ConflictException
+- ContentSizeExceededException
+- IdentityCenterServiceException
+- InternalServerException
+- InvalidParameterException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### devops-guru
 - AccessDeniedException
