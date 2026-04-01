@@ -365,6 +365,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sdb](#sdb)
 - [secretsmanager](#secretsmanager)
 - [security-ir](#security-ir)
+- [securityagent](#securityagent)
 - [securityhub](#securityhub)
 - [securitylake](#securitylake)
 - [serverlessrepo](#serverlessrepo)
@@ -401,6 +402,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [supplychain](#supplychain)
 - [support](#support)
 - [support-app](#support-app)
+- [sustainability](#sustainability)
 - [swf](#swf)
 - [synthetics](#synthetics)
 - [taxsettings](#taxsettings)
@@ -4731,6 +4733,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - SlotNotAvailableException
 - ThrottlingException
 - ValidationException
@@ -5880,6 +5883,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### securityagent
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
 ### securityhub
 - AccessDeniedException
 - ConflictException
@@ -6475,6 +6486,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ValidationException
+
+### sustainability
+- AccessDeniedException
+- InternalServerException
+- ThrottlingException
 - ValidationException
 
 ### swf
