@@ -2745,6 +2745,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ClusterContainsTasksException
 - ClusterNotFoundException
 - ConflictException
+- DaemonNotActiveException
+- DaemonNotFoundException
 - InvalidParameterException
 - LimitExceededException
 - MissingVersionException
@@ -4309,8 +4311,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### medical-imaging
 - AccessDeniedException
+- BadRequestException
 - ConflictException
 - InternalServerException
+- NotAcceptableException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
