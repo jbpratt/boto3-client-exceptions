@@ -349,6 +349,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [rum](#rum)
 - [s3](#s3)
 - [s3control](#s3control)
+- [s3files](#s3files)
 - [s3outposts](#s3outposts)
 - [s3tables](#s3tables)
 - [s3vectors](#s3vectors)
@@ -3988,6 +3989,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ResourceNotReadyException
+- S3FilesMountConnectivityException
+- S3FilesMountFailureException
+- S3FilesMountTimeoutException
 - SerializedRequestEntityTooLargeException
 - ServiceException
 - SnapStartException
@@ -5737,6 +5741,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - TooManyRequestsException
 - TooManyTagsException
+
+### s3files
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### s3outposts
 - AccessDeniedException
