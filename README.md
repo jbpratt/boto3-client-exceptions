@@ -252,6 +252,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [marketplace-agreement](#marketplace-agreement)
 - [marketplace-catalog](#marketplace-catalog)
 - [marketplace-deployment](#marketplace-deployment)
+- [marketplace-discovery](#marketplace-discovery)
 - [marketplace-entitlement](#marketplace-entitlement)
 - [marketplace-reporting](#marketplace-reporting)
 - [marketplacecommerceanalytics](#marketplacecommerceanalytics)
@@ -2704,6 +2705,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - UnableToDecryptSecretValueException
 - UnableToGetUpstreamImageException
 - UnableToGetUpstreamLayerException
+- UnableToListUpstreamImageReferrersException
 - UnsupportedImageTypeException
 - UnsupportedUpstreamRegistryException
 - UploadNotFoundException
@@ -4217,6 +4219,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### marketplace-discovery
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
