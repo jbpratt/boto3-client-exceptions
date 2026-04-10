@@ -796,6 +796,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### bcm-dashboards
 - AccessDeniedException
+- ConflictException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
