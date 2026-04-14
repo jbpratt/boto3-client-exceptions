@@ -196,6 +196,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [inspector](#inspector)
 - [inspector-scan](#inspector-scan)
 - [inspector2](#inspector2)
+- [interconnect](#interconnect)
 - [internetmonitor](#internetmonitor)
 - [invoicing](#invoicing)
 - [iot](#iot)
@@ -3504,6 +3505,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### interconnect
+- AccessDeniedException
+- InterconnectClientException
+- InterconnectServerException
+- InterconnectValidationException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+
 ### internetmonitor
 - AccessDeniedException
 - BadRequestException
@@ -5925,6 +5935,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidAccessException
 - InvalidInputException
 - LimitExceededException
+- OrganizationNotFoundException
+- OrganizationalUnitNotFoundException
 - ResourceConflictException
 - ResourceInUseException
 - ResourceNotFoundException
