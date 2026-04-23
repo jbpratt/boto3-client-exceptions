@@ -3706,6 +3706,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PendingVerification
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ServiceUnavailable
 - StreamUnavailable
 - ThrottlingException
 - ValidationException
