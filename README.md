@@ -4894,6 +4894,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- PublicPolicyException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ServiceUnavailableException
