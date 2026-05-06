@@ -4212,6 +4212,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
 
@@ -5669,6 +5670,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DuplicateRequest
 - InvalidInput
 - OperationLimitExceeded
+- TLDInMaintenance
 - TLDRulesViolation
 - UnsupportedTLD
 
