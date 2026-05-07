@@ -4514,6 +4514,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - RestApiClientException
 - RestApiServerException
+- ServiceUnavailableException
 - ValidationException
 
 ### mwaa-serverless
