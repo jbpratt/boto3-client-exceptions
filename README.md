@@ -335,6 +335,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [rekognition](#rekognition)
 - [repostspace](#repostspace)
 - [resiliencehub](#resiliencehub)
+- [resiliencehubv2](#resiliencehubv2)
 - [resource-explorer-2](#resource-explorer-2)
 - [resource-groups](#resource-groups)
 - [resourcegroupstaggingapi](#resourcegroupstaggingapi)
@@ -3574,6 +3575,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### iot-data
 - ConflictException
 - ForbiddenException
+- GatewayTimeoutException
 - InternalFailureException
 - InvalidRequestException
 - MethodNotAllowedException
@@ -5526,6 +5528,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### resiliencehub
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### resiliencehubv2
 - AccessDeniedException
 - ConflictException
 - InternalServerException
