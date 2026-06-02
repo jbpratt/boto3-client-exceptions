@@ -2003,6 +2003,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MFAMethodNotFoundException
 - ManagedLoginBrandingExistsException
 - NotAuthorizedException
+- OperationNotEnabledException
 - PasswordHistoryPolicyViolationException
 - PasswordResetRequiredException
 - PreconditionNotMetException
