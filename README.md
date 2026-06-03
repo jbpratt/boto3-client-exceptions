@@ -363,6 +363,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sagemaker-geospatial](#sagemaker-geospatial)
 - [sagemaker-metrics](#sagemaker-metrics)
 - [sagemaker-runtime](#sagemaker-runtime)
+- [sagemakerjobruntime](#sagemakerjobruntime)
 - [savingsplans](#savingsplans)
 - [scheduler](#scheduler)
 - [schemas](#schemas)
@@ -5865,6 +5866,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ModelStreamError
 - ServiceUnavailable
 - ValidationError
+
+### sagemakerjobruntime
+- AccessDeniedException
+- ConflictException
+- InternalServiceError
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### savingsplans
 - InternalServerException
