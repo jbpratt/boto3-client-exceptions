@@ -3333,6 +3333,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SchedulerNotRunningException
 - SchedulerRunningException
 - SchedulerTransitioningException
+- SessionBusyException
 - TargetResourceNotFound
 - ThrottlingException
 - ValidationException
