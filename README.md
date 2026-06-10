@@ -1511,6 +1511,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidNextToken
 - InvalidParameterCombination
 - InvalidParameterValue
+- KmsAccessDeniedException
+- KmsKeyDisabledException
+- KmsKeyNotFoundException
 - LimitExceededException
 - LimitExceeded
 - MissingParameter
