@@ -6131,7 +6131,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### signin
 - AccessDeniedException
+- ConflictException
 - InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - TooManyRequestsError
 - ValidationException
 
