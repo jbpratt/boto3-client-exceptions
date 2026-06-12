@@ -4588,6 +4588,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidSubnet
 - InvalidVPCNetworkStateFault
 - KMSKeyNotAccessibleFault
+- NetworkTypeNotSupported
 - OptionGroupNotFoundFault
 - ProvisionedIopsNotAvailableInAZFault
 - ResourceNotFoundFault
