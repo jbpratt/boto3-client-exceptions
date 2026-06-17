@@ -2414,6 +2414,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DirectConnectClientException
 - DirectConnectServerException
 - DuplicateTagKeysException
+- LimitExceededException
 - TooManyTagsException
 
 ### discovery
@@ -5757,19 +5758,25 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### s3
 - AccessDenied
+- AnnotationLimitExceeded
+- AnnotationNameTooLong
 - BucketAlreadyExists
 - BucketAlreadyOwnedByYou
 - EncryptionTypeMismatch
 - IdempotencyParameterMismatch
+- InvalidAnnotationName
 - InvalidObjectState
+- InvalidPrefix
 - InvalidRequest
 - InvalidWriteOffset
+- NoSuchAnnotation
 - NoSuchBucket
 - NoSuchKey
 - NoSuchUpload
 - ObjectAlreadyInActiveTierError
 - ObjectNotInActiveTierError
 - TooManyParts
+- UnsupportedMediaType
 
 ### s3control
 - BadRequestException
