@@ -3976,8 +3976,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - WorkUnitsNotReadyYetException
 
 ### lambda
+- AliasLimitExceededException
 - CallbackTimeoutException
 - CapacityProviderLimitExceededException
+- CodeArtifactUserDeletedException
+- CodeArtifactUserFailedException
+- CodeArtifactUserPendingException
 - CodeSigningConfigNotFoundException
 - CodeStorageExceededException
 - CodeVerificationFailedException
@@ -3990,6 +3994,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - EFSMountFailureException
 - EFSMountTimeoutException
 - ENILimitReachedException
+- ENINotReadyException
 - FunctionVersionsPerCapacityProviderLimitExceededException
 - InvalidCodeSignatureException
 - InvalidParameterValueException
@@ -4002,10 +4007,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - KMSDisabledException
 - KMSInvalidStateException
 - KMSNotFoundException
+- ModeNotSupportedException
 - NoPublishedVersionException
 - PolicyLengthExceededException
 - PreconditionFailedException
 - ProvisionedConcurrencyConfigNotFoundException
+- PublicPolicyException
 - RecursiveInvocationException
 - RequestTooLargeException
 - ResourceConflictException
@@ -4017,8 +4024,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - S3FilesMountTimeoutException
 - SerializedRequestEntityTooLargeException
 - ServiceException
+- ServiceQuotaExceededException
 - SnapStartException
 - SnapStartNotReadyException
+- SnapStartRegenerationFailureException
 - SnapStartTimeoutException
 - SubnetIPAddressLimitReachedException
 - TooManyRequestsException
