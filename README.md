@@ -232,6 +232,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [kms](#kms)
 - [lakeformation](#lakeformation)
 - [lambda](#lambda)
+- [lambda-core](#lambda-core)
+- [lambda-microvms](#lambda-microvms)
 - [launch-wizard](#launch-wizard)
 - [lex-models](#lex-models)
 - [lex-runtime](#lex-runtime)
@@ -4032,6 +4034,27 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - SubnetIPAddressLimitReachedException
 - TooManyRequestsException
 - UnsupportedMediaTypeException
+
+### lambda-core
+- InvalidParameterValueException
+- NetworkConnectorLimitExceededException
+- ResourceConflictException
+- ResourceNotFoundException
+- ServiceException
+- TooManyRequestsException
+
+### lambda-microvms
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- InvalidParameterValueException
+- ResourceConflictException
+- ResourceNotFoundException
+- ServiceException
+- ServiceQuotaExceededException
+- ThrottlingException
+- TooManyRequestsException
+- ValidationException
 
 ### launch-wizard
 - InternalServerException
