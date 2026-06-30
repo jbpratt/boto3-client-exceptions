@@ -1519,6 +1519,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceededException
 - LimitExceeded
 - MissingParameter
+- ResourceConflict
 - ResourceNotFoundException
 
 ### codeartifact
