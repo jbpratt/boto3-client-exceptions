@@ -204,8 +204,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [iot-jobs-data](#iot-jobs-data)
 - [iot-managed-integrations](#iot-managed-integrations)
 - [iotdeviceadvisor](#iotdeviceadvisor)
-- [iotevents](#iotevents)
-- [iotevents-data](#iotevents-data)
 - [iotfleetwise](#iotfleetwise)
 - [iotsecuretunneling](#iotsecuretunneling)
 - [iotsitewise](#iotsitewise)
@@ -301,7 +299,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [organizations](#organizations)
 - [osis](#osis)
 - [outposts](#outposts)
-- [panorama](#panorama)
 - [partnercentral-account](#partnercentral-account)
 - [partnercentral-benefits](#partnercentral-benefits)
 - [partnercentral-channel](#partnercentral-channel)
@@ -387,7 +384,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [signer-data](#signer-data)
 - [signin](#signin)
 - [simpledbv2](#simpledbv2)
-- [simspaceweaver](#simspaceweaver)
 - [sms-voice](#sms-voice)
 - [snow-device-management](#snow-device-management)
 - [snowball](#snowball)
@@ -409,6 +405,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [supplychain](#supplychain)
 - [support](#support)
 - [support-app](#support-app)
+- [supportauthz](#supportauthz)
 - [sustainability](#sustainability)
 - [swf](#swf)
 - [synthetics](#synthetics)
@@ -463,6 +460,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### acm
 - AccessDeniedException
 - ConflictException
+- InternalServerException
 - InvalidArgsException
 - InvalidArnException
 - InvalidDomainValidationOptionsException
@@ -473,6 +471,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RequestInProgressException
 - ResourceInUseException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - TagPolicyException
 - ThrottlingException
 - TooManyTagsException
@@ -3629,24 +3628,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ValidationException
 
-### iotevents
-- InternalFailureException
-- InvalidRequestException
-- LimitExceededException
-- ResourceAlreadyExistsException
-- ResourceInUseException
-- ResourceNotFoundException
-- ServiceUnavailableException
-- ThrottlingException
-- UnsupportedOperationException
-
-### iotevents-data
-- InternalFailureException
-- InvalidRequestException
-- ResourceNotFoundException
-- ServiceUnavailableException
-- ThrottlingException
-
 ### iotfleetwise
 - AccessDeniedException
 - ConflictException
@@ -4888,14 +4869,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - InternalServerException
 - NotFoundException
-- ServiceQuotaExceededException
-- ValidationException
-
-### panorama
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- ResourceNotFoundException
 - ServiceQuotaExceededException
 - ValidationException
 
@@ -6189,15 +6162,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NoSuchExportException
 - NumberExportsLimitExceeded
 
-### simspaceweaver
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- TooManyTagsException
-- ValidationException
-
 ### sms-voice
 - AlreadyExistsException
 - BadRequestException
@@ -6600,6 +6564,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ValidationException
+
+### supportauthz
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### sustainability
