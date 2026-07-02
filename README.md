@@ -3239,6 +3239,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- StreamSessionAccessNotReadyException
 - ThrottlingException
 - ValidationException
 
