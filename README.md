@@ -2016,6 +2016,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RefreshTokenReuseException
 - ResourceNotFoundException
 - ScopeDoesNotExistException
+- ServiceQuotaExceededException
 - SoftwareTokenMFANotFoundException
 - TermsExistsException
 - TierChangeNotAllowedException
