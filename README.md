@@ -302,6 +302,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [partnercentral-account](#partnercentral-account)
 - [partnercentral-benefits](#partnercentral-benefits)
 - [partnercentral-channel](#partnercentral-channel)
+- [partnercentral-revenue-measurement](#partnercentral-revenue-measurement)
 - [partnercentral-selling](#partnercentral-selling)
 - [payment-cryptography](#payment-cryptography)
 - [payment-cryptography-data](#payment-cryptography-data)
@@ -2136,6 +2137,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MaxNumberOfConfigRulesExceededException
 - MaxNumberOfConfigurationRecordersExceededException
 - MaxNumberOfConformancePacksExceededException
+- MaxNumberOfConnectorsExceededException
 - MaxNumberOfDeliveryChannelsExceededException
 - MaxNumberOfOrganizationConfigRulesExceededException
 - MaxNumberOfOrganizationConformancePacksExceededException
@@ -4901,6 +4903,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### partnercentral-revenue-measurement
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### partnercentral-selling
 - AccessDeniedException
 - ConflictException
@@ -6286,6 +6297,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AutomationExecutionNotFoundException
 - AutomationStepNotFoundException
 - ComplianceTypeCountLimitExceededException
+- ConflictException
 - CustomSchemaCountLimitExceededException
 - DocumentAlreadyExists
 - DocumentLimitExceeded
