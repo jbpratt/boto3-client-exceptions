@@ -2177,6 +2177,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - ContactFlowNotPublishedException
 - ContactNotFoundException
+- ContactNotTerminatedException
 - DestinationNotAllowedException
 - DuplicateResourceException
 - IdempotencyException
