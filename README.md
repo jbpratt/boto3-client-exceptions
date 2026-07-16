@@ -3395,10 +3395,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### healthlake
 - AccessDeniedException
+- AgentMessageOutOfContextException
 - ConflictException
+- ConversationNotFoundException
+- FailedDependencyException
 - InternalServerException
+- NotImplementedOperationException
 - ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
+- UnauthorizedException
+- UnsupportedMIMETypeException
 - ValidationException
 
 ### iam
