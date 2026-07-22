@@ -5455,6 +5455,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NumberOfNodesPerClusterLimitExceeded
 - NumberOfNodesQuotaExceeded
 - PartnerNotFound
+- Qev2IdcApplicationAlreadyExists
+- Qev2IdcApplicationNotExists
 - RedshiftIdcApplicationAlreadyExists
 - RedshiftIdcApplicationNotExists
 - RedshiftIdcApplicationQuotaExceeded
