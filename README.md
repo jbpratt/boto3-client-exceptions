@@ -698,6 +698,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### arc-region-switch
 - AccessDeniedException
+- ConflictException
 - IllegalArgumentException
 - IllegalStateException
 - InternalServerException
