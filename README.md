@@ -5509,6 +5509,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### redshift-data
 - ActiveSessionsExceededException
 - ActiveStatementsExceededException
+- ActiveWaitingRequestsExceededException
 - BatchExecuteStatementException
 - DatabaseConnectionException
 - ExecuteStatementException
