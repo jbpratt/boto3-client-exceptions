@@ -320,6 +320,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [pipes](#pipes)
 - [polly](#polly)
 - [pricing](#pricing)
+- [pricing-plan-manager](#pricing-plan-manager)
 - [proton](#proton)
 - [qapps](#qapps)
 - [qbusiness](#qbusiness)
@@ -5083,6 +5084,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - ResourceNotFoundException
 - ThrottlingException
+
+### pricing-plan-manager
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### proton
 - AccessDeniedException
