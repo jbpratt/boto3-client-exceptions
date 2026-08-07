@@ -16,6 +16,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [account](#account)
 - [acm](#acm)
 - [acm-pca](#acm-pca)
+- [agent-registry](#agent-registry)
+- [agent-registry-control](#agent-registry-control)
 - [aiops](#aiops)
 - [amp](#amp)
 - [amplify](#amplify)
@@ -500,6 +502,23 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - TooManyTagsException
 
+### agent-registry
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- UnauthorizedException
+- ValidationException
+
+### agent-registry-control
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### aiops
 - AccessDeniedException
 - ConflictException
@@ -892,6 +911,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceLimitExceededException
 - ResourceNotFoundException
+- RetryableConflictException
 - ServiceException
 - ServiceQuotaExceededException
 - ThrottledException
