@@ -3052,9 +3052,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### elementalinference
 - AccessDeniedException
 - ConflictException
+- GatewayTimedOutException
 - InternalServerErrorException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ServiceUnavailableException
 - TooManyRequestException
 - ValidationException
 
