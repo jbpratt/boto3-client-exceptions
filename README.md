@@ -14,6 +14,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 - [accessanalyzer](#accessanalyzer)
 - [account](#account)
+- [account-access](#account-access)
 - [acm](#acm)
 - [acm-pca](#acm-pca)
 - [agent-registry](#agent-registry)
@@ -459,6 +460,16 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - ResourceUnavailableException
 - TooManyRequestsException
+- ValidationException
+
+### account-access
+- AccessDeniedException
+- AlreadyCreatedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### acm
