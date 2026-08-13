@@ -3466,6 +3466,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - LimitExceeded
 - MalformedCertificate
 - MalformedPolicyDocument
+- NameConflict
 - NoSuchEntity
 - OpenIdIdpCommunicationError
 - OrganizationNotFoundException
@@ -3474,6 +3475,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PolicyEvaluation
 - PolicyNotAttachable
 - ReportGenerationLimitExceeded
+- RoleModified
+- RoleTemplateDisabled
 - ServiceAccessNotEnabledException
 - ServiceFailure
 - NotSupportedService
