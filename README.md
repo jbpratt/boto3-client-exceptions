@@ -771,6 +771,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### autoscaling
 - ActiveInstanceRefreshNotFound
 - AlreadyExists
+- IdempotentCallInProgress
 - IdempotentParameterMismatch
 - InstanceRefreshInProgress
 - InvalidNextToken
@@ -1770,6 +1771,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TipsDivergenceExceededException
 - TitleRequiredException
 - TooManyTagsException
+- ValidationException
 
 ### codeconnections
 - AccessDeniedException
