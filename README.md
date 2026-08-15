@@ -909,6 +909,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RuntimeClientError
 - ServiceException
 - ServiceQuotaExceededException
+- SubscriptionRequiredException
 - ThrottledException
 - ThrottlingException
 - UnauthorizedException
@@ -926,6 +927,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RetryableConflictException
 - ServiceException
 - ServiceQuotaExceededException
+- SubscriptionRequiredException
 - ThrottledException
 - ThrottlingException
 - UnauthorizedException
