@@ -193,6 +193,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [health](#health)
 - [healthlake](#healthlake)
 - [iam](#iam)
+- [iam-toolbox](#iam-toolbox)
 - [identitystore](#identitystore)
 - [imagebuilder](#imagebuilder)
 - [importexport](#importexport)
@@ -3486,6 +3487,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotSupportedService
 - UnmodifiableEntity
 - UnrecognizedPublicKeyEncoding
+
+### iam-toolbox
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ValidationException
 
 ### identitystore
 - AccessDeniedException
