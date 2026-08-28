@@ -4089,6 +4089,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### lambda-microvms
 - AccessDeniedException
 - ConflictException
+- InsufficientCapacityException
 - InternalServerException
 - InvalidParameterValueException
 - ResourceConflictException
