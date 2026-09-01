@@ -6639,8 +6639,10 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CaseCreationLimitExceeded
 - CaseIdNotFound
 - DescribeAttachmentLimitExceeded
+- DryRunOperationException
 - InternalServerError
 - ThrottlingException
+- UploadIdNotFound
 
 ### support-app
 - AccessDeniedException
