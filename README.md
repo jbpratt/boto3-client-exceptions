@@ -3854,6 +3854,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### kinesis
 - AccessDeniedException
+- DryRunOperationException
 - ExpiredIteratorException
 - ExpiredNextTokenException
 - InternalFailureException
