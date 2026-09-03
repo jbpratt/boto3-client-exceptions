@@ -633,6 +633,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### appintegrations
 - AccessDeniedException
+- ConflictException
 - DuplicateResourceException
 - InternalServiceError
 - InvalidRequestException
@@ -5943,6 +5944,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### sagemaker-featurestore-runtime
 - AccessForbidden
+- ConflictException
 - InternalFailure
 - ResourceNotFound
 - ServiceUnavailable
