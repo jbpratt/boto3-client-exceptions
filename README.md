@@ -4368,6 +4368,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NotFoundException
 - ServiceQuotaExceededException
 - TooManyRequestsException
+- UnprocessableEntityException
 
 ### medialive
 - BadGatewayException
