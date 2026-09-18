@@ -6317,6 +6317,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### socialmessaging
 - AccessDeniedByMetaException
 - AccessDeniedException
+- ConflictException
 - DependencyException
 - InternalServiceException
 - InvalidParametersException
