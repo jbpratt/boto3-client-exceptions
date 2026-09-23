@@ -91,6 +91,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [cloudtrail](#cloudtrail)
 - [cloudtrail-data](#cloudtrail-data)
 - [cloudwatch](#cloudwatch)
+- [cloudwatchomni](#cloudwatchomni)
 - [codeartifact](#codeartifact)
 - [codebuild](#codebuild)
 - [codecatalyst](#codecatalyst)
@@ -1559,6 +1560,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MissingParameter
 - ResourceConflict
 - ResourceNotFoundException
+
+### cloudwatchomni
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### codeartifact
 - AccessDeniedException
