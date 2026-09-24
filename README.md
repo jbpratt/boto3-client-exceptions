@@ -289,6 +289,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [neptune-graph](#neptune-graph)
 - [neptunedata](#neptunedata)
 - [network-firewall](#network-firewall)
+- [network-security-manager](#network-security-manager)
 - [networkflowmonitor](#networkflowmonitor)
 - [networkmanager](#networkmanager)
 - [networkmonitor](#networkmonitor)
@@ -4754,6 +4755,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceOwnerCheckException
 - ThrottlingException
 - UnsupportedOperationException
+
+### network-security-manager
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ServiceUnavailableException
+- TagPolicyViolationException
+- ThrottlingException
+- ValidationException
 
 ### networkflowmonitor
 - AccessDeniedException
