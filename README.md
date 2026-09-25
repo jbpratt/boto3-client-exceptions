@@ -166,6 +166,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [emr-serverless](#emr-serverless)
 - [entityresolution](#entityresolution)
 - [es](#es)
+- [eventbridgev2](#eventbridgev2)
 - [events](#events)
 - [evs](#evs)
 - [finspace](#finspace)
@@ -1561,6 +1562,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MissingParameter
 - ResourceConflict
 - ResourceNotFoundException
+- ValidationError
 
 ### cloudwatchomni
 - AccessDeniedException
@@ -3128,6 +3130,23 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceAlreadyExistsException
 - ResourceNotFoundException
 - ValidationException
+
+### eventbridgev2
+- AccessDeniedException
+- ConcurrentModificationException
+- ConflictException
+- IdempotentParameterMismatchException
+- InternalException
+- InvalidInputException
+- InvalidStateException
+- LimitExceededException
+- PolicyLengthExceededException
+- PublicPolicyException
+- ResourceAlreadyExistsException
+- ResourceInUseException
+- ResourceNotFoundException
+- SchemaRegistryUnavailableException
+- ThrottlingException
 
 ### events
 - AccessDeniedException
