@@ -164,6 +164,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [emr](#emr)
 - [emr-containers](#emr-containers)
 - [emr-serverless](#emr-serverless)
+- [endusermessaging](#endusermessaging)
 - [entityresolution](#entityresolution)
 - [es](#es)
 - [eventbridgev2](#eventbridgev2)
@@ -238,6 +239,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [lambda](#lambda)
 - [lambda-core](#lambda-core)
 - [lambda-microvms](#lambda-microvms)
+- [lambda-web](#lambda-web)
 - [launch-wizard](#launch-wizard)
 - [lex-models](#lex-models)
 - [lex-runtime](#lex-runtime)
@@ -3109,6 +3111,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ValidationException
 
+### endusermessaging
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### entityresolution
 - AccessDeniedException
 - ConflictException
@@ -4130,6 +4141,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - TooManyRequestsException
+- ValidationException
+
+### lambda-web
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
 - ValidationException
 
 ### launch-wizard
