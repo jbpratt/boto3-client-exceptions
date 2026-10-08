@@ -4145,12 +4145,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### lambda-web
 - AccessDeniedException
-- ConflictException
 - InternalServerException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
 - ThrottlingException
-- ValidationException
 
 ### launch-wizard
 - InternalServerException
