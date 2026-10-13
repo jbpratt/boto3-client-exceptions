@@ -374,6 +374,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sagemaker-metrics](#sagemaker-metrics)
 - [sagemaker-runtime](#sagemaker-runtime)
 - [sagemakerjobruntime](#sagemakerjobruntime)
+- [sagemakertrainingsessionruntime](#sagemakertrainingsessionruntime)
 - [savingsplans](#savingsplans)
 - [scheduler](#scheduler)
 - [schemas](#schemas)
@@ -4145,8 +4146,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### lambda-web
 - AccessDeniedException
+- ConflictException
 - InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
 - ThrottlingException
+- ValidationException
 
 ### launch-wizard
 - InternalServerException
@@ -6035,6 +6040,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServiceError
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### sagemakertrainingsessionruntime
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
 - ThrottlingException
 - ValidationException
 
