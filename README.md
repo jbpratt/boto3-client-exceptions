@@ -1859,6 +1859,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidArnException
 - InvalidAutoRollbackConfigException
 - InvalidAutoScalingGroupException
+- InvalidAutoScalingGroupProcessToSuspendException
 - InvalidBlueGreenDeploymentConfigurationException
 - InvalidBucketNameFilterException
 - InvalidComputePlatformException
@@ -7096,6 +7097,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ServiceQuotaExceededException
 - ThrottlingException
 - ValidationException
+- VolumeModificationRateExceededException
 
 ### workspaces-thin-client
 - AccessDeniedException
