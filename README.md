@@ -2821,6 +2821,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - DaemonNotActiveException
 - DaemonNotFoundException
+- GatewayNotFoundException
 - InvalidParameterException
 - LimitExceededException
 - MissingVersionException
@@ -2943,6 +2944,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidUserGroupState
 - InvalidUserState
 - InvalidVPCNetworkStateFault
+- MigrationHealthFault
 - NoOperationFault
 - NodeGroupNotFoundFault
 - NodeGroupsPerReplicationGroupQuotaExceeded
@@ -2957,7 +2959,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ReservedCacheNodeQuotaExceeded
 - ReservedCacheNodesOfferingNotFound
 - ServerlessCacheAlreadyExistsFault
+- ServerlessCacheAlreadyUnderMigrationFault
 - ServerlessCacheNotFoundFault
+- ServerlessCacheNotUnderMigrationFault
 - ServerlessCacheQuotaForCustomerExceededFault
 - ServerlessCacheSnapshotAlreadyExistsFault
 - ServerlessCacheSnapshotNotFoundFault
@@ -5329,6 +5333,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CustomDBEngineVersionAlreadyExistsFault
 - CustomDBEngineVersionNotFoundFault
 - CustomDBEngineVersionQuotaExceededFault
+- DBCapacityReservationAlreadyExists
+- DBCapacityReservationNotFound
+- DBCapacityReservationUnsupported
 - DBClusterAlreadyExistsFault
 - DBClusterAutomatedBackupNotFoundFault
 - DBClusterAutomatedBackupQuotaExceededFault
@@ -5402,6 +5409,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IntegrationQuotaExceededFault
 - InvalidBlueGreenDeploymentStateFault
 - InvalidCustomDBEngineVersionStateFault
+- InvalidDBCapacityReservationState
 - InvalidDBClusterAutomatedBackupStateFault
 - InvalidDBClusterCapacityFault
 - InvalidDBClusterEndpointStateFault
