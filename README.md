@@ -170,8 +170,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [eventbridgev2](#eventbridgev2)
 - [events](#events)
 - [evs](#evs)
-- [finspace](#finspace)
-- [finspace-data](#finspace-data)
 - [firehose](#firehose)
 - [fis](#fis)
 - [fms](#fms)
@@ -426,7 +424,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [timestream-influxdb](#timestream-influxdb)
 - [timestream-query](#timestream-query)
 - [timestream-write](#timestream-write)
-- [tnb](#tnb)
 - [transcribe](#transcribe)
 - [transfer](#transfer)
 - [translate](#translate)
@@ -3189,27 +3186,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyTagsException
 - ValidationException
 
-### finspace
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- InvalidRequestException
-- LimitExceededException
-- ResourceAlreadyExistsException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ThrottlingException
-- ValidationException
-
-### finspace-data
-- AccessDeniedException
-- ConflictException
-- InternalServerException
-- LimitExceededException
-- ResourceNotFoundException
-- ThrottlingException
-- ValidationException
-
 ### firehose
 - ConcurrentModificationException
 - InvalidArgumentException
@@ -3483,17 +3459,12 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### healthlake
 - AccessDeniedException
-- AgentMessageOutOfContextException
 - ConflictException
-- ConversationNotFoundException
 - FailedDependencyException
 - InternalServerException
-- NotImplementedOperationException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
-- UnauthorizedException
-- UnsupportedMIMETypeException
 - ValidationException
 
 ### iam
@@ -6831,14 +6802,6 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - InvalidEndpointException
 - RejectedRecordsException
-- ResourceNotFoundException
-- ServiceQuotaExceededException
-- ThrottlingException
-- ValidationException
-
-### tnb
-- AccessDeniedException
-- InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
