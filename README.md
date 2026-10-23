@@ -119,6 +119,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connectcases](#connectcases)
 - [connecthealth](#connecthealth)
 - [connectparticipant](#connectparticipant)
+- [continuum](#continuum)
 - [controlcatalog](#controlcatalog)
 - [controltower](#controltower)
 - [cost-optimization-hub](#cost-optimization-hub)
@@ -2303,6 +2304,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### connectparticipant
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### continuum
 - AccessDeniedException
 - ConflictException
 - InternalServerException
