@@ -2768,6 +2768,9 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PullThroughCacheRuleNotFoundException
 - ReferencedImagesNotFoundException
 - RegistryPolicyNotFoundException
+- ReplicationBackfillInProgressException
+- ReplicationBackfillInvalidStatusException
+- ReplicationBackfillNotFoundException
 - RepositoryAlreadyExistsException
 - RepositoryNotEmptyException
 - RepositoryNotFoundException
@@ -4387,6 +4390,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - CreateBridge420Exception
 - CreateFlow420Exception
 - CreateGateway420Exception
+- DestinationEndpointServiceQuotaExceededException
 - ForbiddenException
 - GrantFlowEntitlements420Exception
 - InternalServerErrorException
@@ -4395,6 +4399,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RouterNetworkInterfaceServiceQuotaExceededException
 - RouterOutputServiceQuotaExceededException
 - ServiceUnavailableException
+- SourceEndpointServiceQuotaExceededException
 - TooManyRequestsException
 
 ### mediaconvert
@@ -6294,8 +6299,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- InvalidGrantException
+- InvalidScopeException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ServiceUnavailableException
 - TooManyRequestsError
 - ValidationException
 
