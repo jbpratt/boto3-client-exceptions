@@ -4741,6 +4741,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - BadRequestException
 - BulkLoadIdNotFoundException
+- CancelledByMaintenanceException
 - CancelledByUserException
 - ClientTimeoutException
 - ConcurrentModificationException
@@ -4764,6 +4765,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - QueryLimitException
 - QueryTooLargeException
 - ReadOnlyViolationException
+- ResourceNotFoundException
 - S3Exception
 - ServerShutdownException
 - StatisticsNotAvailableException
@@ -4772,6 +4774,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TimeLimitExceededException
 - TooManyRequestsException
 - UnsupportedOperationException
+- ValidationException
 
 ### network-firewall
 - InsufficientCapacityException
