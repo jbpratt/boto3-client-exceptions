@@ -5165,6 +5165,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidSampleRateException
 - InvalidSnsTopicArnException
 - InvalidSsmlException
+- InvalidTagParameterException
 - InvalidTaskIdException
 - LanguageNotSupportedException
 - LexiconNotFoundException
@@ -5172,12 +5173,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - MarksNotSupportedForFormatException
 - MaxLexemeLengthExceededException
 - MaxLexiconsNumberExceededException
+- ResourceNotFoundException
 - ServiceFailureException
 - ServiceQuotaExceededException
 - SsmlMarksNotSupportedForTextTypeException
 - SynthesisTaskNotFoundException
 - TextLengthExceededException
 - ThrottlingException
+- TooManyTagsException
 - UnsupportedPlsAlphabetException
 - UnsupportedPlsLanguageException
 - ValidationException
@@ -5735,6 +5738,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### rolesanywhere
 - AccessDeniedException
 - ResourceNotFoundException
+- ServiceUnavailableException
 - TooManyTagsException
 - ValidationException
 
