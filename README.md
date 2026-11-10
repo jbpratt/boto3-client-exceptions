@@ -923,6 +923,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - RuntimeClientError
 - ServiceException
 - ServiceQuotaExceededException
+- ServiceUnavailableException
 - SubscriptionRequiredException
 - ThrottledException
 - ThrottlingException
