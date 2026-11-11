@@ -748,6 +748,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - IllegalStateException
 - InternalServerException
 - ResourceNotFoundException
+- RetryableConflictException
 
 ### arc-zonal-shift
 - AccessDeniedException
@@ -1578,6 +1579,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - AccessDeniedException
 - ConflictException
 - InternalServerException
+- PolicyTooLargeException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
 - ThrottlingException
