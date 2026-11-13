@@ -5785,6 +5785,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InvalidKeySigningKeyName
 - InvalidKeySigningKeyStatus
 - InvalidPaginationToken
+- InvalidResourceRecordSetProtectionBatch
 - InvalidSigningStatus
 - InvalidTrafficPolicyDocument
 - InvalidVPCId
@@ -5808,6 +5809,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NoSuchTrafficPolicyInstance
 - NotAuthorizedException
 - PriorRequestNotComplete
+- ProtectionAlreadyExists
 - PublicZoneVPCAssociation
 - QueryLoggingConfigAlreadyExists
 - ThrottlingException
