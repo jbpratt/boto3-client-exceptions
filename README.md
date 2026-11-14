@@ -4108,6 +4108,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceInUseException
 - ResourceNotFoundException
 - ResourceNotReadyException
+- RuntimeAliasDeletedException
+- RuntimeVersionDeletedException
 - S3FilesMountConnectivityException
 - S3FilesMountFailureException
 - S3FilesMountTimeoutException
@@ -4128,6 +4130,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceConflictException
 - ResourceNotFoundException
 - ServiceException
+- ServiceQuotaExceededException
 - TooManyRequestsException
 
 ### lambda-microvms
