@@ -120,6 +120,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [connectcases](#connectcases)
 - [connecthealth](#connecthealth)
 - [connectparticipant](#connectparticipant)
+- [connectscheduling](#connectscheduling)
 - [continuum](#continuum)
 - [controlcatalog](#controlcatalog)
 - [controltower](#controltower)
@@ -304,6 +305,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [odb](#odb)
 - [omics](#omics)
 - [opensearch](#opensearch)
+- [opensearchmemory](#opensearchmemory)
 - [opensearchserverless](#opensearchserverless)
 - [organizations](#organizations)
 - [osis](#osis)
@@ -371,6 +373,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sagemaker-edge](#sagemaker-edge)
 - [sagemaker-featurestore-runtime](#sagemaker-featurestore-runtime)
 - [sagemaker-geospatial](#sagemaker-geospatial)
+- [sagemaker-inference-router-runtime](#sagemaker-inference-router-runtime)
 - [sagemaker-metrics](#sagemaker-metrics)
 - [sagemaker-runtime](#sagemaker-runtime)
 - [sagemakerjobruntime](#sagemakerjobruntime)
@@ -2315,6 +2318,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### connectparticipant
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### connectscheduling
 - AccessDeniedException
 - ConflictException
 - InternalServerException
@@ -4928,6 +4940,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### opensearchmemory
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### opensearchserverless
 - ConflictException
 - InternalServerException
@@ -6008,6 +6029,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### sagemaker
 - ConflictException
+- ResourceAlreadyExists
 - ResourceInUse
 - ResourceLimitExceeded
 - ResourceNotFound
@@ -6037,6 +6059,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
+### sagemaker-inference-router-runtime
+- AccessDeniedException
+- InternalDependencyException
+- InternalFailure
+- ModelError
+- ModelNotReadyException
+- RequestTimeoutException
+- ServiceUnavailableException
 - ThrottlingException
 - ValidationException
 
