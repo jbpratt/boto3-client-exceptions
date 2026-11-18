@@ -3924,6 +3924,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ProvisionedThroughputExceededException
 - ResourceInUseException
 - ResourceNotFoundException
+- ThrottlingException
 - ValidationException
 
 ### kinesis-video-archived-media
