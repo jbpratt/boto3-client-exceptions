@@ -12,6 +12,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
   raise
 ```
 
+- [abuse-signal](#abuse-signal)
 - [accessanalyzer](#accessanalyzer)
 - [account](#account)
 - [account-access](#account-access)
@@ -451,6 +452,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [workspaces-thin-client](#workspaces-thin-client)
 - [workspaces-web](#workspaces-web)
 - [xray](#xray)
+### abuse-signal
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- SubmissionRequirementException
+- ThrottlingException
+- ValidationException
+
 ### accessanalyzer
 - AccessDeniedException
 - ConflictException
