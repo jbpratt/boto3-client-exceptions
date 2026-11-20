@@ -314,6 +314,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [partnercentral-account](#partnercentral-account)
 - [partnercentral-benefits](#partnercentral-benefits)
 - [partnercentral-channel](#partnercentral-channel)
+- [partnercentral-marketing](#partnercentral-marketing)
 - [partnercentral-revenue-measurement](#partnercentral-revenue-measurement)
 - [partnercentral-selling](#partnercentral-selling)
 - [payment-cryptography](#payment-cryptography)
@@ -2064,6 +2065,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### cognito-idp
 - AccessDeniedException
 - AliasExistsException
+- CachedCIMDURLDoesNotExistException
 - CodeDeliveryFailureException
 - CodeMismatchException
 - ConcurrentModificationException
@@ -5066,6 +5068,15 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - ValidationException
 
+### partnercentral-marketing
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
+
 ### partnercentral-revenue-measurement
 - AccessDeniedException
 - ConflictException
@@ -5203,6 +5214,8 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 
 ### polly
+- AccessDeniedException
+- ConflictException
 - EngineNotSupportedException
 - InvalidLexiconException
 - InvalidNextTokenException
@@ -5804,6 +5817,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DelegationSetNotReusable
 - HealthCheckAlreadyExists
 - HealthCheckInUse
+- HealthCheckSourceAlreadyExists
 - HealthCheckVersionMismatch
 - HostedZoneAlreadyExists
 - HostedZoneNotEmpty
@@ -5837,6 +5851,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - NoSuchDelegationSet
 - NoSuchGeoLocation
 - NoSuchHealthCheck
+- NoSuchHealthCheckSource
 - NoSuchHostedZone
 - NoSuchKeySigningKey
 - NoSuchQueryLoggingConfig
@@ -5848,6 +5863,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - PublicZoneVPCAssociation
 - QueryLoggingConfigAlreadyExists
 - ThrottlingException
+- TooManyHealthCheckSources
 - TooManyHealthChecks
 - TooManyHostedZones
 - TooManyKeySigningKeys
@@ -6751,8 +6767,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ExpiredTradeInTokenException
 - IDPCommunicationError
 - IDPRejectedClaim
+- InsufficientSessionLifetime
 - InvalidAuthorizationMessageException
+- InvalidContextAssertion
 - InvalidIdentityToken
+- InvalidSubjectCredentials
 - JWTPayloadSizeExceededException
 - MalformedPolicyDocument
 - OutboundWebIdentityFederationDisabledException
