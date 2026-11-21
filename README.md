@@ -19,6 +19,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [account-access-runtime](#account-access-runtime)
 - [acm](#acm)
 - [acm-pca](#acm-pca)
+- [agent-discovery](#agent-discovery)
 - [agent-registry](#agent-registry)
 - [agent-registry-control](#agent-registry-control)
 - [aiops](#aiops)
@@ -29,6 +30,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [apigateway](#apigateway)
 - [apigatewaymanagementapi](#apigatewaymanagementapi)
 - [apigatewayv2](#apigatewayv2)
+- [apiportal](#apiportal)
 - [appconfig](#appconfig)
 - [appconfigdata](#appconfigdata)
 - [appfabric](#appfabric)
@@ -319,6 +321,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [partnercentral-selling](#partnercentral-selling)
 - [payment-cryptography](#payment-cryptography)
 - [payment-cryptography-data](#payment-cryptography-data)
+- [payments](#payments)
 - [pca-connector-ad](#pca-connector-ad)
 - [pca-connector-scep](#pca-connector-scep)
 - [pcs](#pcs)
@@ -374,6 +377,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [sagemaker-a2i-runtime](#sagemaker-a2i-runtime)
 - [sagemaker-edge](#sagemaker-edge)
 - [sagemaker-featurestore-runtime](#sagemaker-featurestore-runtime)
+- [sagemaker-gateway-runtime](#sagemaker-gateway-runtime)
 - [sagemaker-geospatial](#sagemaker-geospatial)
 - [sagemaker-inference-router-runtime](#sagemaker-inference-router-runtime)
 - [sagemaker-metrics](#sagemaker-metrics)
@@ -540,6 +544,11 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFoundException
 - TooManyTagsException
 
+### agent-discovery
+- InternalServerException
+- ThrottlingException
+- ValidationException
+
 ### agent-registry
 - AccessDeniedException
 - InternalServerException
@@ -551,6 +560,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 ### agent-registry-control
 - AccessDeniedException
 - ConflictException
+- DependencyException
 - InternalServerException
 - ResourceNotFoundException
 - ServiceQuotaExceededException
@@ -621,6 +631,14 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ConflictException
 - NotFoundException
 - TooManyRequestsException
+
+### apiportal
+- AccessDeniedException
+- BadRequestException
+- ConflictException
+- InternalServerException
+- LimitExceededException
+- ResourceNotFoundException
 
 ### appconfig
 - BadRequestException
@@ -2180,6 +2198,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 
 ### compute-optimizer-automation
 - AccessDeniedException
+- ConflictException
 - ForbiddenException
 - IdempotencyTokenInUseException
 - IdempotentParameterMismatchException
@@ -5114,6 +5133,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ValidationException
 - VerificationFailedException
 
+### payments
+- AccessDeniedException
+- InternalServerException
+- ResourceNotFoundException
+- ThrottlingException
+- ValidationException
+
 ### pca-connector-ad
 - AccessDeniedException
 - ConflictException
@@ -5333,6 +5359,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ThrottlingException
 - UnsupportedPricingPlanException
 - UnsupportedUserEditionException
+- ValidationException
 
 ### ram
 - IdempotentParameterMismatchException
@@ -5815,6 +5842,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - DelegationSetInUse
 - DelegationSetNotAvailable
 - DelegationSetNotReusable
+- FeatureNotEnabled
 - HealthCheckAlreadyExists
 - HealthCheckInUse
 - HealthCheckSourceAlreadyExists
@@ -6079,6 +6107,18 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFound
 - ServiceUnavailable
 - ValidationError
+
+### sagemaker-gateway-runtime
+- AccessDeniedException
+- BadGatewayException
+- GatewayTimeoutException
+- InternalServerException
+- InternalStreamFailure
+- ModelStreamError
+- PayloadTooLargeException
+- ResourceNotFoundException
+- ServiceUnavailableException
+- ThrottlingException
 
 ### sagemaker-geospatial
 - AccessDeniedException
