@@ -3316,6 +3316,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - BackupNotFound
 - BackupRestoring
 - BadRequest
+- ClusterPeerNotFound
 - DataRepositoryAssociationNotFound
 - DataRepositoryTaskEnded
 - DataRepositoryTaskExecuting
@@ -3343,9 +3344,13 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - ResourceNotFound
 - S3AccessPointAttachmentNotFound
 - ServiceLimitExceeded
+- SnapmirrorPolicyNotFound
+- SnapmirrorRelationshipNotFound
 - SnapshotNotFound
+- SnapshotPolicyNotFound
 - SourceBackupUnavailable
 - StorageVirtualMachineNotFound
+- StorageVirtualMachinePeerNotFound
 - TooManyAccessPoints
 - UnsupportedOperation
 - VolumeNotFound
