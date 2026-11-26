@@ -165,6 +165,7 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - [elasticache](#elasticache)
 - [elasticbeanstalk](#elasticbeanstalk)
 - [elb](#elb)
+- [elb-proxy](#elb-proxy)
 - [elbv2](#elbv2)
 - [elementalinference](#elementalinference)
 - [emr](#emr)
@@ -3092,6 +3093,17 @@ except s3.exceptions.BucketAlreadyOwnedByYou:
 - TooManyPolicies
 - TooManyTags
 - UnsupportedProtocol
+
+### elb-proxy
+- AccessDeniedException
+- ConflictException
+- InternalServerException
+- OperationNotPermittedException
+- PriorRequestNotCompletedException
+- ResourceNotFoundException
+- ServiceQuotaExceededException
+- ThrottlingException
+- ValidationException
 
 ### elbv2
 - ALPNPolicyNotFound
